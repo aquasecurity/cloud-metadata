@@ -8,8 +8,8 @@ __rego_metadata__ := {
 	"description": "Ensures that Amazon API Gateway API stages have Amazon CloudWatch Logs enabled.",
 	"custom": {
 		"severity": "MEDIUM",
-		"possible_Impact": "Logging provides vital information about access and usage.",
-		"urls": ["https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html", "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/apigatewayv2_stage#access_log_settings"],
+		"possibleImpact": "Logging provides vital information about access and usage.",
+		"urls": ["https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html"],
 		"apis": ["APIGateway:getRestApis", "APIGateway:getStages"],
 		"iac": true,
 		"cspm": true
