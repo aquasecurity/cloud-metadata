@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Cloud DNS should use DNSSEC",
+  "description": "DNSSEC authenticates DNS responses, preventing MITM attacks and impersonation.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Unverified DNS responses could lead to man-in-the-middle attacks",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/dns_managed_zone#state"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-dns-enable-dnssec"
+      ]
+    }
+  }
+}

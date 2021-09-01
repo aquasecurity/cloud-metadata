@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Stackdriver Monitoring should be enabled",
+  "description": "StackDriver monitoring aggregates logs, events, and metrics from your Kubernetes environment on GKE to help you understand your application's behavior in production.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Visibility will be reduced",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#monitoring_service"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-enable-stackdriver-monitoring"
+      ]
+    }
+  }
+}

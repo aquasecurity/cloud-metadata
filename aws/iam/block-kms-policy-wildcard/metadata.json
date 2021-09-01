@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "IAM customer managed policies should not allow decryption actions on all KMS keys",
+  "description": "IAM policies define which actions an identity (user, group, or role) can perform on which resources. Following security best practices, AWS recommends that you allow least privilege. In other words, you should grant to identities only the kms:Decrypt or kms:ReEncryptFrom permissions and only for the keys that are required to perform a task.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Identities may be able to decrypt data which they should not have access to",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-fsbp-controls.html#fsbp-kms-1"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-iam-block-kms-policy-wildcard"
+      ]
+    }
+  }
+}

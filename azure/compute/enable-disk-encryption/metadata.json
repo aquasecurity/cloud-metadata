@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Enable disk encryption on managed disk",
+  "description": "Manage disks should be encrypted at rest. When specifying the \u003ccode\u003eencryption_settings\u003c/code\u003e block, the enabled attribute should be set to \u003ccode\u003etrue\u003c/code\u003e.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data could be read if compromised",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/managed_disk",
+      "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/disk-encryption"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-compute-enable-disk-encryption"
+      ]
+    }
+  }
+}

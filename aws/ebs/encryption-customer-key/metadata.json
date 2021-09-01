@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "EBS volume encryption should use Customer Managed Keys",
+  "description": "Encryption using AWS keys provides protection for your EBS volume. To increase control of the encryption and manage factors like rotation use customer managed keys.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ebs_volume#kms_key_id"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-ebs-encryption-customer-key"
+      ]
+    }
+  }
+}

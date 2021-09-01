@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Contained database authentication should be disabled",
+  "description": "Users with ALTER permissions on users can grant access to a contained database without the knowledge of an administrator",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Access can be granted without knowledge of the database administrator",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
+      "https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/contained-database-authentication-server-configuration-option?view=sql-server-ver15"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-sql-no-contained-db-auth"
+      ]
+    }
+  }
+}

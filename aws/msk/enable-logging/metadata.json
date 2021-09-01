@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure MSK Cluster logging is enabled",
+  "description": "Managed streaming for Kafka can log to Cloud Watch, Kinesis Firehose and S3, at least one of these locations should be logged to",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Without logging it is difficult to trace issues",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/msk_cluster#"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-msk-enable-logging"
+      ]
+    }
+  }
+}

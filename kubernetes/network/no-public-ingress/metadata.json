@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Public ingress should not be allowed via network policies",
+  "description": "You should not expose infrastructure to the public internet except where explicitly required",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Exposure of infrastructure to the public internet",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/network_policy#spec.ingress.from.ip_block.cidr"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "kubernetes-network-no-public-ingress"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "API Gateway domain name uses outdated SSL/TLS protocols.",
+  "description": "You should not use outdated/insecure TLS versions for encryption. You should be using TLS v1.2+.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Outdated SSL policies increase exposure to known vulnerabilities",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/api_gateway_domain_name#security_policy",
+      "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-custom-domain-tls-version.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-api-gateway-use-secure-tls-policy"
+      ]
+    }
+  }
+}

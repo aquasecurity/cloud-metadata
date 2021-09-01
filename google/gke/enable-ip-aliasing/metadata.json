@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Clusters should have IP aliasing enabled",
+  "description": "IP aliasing allows the reuse of public IPs internally, removing the need for a NAT gateway.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Nodes need a NAT gateway to access local services",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#ip_allocation_policy"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-enable-ip-aliasing"
+      ]
+    }
+  }
+}

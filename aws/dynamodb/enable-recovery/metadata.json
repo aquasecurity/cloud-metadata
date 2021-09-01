@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Point in time recovery should be enabled to protect DynamoDB table",
+  "description": "DynamoDB tables should be protected against accidentally or malicious write/delete actions by ensuring that there is adequate protection.\n\nBy enabling point-in-time-recovery you can restore to a known point in the event of loss of data.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Accidental or malicious writes and deletes can't be rolled back",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/dynamodb_table#point_in_time_recovery",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-dynamodb-enable-recovery"
+      ]
+    }
+  }
+}

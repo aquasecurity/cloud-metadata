@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Roles should not be assigned to default service accounts",
+  "description": "Default service accounts should not be used - consider creating specialised service accounts for individual purposes.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Violation of principal of least privilege",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_iam",
+      ""
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-iam-no-project-level-default-service-account-assignment"
+      ]
+    }
+  }
+}

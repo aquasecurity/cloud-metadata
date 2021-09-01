@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Disable local_infile setting in MySQL",
+  "description": "Arbitrary files can be read from the system using LOAD_DATA unless this setting is disabled.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Arbitrary files read by attackers when combined with a SQL injection vulnerability.",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
+      "https://dev.mysql.com/doc/refman/8.0/en/load-data-local-security.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-sql-mysql-no-local-infile"
+      ]
+    }
+  }
+}

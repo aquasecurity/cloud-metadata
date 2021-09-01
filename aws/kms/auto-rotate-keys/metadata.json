@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "A KMS key is not configured to auto-rotate.",
+  "description": "You should configure your KMS keys to auto rotate to maintain security and defend against compromise.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Long life KMS keys increase the attack surface when compromised",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/kms_key#enable_key_rotation",
+      "https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-kms-auto-rotate-keys"
+      ]
+    }
+  }
+}

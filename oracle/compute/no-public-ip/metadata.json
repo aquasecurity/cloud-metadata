@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Compute instance requests an IP reservation from a public pool",
+  "description": "Compute instance requests an IP reservation from a public pool\n\nThe compute instance has the ability to be reached from outside, you might want to sonder the use of a non public IP.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The compute instance has the ability to be reached from outside",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/opc/latest/docs/resources/opc_compute_ip_address_reservation",
+      "https://registry.terraform.io/providers/hashicorp/opc/latest/docs/resources/opc_compute_instance"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "oracle-compute-no-public-ip"
+      ]
+    }
+  }
+}

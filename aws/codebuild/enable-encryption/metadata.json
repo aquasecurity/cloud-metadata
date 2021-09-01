@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "CodeBuild Project artifacts encryption should not be disabled",
+  "description": "All artifacts produced by your CodeBuild project pipeline should always be encrypted",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "CodeBuild project artifacts are unencrypted",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codebuild_project#encryption_disabled",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codebuild-project-artifacts.html",
+      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-codebuild-enable-encryption"
+      ]
+    }
+  }
+}

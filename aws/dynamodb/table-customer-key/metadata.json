@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "DynamoDB tables should use at rest encryption with a Customer Managed Key",
+  "description": "DynamoDB tables are encrypted by default using AWS managed encryption keys. To increase control of the encryption and control the management of factors like key rotation, use a Customer Managed Key.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/dynamodb_table#server_side_encryption",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/EncryptionAtRest.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-dynamodb-table-customer-key"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "ECR Repository should use customer managed keys to allow more control",
+  "description": "Images in the ECR repository are encrypted by default using AWS managed encryption keys. To increase control of the encryption and control the management of factors like key rotation, use a Customer Managed Key.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository#encryption_configuration",
+      "https://docs.aws.amazon.com/AmazonECR/latest/userguide/encryption-at-rest.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-ecr-repository-customer-key"
+      ]
+    }
+  }
+}

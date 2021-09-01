@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "No plaintext password for compute instance",
+  "description": "Assigning a password to the compute instance using plaintext could lead to compromise; it would be preferable to use key-pairs as a login mechanism",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Including a plaintext password could lead to compromised instance",
+    "urls": [
+      "https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/compute_instance_v2#admin_pass"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "openstack-compute-no-plaintext-password"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Instances should not have public IP addresses",
+  "description": "Instances should not be publicly exposed to the internet",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Direct exposure of an instance to the public internet",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#access_config"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-no-public-ip"
+      ]
+    }
+  }
+}

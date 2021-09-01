@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Instances should not have IP forwarding enabled",
+  "description": "Disabling IP forwarding ensuresthe instance can only receive packets addressed to the instance and can only send packets with a source address of the instance.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Instance can send/receive packets without the explicit instance address",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#can_ip_forward"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-no-ip-forwarding"
+      ]
+    }
+  }
+}

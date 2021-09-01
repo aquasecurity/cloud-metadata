@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "At least one email address is set for threat alerts",
+  "description": "SQL Server sends alerts for threat detection via email, if there are no email addresses set then mitigation will be delayed.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Nobody will be prompty alerted in the case of a threat being detected",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server_security_alert_policy#email_addresses"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-mssql-threat-alert-email-set"
+      ]
+    }
+  }
+}

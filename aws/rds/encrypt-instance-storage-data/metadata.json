@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "RDS encryption has not been enabled at a DB Instance level.",
+  "description": "Encryption should be enabled for an RDS Database instances. \n\nWhen enabling encryption by setting the kms_key_id.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data can be read from RDS instances if compromised",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/db_instance",
+      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-rds-encrypt-instance-storage-data"
+      ]
+    }
+  }
+}

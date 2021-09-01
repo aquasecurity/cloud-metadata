@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Security threat alerts go to subcription owners and co-administrators",
+  "description": "Subscription owners should be notified when there are security alerts. By ensuring the administrators of the account have been notified they can quickly assist in any required remediation",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Administrators and subscription owners may have a delayed response",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server_security_alert_policy#email_account_admins"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-mssql-threat-alert-email-to-owner"
+      ]
+    }
+  }
+}

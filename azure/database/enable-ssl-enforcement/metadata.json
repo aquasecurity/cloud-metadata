@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "SSL should be enforced on database connections where applicable",
+  "description": "SSL connections should be enforced were available to ensure secure transfer and reduce the risk of compromising data in flight.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Insecure connections could lead to data loss and other vulnerabilities",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/postgresql_server#ssl_enforcement_enabled",
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mysql_server#ssl_enforcement_enabled",
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mariadb_server#ssl_enforcement_enabled"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-database-enable-ssl-enforcement"
+      ]
+    }
+  }
+}

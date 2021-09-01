@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Web App has registration with AD enabled",
+  "description": "Registering the identity used by an App with AD allows it to interact with other services without using username and password",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Interaction between services can't easily be achieved without username/password",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service#identity"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-appservice-account-identity-registered"
+      ]
+    }
+  }
+}

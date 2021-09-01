@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Disable project-wide SSH keys for all instances",
+  "description": "Use of project-wide SSH keys means that a compromise of any one of these key pairs can result in all instances being compromised. It is recommended to use instance-level keys.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Compromise of a single key pair compromises all instances",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-no-project-wide-ssh-keys"
+      ]
+    }
+  }
+}

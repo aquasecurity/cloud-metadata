@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "S3 Data should be versioned",
+  "description": "Versioning in Amazon S3 is a means of keeping multiple variants of an object in the same bucket. \nYou can use the S3 Versioning feature to preserve, retrieve, and restore every version of every object stored in your buckets. \nWith versioning you can recover more easily from both unintended user actions and application failures.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Deleted or modified data would not be recoverable",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket#versioning",
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-s3-enable-versioning"
+      ]
+    }
+  }
+}

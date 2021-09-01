@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "A resource has a public IP address.",
+  "description": "You should limit the provision of public IP addresses for resources. Resources should not be exposed on the public internet, but should have access limited to consumers required for the function of your application.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "The instance or configuration is publicly accessible",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/launch_configuration#associate_public_ip_address",
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#associate_public_ip_address",
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-autoscaling-no-public-ip"
+      ]
+    }
+  }
+}

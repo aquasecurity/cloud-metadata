@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "MQ Broker should have general logging enabled",
+  "description": "Logging should be enabled to allow tracing of issues and activity to be investigated more fully. Logs provide additional information and context which is often invalauble during investigation",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Without logging it is difficult to trace issues",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/mq_broker#general"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-mq-enable-general-logging"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "An outdated SSL policy is in use by a load balancer.",
+  "description": "You should not use outdated/insecure TLS versions for encryption. You should be using TLS v1.2+.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The SSL policy is outdated and has known vulnerabilities",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-vpc-use-secure-tls-policy"
+      ]
+    }
+  }
+}

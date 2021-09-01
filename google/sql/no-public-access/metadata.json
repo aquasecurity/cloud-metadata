@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure that Cloud SQL Database Instances are not publicly exposed",
+  "description": "Database instances should be configured so that they are not available over the public internet, but to internal compute resources which access them.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Public exposure of sensitive data",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
+      "https://www.cloudconformity.com/knowledge-base/gcp/CloudSQL/publicly-accessible-cloud-sql-instances.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-sql-no-public-access"
+      ]
+    }
+  }
+}

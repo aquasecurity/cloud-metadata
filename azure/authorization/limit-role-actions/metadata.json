@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Roles limited to the required actions",
+  "description": "The permissions granted to a role should be kept to the minimum required to be able to do the task. Wildcard permissions must not be used.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Open permissions for subscriptions could result in an easily compromisable account",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/role_definition#actions"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-authorization-limit-role-actions"
+      ]
+    }
+  }
+}

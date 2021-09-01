@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "RDP access should not be accessible from the Internet, should be blocked on port 3389",
+  "description": "RDP access can be configured on either the network security group or in the network security group rule.\n\nRDP access should not be permitted from the internet (*, 0.0.0.0, /0, internet, any). Consider using the Azure Bastion Service.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Anyone from the internet can potentially RDP onto an instance",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/data-sources/network_security_group#security_rule",
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_rule#source_port_ranges",
+      "https://docs.microsoft.com/en-us/azure/bastion/tutorial-create-host-portal"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-network-disable-rdp-from-internet"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Password authentication in use instead of SSH keys.",
+  "description": "Access to instances should be authenticated using SSH keys. Removing the option of password authentication enforces more secure methods while removing the risks inherent with passwords.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Passwords are potentially easier to compromise than SSH Keys",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_machine",
+      "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-detailed"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-compute-ssh-authentication"
+      ]
+    }
+  }
+}

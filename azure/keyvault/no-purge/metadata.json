@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Key vault should have purge protection enabled",
+  "description": "Purge protection is an optional Key Vault behavior and is not enabled by default.\n\nPurge protection can only be enabled once soft-delete is enabled. It can be turned on via CLI or PowerShell.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Keys could be purged from the vault without protection",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault#purge_protection_enabled",
+      "https://docs.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview#purge-protection"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-keyvault-no-purge"
+      ]
+    }
+  }
+}

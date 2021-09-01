@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Missing description for security group/security group rule.",
+  "description": "Security groups and security group rules should include a description for auditing purposes.\n\nSimplifies auditing, debugging, and managing security groups.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Descriptions provide context for the firewall rule reasons",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group",
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule",
+      "https://www.cloudconformity.com/knowledge-base/aws/EC2/security-group-rules-description.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-vpc-add-description-to-security-group"
+      ]
+    }
+  }
+}

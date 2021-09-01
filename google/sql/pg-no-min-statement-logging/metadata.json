@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure that logging of long statements is disabled.",
+  "description": "Logging of statements which could contain sensitive data is not advised, therefore this setting should preclude all statements from being logged.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Sensitive data could be exposed in the database logs.",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
+      "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-MIN-DURATION-STATEMENT"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-sql-pg-no-min-statement-logging"
+      ]
+    }
+  }
+}

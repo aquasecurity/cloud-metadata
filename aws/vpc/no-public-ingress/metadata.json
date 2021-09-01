@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "An ingress Network ACL rule allows specific ports from /0.",
+  "description": "Opening up ACLs to the public internet is potentially dangerous. You should restrict access to IP addresses or ranges that explicitly require it where possible.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The ports are exposed for ingressing data to the internet",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_acl_rule#cidr_block",
+      "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-vpc-no-public-ingress"
+      ]
+    }
+  }
+}

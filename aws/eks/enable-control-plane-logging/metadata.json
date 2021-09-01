@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "EKS Clusters should have cluster control plane logging turned on",
+  "description": "By default cluster control plane logging is not turned on. Logging is available for audit, api, authenticator, controllerManager and scheduler. All logging should be turned on for cluster control plane.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Logging provides valuable information about access and usage",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eks_cluster#enabled_cluster_log_types",
+      "https://docs.aws.amazon.com/eks/latest/userguide/control-plane-logs.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-eks-enable-control-plane-logging"
+      ]
+    }
+  }
+}

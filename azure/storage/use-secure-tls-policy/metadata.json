@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "The minimum TLS version for Storage Accounts should be TLS1_2",
+  "description": "Azure Storage currently supports three versions of the TLS protocol: 1.0, 1.1, and 1.2. \n\nAzure Storage uses TLS 1.2 on public HTTPS endpoints, but TLS 1.0 and TLS 1.1 are still supported for backward compatibility.\n\nThis check will warn if the minimum TLS is not set to TLS1_2.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The TLS version being outdated and has known vulnerabilities",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account#min_tls_version",
+      "https://docs.microsoft.com/en-us/azure/storage/common/transport-layer-security-configure-minimum-version"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-storage-use-secure-tls-policy"
+      ]
+    }
+  }
+}

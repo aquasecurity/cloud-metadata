@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Key vault should have the network acl block specified",
+  "description": "Network ACLs allow you to reduce your exposure to risk by limiting what can access your key vault. \n\nThe default action of the Network ACL should be set to deny for when IPs are not matched. Azure services can be allowed to bypass.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Without a network ACL the key vault is freely accessible",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault#network_acls",
+      "https://docs.microsoft.com/en-us/azure/key-vault/general/network-security"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-keyvault-specify-network-acl"
+      ]
+    }
+  }
+}

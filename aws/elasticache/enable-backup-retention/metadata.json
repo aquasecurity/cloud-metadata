@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Redis cluster should have backup retention turned on",
+  "description": "Redis clusters should have a snapshot retention time to ensure that they are backed up and can be restored if required.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Without backups of the redis cluster recovery is made difficult",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticache_cluster#snapshot_retention_limit",
+      "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/backups-automatic.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-elasticache-enable-backup-retention"
+      ]
+    }
+  }
+}

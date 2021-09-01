@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Web App uses the latest HTTP version",
+  "description": "Use the latest version of HTTP to ensure you are benefiting from security fixes",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Outdated versions of HTTP has security vulnerabilities",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service#http2_enabled"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-appservice-enable-http2"
+      ]
+    }
+  }
+}

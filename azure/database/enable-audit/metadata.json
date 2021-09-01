@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Auditing should be enabled on Azure SQL Databases",
+  "description": "Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Auditing provides valuable information about access and usage",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/sql_server#extended_auditing_policy",
+      "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-database-enable-audit"
+      ]
+    }
+  }
+}

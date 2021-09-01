@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure AKS cluster has Network Policy configured",
+  "description": "The Kubernetes object type NetworkPolicy should be defined to have opportunity allow or block traffic to pods, as in a Kubernetes cluster configured with default settings, all pods can discover and communicate with each other without any restrictions.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "No network policy is protecting the AKS cluster",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster#network_policy",
+      "https://kubernetes.io/docs/concepts/services-networking/network-policies"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-container-configured-network-policy"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "DocumentDB encryption should use Customer Managed Keys",
+  "description": "Encryption using AWS keys provides protection for your DocumentDB underlying storage. To increase control of the encryption and manage factors like rotation use customer managed keys.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/docdb_cluster#kms_key_id"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-documentdb-encryption-customer-key"
+      ]
+    }
+  }
+}

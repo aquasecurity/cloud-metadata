@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "No public access to API Gateway methods",
+  "description": "API Gateway methods should be protected by authorization or api key. OPTION verb calls can be used without authorization",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "API gateway methods can be unauthorized accessed",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/api_gateway_method#authorization"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-api-gateway-no-public-access"
+      ]
+    }
+  }
+}

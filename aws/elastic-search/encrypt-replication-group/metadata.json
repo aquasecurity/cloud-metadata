@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Unencrypted Elasticache Replication Group.",
+  "description": "You should ensure your Elasticache data is encrypted at rest to help prevent sensitive information from being read by unauthorised users.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data in the replication group could be readable if compromised",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticache_replication_group#at_rest_encryption_enabled",
+      "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/at-rest-encryption.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-elastic-search-encrypt-replication-group"
+      ]
+    }
+  }
+}

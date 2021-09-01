@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Task definition defines sensitive environment variable(s).",
+  "description": "You should not make secrets available to a user in plaintext in any scenario. Secrets can instead be pulled from a secure secret storage system by the service requiring them.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Sensitive data could be exposed in the AWS Management Console",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition",
+      "https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html",
+      "https://www.vaultproject.io/"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-ecs-no-plaintext-secrets"
+      ]
+    }
+  }
+}

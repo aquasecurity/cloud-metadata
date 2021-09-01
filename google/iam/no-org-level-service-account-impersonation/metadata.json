@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Users should not be granted service account access at the organization level",
+  "description": "Users with service account access at organization level can impersonate any service account. Instead, they should be given access to particular service accounts as required.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Privilege escalation, impersonation of any/all services",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_organization_iam",
+      "https://cloud.google.com/iam/docs/impersonating-service-accounts"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-iam-no-org-level-service-account-impersonation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Network Policy should be enabled on GKE clusters",
+  "description": "Enabling a network policy allows the segregation of network traffic by namespace",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Unrestricted inter-cluster communication",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#enabled"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-enable-network-policy"
+      ]
+    }
+  }
+}

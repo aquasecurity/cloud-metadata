@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "VM disk encryption keys should not be provided in plaintext",
+  "description": "Providing your encryption key in plaintext format means anyone with access to the source code also has access to the key.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Compromise of encryption keys",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#disk_encryption_key_raw"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-no-plaintext-vm-disk-keys"
+      ]
+    }
+  }
+}

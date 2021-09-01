@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "GKE Control Plane should not be publicly accessible",
+  "description": "The GKE control plane is exposed to the public internet by default.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "GKE control plane exposed to public internet",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-no-public-control-plane"
+      ]
+    }
+  }
+}

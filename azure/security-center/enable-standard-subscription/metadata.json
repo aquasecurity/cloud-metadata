@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Enable the standard security center subscription tier",
+  "description": "To benefit from Azure Defender you should use the Standard subscription tier.\n\t\t\t\n\t\t\tEnabling Azure Defender extends the capabilities of the free mode to workloads running in private and other public clouds, providing unified security management and threat protection across your hybrid cloud workloads.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using free subscription does not enable Azure Defender for the resource type",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/security_center_subscription_pricing#tier",
+      "https://docs.microsoft.com/en-us/azure/security-center/security-center-pricing"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-security-center-enable-standard-subscription"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Athena databases and workgroup configurations are created unencrypted at rest by default, they should be encrypted",
+  "description": "Athena databases and workspace result sets should be encrypted at rests. These databases and query sets are generally derived from data in S3 buckets and should have the same level of at rest protection.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data can be read if the Athena Database is compromised",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/athena_workgroup#encryption_configuration",
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/athena_database#encryption_configuration",
+      "https://docs.aws.amazon.com/athena/latest/ug/encryption.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-athena-enable-at-rest-encryption"
+      ]
+    }
+  }
+}

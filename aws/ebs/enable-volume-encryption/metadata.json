@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "EBS volumes must be encrypted",
+  "description": "By enabling encryption on EBS volumes you protect the volume, the disk I/O and any derived snapshots from compromise if intercepted.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Unencrypted sensitive data is vulnerable to compromise.",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ebs_volume#encrypted"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-ebs-enable-volume-encryption"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "IAM Password policy should have requirement for at least one number in the password.",
+  "description": "IAM account password policies should ensure that passwords content including at least one number.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Short, simple passwords are easier to compromise",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_account_password_policy",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-iam-require-numbers-in-passwords"
+      ]
+    }
+  }
+}

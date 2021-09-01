@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Checks for service account defined for GKE nodes",
+  "description": "You should create and use a minimally privileged service account to run your GKE cluster instead of using the Compute Engine default service account.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Service accounts with wide permissions can increase the risk of compromise",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#service_account",
+      "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#use_least_privilege_sa"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-use-service-account"
+      ]
+    }
+  }
+}

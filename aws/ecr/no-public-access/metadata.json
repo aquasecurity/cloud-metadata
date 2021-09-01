@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "ECR repository policy must block public access",
+  "description": "Allowing public access to the ECR repository risks leaking sensitive of abusable information",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Risk of potential data leakage of sensitive artifacts",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository_policy#policy"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-ecr-no-public-access"
+      ]
+    }
+  }
+}

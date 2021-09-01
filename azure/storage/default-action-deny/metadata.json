@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "The default action on Storage account network rules should be set to deny",
+  "description": "The default_action for network rules should come into effect when no other rules are matched.\n\nThe default action should be set to Deny.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Network rules that allow could cause data to be exposed publicly",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account_network_rules#default_action",
+      "https://docs.microsoft.com/en-us/azure/firewall/rule-processing"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-storage-default-action-deny"
+      ]
+    }
+  }
+}

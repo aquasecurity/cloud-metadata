@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Kubernetes should have 'Automatic upgrade' enabled",
+  "description": "Automatic updates keep nodes updated with the latest cluster master version.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Nodes will need the cluster master version manually updating",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_node_pool#auto_upgrade"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-enable-auto-upgrade"
+      ]
+    }
+  }
+}

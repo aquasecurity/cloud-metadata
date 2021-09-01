@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure that logging of lock waits is enabled.",
+  "description": "Lock waits are often an indication of poor performance and often an indicator of a potential denial of service vulnerability, therefore occurrences should be logged for analysis.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Issues leading to denial of service may not be identified.",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
+      "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-LOCK-WAITS"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-sql-pg-log-lock-waits"
+      ]
+    }
+  }
+}

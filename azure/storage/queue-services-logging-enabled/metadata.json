@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "When using Queue Services for a storage account, logging should be enabled.",
+  "description": "Storage Analytics logs detailed information about successful and failed requests to a storage service. \n\nThis information can be used to monitor individual requests and to diagnose issues with a storage service. \n\nRequests are logged on a best-effort basis.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Logging provides valuable information about access and usage",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account#logging",
+      "https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging?tabs=dotnet"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-storage-queue-services-logging-enabled"
+      ]
+    }
+  }
+}

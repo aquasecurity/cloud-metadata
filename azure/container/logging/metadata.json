@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure AKS logging to Azure Monitoring is Configured",
+  "description": "Ensure AKS logging to Azure Monitoring is configured for containers to monitor the performance of workloads.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Logging provides valuable information about access and usage",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster#oms_agent",
+      "https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-onboard"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-container-logging"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "SSL policies should enforce secure versions of TLS",
+  "description": "TLS versions prior to 1.2 are outdated and insecure. You should use 1.2 as aminimum version.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Data in transit is not sufficiently secured",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_ssl_policy#min_tls_version"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-use-secure-tls-policy"
+      ]
+    }
+  }
+}

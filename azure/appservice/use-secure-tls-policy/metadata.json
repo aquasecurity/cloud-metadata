@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Web App uses latest TLS version",
+  "description": "Use a more recent TLS/SSL policy for the App Service",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "The minimum TLS version for apps should be TLS1_2",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service#min_tls_version"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-appservice-use-secure-tls-policy"
+      ]
+    }
+  }
+}

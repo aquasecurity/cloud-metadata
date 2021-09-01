@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "ECS Task Definitions with EFS volumes should use in-transit encryption",
+  "description": "ECS task definitions that have volumes using EFS configuration should explicitly enable in transit encryption to prevent the risk of data loss due to interception.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Intercepted traffic to and from EFS may lead to data loss",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition#transit_encryption",
+      "https://docs.aws.amazon.com/AmazonECS/latest/userguide/efs-volumes.html",
+      "https://docs.aws.amazon.com/efs/latest/ug/encryption-in-transit.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-ecs-enable-in-transit-encryption"
+      ]
+    }
+  }
+}

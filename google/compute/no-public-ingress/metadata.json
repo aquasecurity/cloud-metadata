@@ -1,0 +1,24 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "An inbound firewall rule allows traffic from /0.",
+  "description": "Network security rules should not use very broad subnets.\n\nWhere possible, segments should be broken into smaller subnets and avoid using the \u003ccode\u003e/0\u003c/code\u003e subnet.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The port is exposed for ingress from the internet",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall#source_ranges",
+      "https://cloud.google.com/vpc/docs/using-firewalls",
+      "https://www.terraform.io/docs/providers/google/r/compute_firewall.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-no-public-ingress"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "IAM policy should avoid use of wildcards and instead apply the principle of least privilege",
+  "description": "You should use the principle of least privilege when defining your IAM policies. This means you should specify each exact permission required without using wildcards, as this could cause the granting of access to certain undesired actions, resources and principals.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Overly permissive policies may grant access to sensitive resources",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-iam-no-policy-wildcards"
+      ]
+    }
+  }
+}

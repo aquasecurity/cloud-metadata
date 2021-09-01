@@ -1,0 +1,22 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "API Gateway must have cache enabled",
+  "description": "Method cache encryption ensures that any sensitive data in the cache is not vulnerable to compromise in the event of interception",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Data stored in the cache that is unencrypted may be vulnerable to compromise",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/api_gateway_method_settings#cache_data_encrypted"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-api-gateway-enable-cache-encryption"
+      ]
+    }
+  }
+}

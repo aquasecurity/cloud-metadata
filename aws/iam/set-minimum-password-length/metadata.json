@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "IAM Password policy should have minimum password length of 14 or more characters.",
+  "description": "IAM account password policies should ensure that passwords have a minimum length. \n\nThe account password policy should be set to enforce minimum password length of at least 14 characters.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Short, simple passwords are easier to compromise",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_account_password_policy",
+      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-iam-set-minimum-password-length"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensures that usage of security groups with inline rules and security group rule resources are not mixed.",
+  "description": "Mixing Terraform standalone security_group_rule resource and security_group resource with inline ingress/egress rules results in rules being overwritten during Terraform apply.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Security group rules will be overwritten and will result in unintended blocking of network traffic",
+    "urls": [
+      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group#resource-aws_security_group",
+      "https://github.com/hashicorp/terraform/issues/11011#issuecomment-283076580"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "aws-vpc-disallow-mixed-sgr"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AQUA_ID_GOES_HERE",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Storage containers in blob storage mode should not have public access",
+  "description": "Storage container public access should be off. It can be configured for blobs only, containers and blobs or off entirely. The default is off, with no public access.\n\nExplicitly overriding publicAccess to anything other than off should be avoided.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data in the storage container could be exposed publicly",
+    "urls": [
+      "https://www.terraform.io/docs/providers/azure/r/storage_container.html#properties",
+      "https://docs.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal#set-the-public-access-level-for-a-container"
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-storage-no-public-access"
+      ]
+    }
+  }
+}
