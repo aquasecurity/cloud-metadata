@@ -1,0 +1,2 @@
+- id: AWS061
+  file: aws/apigateway/enable-access-logging/metadata.rego
