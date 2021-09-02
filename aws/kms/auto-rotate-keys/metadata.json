@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Long life KMS keys increase the attack surface when compromised",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/kms_key#enable_key_rotation",
-      "https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html"
+      }
     ],
     "apis": [],
     "refs": {

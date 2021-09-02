@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Password reuse increase the risk of compromised passwords being abused",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_account_password_policy",
-      "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+      }
     ],
     "apis": [],
     "refs": {

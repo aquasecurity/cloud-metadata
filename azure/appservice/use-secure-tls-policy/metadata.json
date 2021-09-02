@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "The minimum TLS version for apps should be TLS1_2",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service#min_tls_version"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

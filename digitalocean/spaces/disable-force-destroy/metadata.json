@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Accidental deletion of bucket objects",
-    "urls": [
-      "https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/spaces_bucket#force_destroy"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

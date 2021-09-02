@@ -7,9 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The database instance is publicly accessible",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/db_instance"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

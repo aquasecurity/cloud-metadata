@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "No visibility of successful connections",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/postgresql_configuration",
-      "https://docs.microsoft.com/en-us/azure/postgresql/concepts-server-logs#configure-logging"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/postgresql/concepts-server-logs#configure-logging"
+      }
     ],
     "apis": [],
     "refs": {

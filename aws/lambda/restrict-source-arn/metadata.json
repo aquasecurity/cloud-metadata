@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Not providing the source ARN allows any resource from principal, even from other accounts",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_permission",
-      "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html"
+      }
     ],
     "apis": [],
     "refs": {

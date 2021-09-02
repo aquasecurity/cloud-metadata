@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Classic resources are running in a shared environment with other customers",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/db_security_group",
-      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-classic-platform.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-classic-platform.html"
+      }
     ],
     "apis": [],
     "refs": {

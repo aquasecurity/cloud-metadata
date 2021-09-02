@@ -7,9 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Without a telephone number set, Azure support can't contact",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/security_center_contact#phone",
-      "https://azure.microsoft.com/en-us/services/security-center/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://azure.microsoft.com/en-us/services/security-center/"
+      }
     ],
     "apis": [],
     "refs": {

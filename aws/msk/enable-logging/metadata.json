@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Without logging it is difficult to trace issues",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/msk_cluster#"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

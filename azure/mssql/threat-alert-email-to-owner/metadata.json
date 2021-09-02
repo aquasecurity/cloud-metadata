@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Administrators and subscription owners may have a delayed response",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server_security_alert_policy#email_account_admins"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

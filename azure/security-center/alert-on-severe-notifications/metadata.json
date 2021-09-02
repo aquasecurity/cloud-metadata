@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "The ability to react to high severity notifications could be delayed",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/security_center_contact#alert_notifications",
-      "https://azure.microsoft.com/en-us/services/security-center/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://azure.microsoft.com/en-us/services/security-center/"
+      }
     ],
     "apis": [],
     "refs": {

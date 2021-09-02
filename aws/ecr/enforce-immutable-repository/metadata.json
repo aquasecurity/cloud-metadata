@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Image tags could be overwritten with compromised images",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository",
-      "https://sysdig.com/blog/toctou-tag-mutability/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://sysdig.com/blog/toctou-tag-mutability/"
+      }
     ],
     "apis": [],
     "refs": {

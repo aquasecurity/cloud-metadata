@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Data can be read from the RDS cluster if it is compromised",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/rds_cluster",
-      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html"
+      }
     ],
     "apis": [],
     "refs": {

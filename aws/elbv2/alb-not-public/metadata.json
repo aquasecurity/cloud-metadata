@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "The load balancer is exposed on the internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

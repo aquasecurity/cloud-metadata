@@ -7,10 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The contents of the space can be accessed publicly",
-    "urls": [
-      "https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/spaces_bucket#acl",
-      "https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/spaces_bucket_object#acl",
-      "https://docs.digitalocean.com/reference/api/spaces-api/#access-control-lists-acls"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.digitalocean.com/reference/api/spaces-api/#access-control-lists-acls"
+      }
     ],
     "apis": [],
     "refs": {

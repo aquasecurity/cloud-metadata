@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Unable to detect rootkits",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#enable_vtpm"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

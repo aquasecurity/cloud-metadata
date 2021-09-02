@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "The SQS queue messages could be read if compromised",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sqs_queue#server-side-encryption-sse",
-      "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-server-side-encryption.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-server-side-encryption.html"
+      }
     ],
     "apis": [],
     "refs": {

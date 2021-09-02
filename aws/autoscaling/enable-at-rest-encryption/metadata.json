@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "The block device could be compromised and read from",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#ebs-ephemeral-and-root-block-devices",
-      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html"
+      }
     ],
     "apis": [],
     "refs": {

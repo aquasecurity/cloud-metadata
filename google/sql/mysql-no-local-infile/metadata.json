@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Arbitrary files read by attackers when combined with a SQL injection vulnerability.",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
-      "https://dev.mysql.com/doc/refman/8.0/en/load-data-local-security.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://dev.mysql.com/doc/refman/8.0/en/load-data-local-security.html"
+      }
     ],
     "apis": [],
     "refs": {

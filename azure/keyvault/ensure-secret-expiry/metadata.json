@@ -7,9 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Long life secrets increase the opportunity for compromise",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault_secret#expiration_date",
-      "https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets"
+      }
     ],
     "apis": [],
     "refs": {

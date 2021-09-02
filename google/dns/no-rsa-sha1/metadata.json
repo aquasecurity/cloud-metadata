@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Less secure encryption algorithm than others available",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/dns_managed_zone#algorithm"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

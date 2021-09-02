@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Users could put a policy that allows public access",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_public_access_block#block_public_policy",
-      "https://docs.aws.amazon.com/AmazonS3/latest/dev-retired/access-control-block-public-access.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonS3/latest/dev-retired/access-control-block-public-access.html"
+      }
     ],
     "apis": [],
     "refs": {

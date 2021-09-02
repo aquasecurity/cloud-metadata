@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Intercepted data can be read in transit",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
-      "https://cloud.google.com/sql/docs/mysql/configure-ssl-instance"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/sql/docs/mysql/configure-ssl-instance"
+      }
     ],
     "apis": [],
     "refs": {

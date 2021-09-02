@@ -7,9 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Log data may be leaked if the logs are compromised. No auditing of who have viewed the logs.",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group#kms_key_id",
-      "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html"
+      }
     ],
     "apis": [],
     "refs": {

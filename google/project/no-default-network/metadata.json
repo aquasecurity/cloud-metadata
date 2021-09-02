@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Exposure of internal infrastructure/services to public internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project#auto_create_network"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Passwords are potentially easier to compromise than SSH Keys",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_machine",
-      "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-detailed"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-detailed"
+      }
     ],
     "apis": [],
     "refs": {

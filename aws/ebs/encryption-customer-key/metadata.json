@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ebs_volume#kms_key_id"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

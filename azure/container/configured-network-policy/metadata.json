@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "No network policy is protecting the AKS cluster",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster#network_policy",
-      "https://kubernetes.io/docs/concepts/services-networking/network-policies"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies"
+      }
     ],
     "apis": [],
     "refs": {

@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Data factory is publicly accessible",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/data_factory#public_network_enabled",
-      "https://docs.microsoft.com/en-us/azure/data-factory/data-movement-security-considerations#hybrid-scenarios"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/data-factory/data-movement-security-considerations#hybrid-scenarios"
+      }
     ],
     "apis": [],
     "refs": {

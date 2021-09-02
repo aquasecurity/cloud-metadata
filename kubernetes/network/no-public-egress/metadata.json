@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Exfiltration of data to the public internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/network_policy#spec.ingress.from.ip_block.cidr"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

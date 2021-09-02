@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Nobody will be prompty alerted in the case of a threat being detected",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server_security_alert_policy#email_addresses"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

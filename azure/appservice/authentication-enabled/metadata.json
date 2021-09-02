@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Anonymous HTTP requests will be accepted",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service#enabled"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

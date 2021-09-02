@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Issues leading to denial of service may not be identified.",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
-      "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-LOCK-WAITS"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-LOCK-WAITS"
+      }
     ],
     "apis": [],
     "refs": {

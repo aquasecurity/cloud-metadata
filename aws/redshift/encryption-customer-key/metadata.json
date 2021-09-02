@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Data may be leaked if infrastructure is compromised",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/redshift_cluster#encrypted",
-      "https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-db-encryption.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-db-encryption.html"
+      }
     ],
     "apis": [],
     "refs": {

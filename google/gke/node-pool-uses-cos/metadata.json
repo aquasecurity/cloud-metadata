@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "COS is the recommended OS image to use on cluster nodes",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_node_pool#image_type"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

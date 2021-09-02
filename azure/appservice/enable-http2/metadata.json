@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Outdated versions of HTTP has security vulnerabilities",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service#http2_enabled"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

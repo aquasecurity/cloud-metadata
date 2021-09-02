@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Encryption of disk using unmanaged keys.",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_disk",
-      "https://cloud.google.com/compute/docs/disks/customer-supplied-encryption"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/compute/docs/disks/customer-supplied-encryption"
+      }
     ],
     "apis": [],
     "refs": {

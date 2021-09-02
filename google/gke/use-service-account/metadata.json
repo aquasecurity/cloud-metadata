@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Service accounts with wide permissions can increase the risk of compromise",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#service_account",
-      "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#use_least_privilege_sa"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#use_least_privilege_sa"
+      }
     ],
     "apis": [],
     "refs": {

@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Pods could be operating with more permissions than required to be effective",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#pod_security_policy_config",
-      "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#admission_controllers"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#admission_controllers"
+      }
     ],
     "apis": [],
     "refs": {

@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Visibility will be reduced",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#monitoring_service"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

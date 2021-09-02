@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Compromise of a single key pair compromises all instances",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

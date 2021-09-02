@@ -7,10 +7,15 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Your Synapse workspace is not using the private endpoints",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/synapse_workspace#managed_virtual_network_enabled",
-      "https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints",
-      "https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-vnet"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints"
+      },
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-vnet"
+      }
     ],
     "apis": [],
     "refs": {

@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Publicly accessible MQ Broker may be vulnerable to compromise",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/mq_broker#publicly_accessible"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

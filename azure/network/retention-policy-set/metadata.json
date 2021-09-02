@@ -7,9 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Not enabling retention or having short expiry on flow logs could lead to compromise being undetected limiting time for analysis",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_watcher_flow_log#retention_policy",
-      "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+      }
     ],
     "apis": [],
     "refs": {

@@ -7,9 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Not all metrics and logs may be gathered for containers when Container Insights isn't enabled",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_cluster#setting",
-      "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ContainerInsights.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ContainerInsights.html"
+      }
     ],
     "apis": [],
     "refs": {

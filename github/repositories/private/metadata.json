@@ -7,10 +7,15 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Anyone can read the contents of the GitHub repository and leak IP",
-    "urls": [
-      "https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository",
-      "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility",
-      "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility#about-internal-repositories"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility"
+      },
+      {
+        "title": "title",
+        "url": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility#about-internal-repositories"
+      }
     ],
     "apis": [],
     "refs": {

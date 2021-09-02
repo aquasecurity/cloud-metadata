@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The contents of the bucket can be accessed publicly",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket",
-      "https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/"
+      }
     ],
     "apis": [],
     "refs": {

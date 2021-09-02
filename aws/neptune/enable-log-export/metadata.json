@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Limited visibility of audit trail for changes to Neptune",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/neptune_cluster#enable_cloudwatch_logs_exports"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

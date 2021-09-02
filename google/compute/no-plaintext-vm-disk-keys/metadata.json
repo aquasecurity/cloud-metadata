@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Compromise of encryption keys",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#disk_encryption_key_raw"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

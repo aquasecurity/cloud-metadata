@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Cloud account takeover if a resource using a service account is compromised",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_iam",
-      "https://cloud.google.com/iam/docs/understanding-roles"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/iam/docs/understanding-roles"
+      }
     ],
     "apis": [],
     "refs": {

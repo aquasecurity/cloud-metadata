@@ -7,10 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The port is exposed for ingress from the internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall#source_ranges",
-      "https://cloud.google.com/vpc/docs/using-firewalls",
-      "https://www.terraform.io/docs/providers/google/r/compute_firewall.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/vpc/docs/using-firewalls"
+      }
     ],
     "apis": [],
     "refs": {

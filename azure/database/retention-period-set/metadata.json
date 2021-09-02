@@ -7,10 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Short logging retention could result in missing valuable historical information",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database_extended_auditing_policy",
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server#retention_in_days",
-      "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
+      }
     ],
     "apis": [],
     "refs": {

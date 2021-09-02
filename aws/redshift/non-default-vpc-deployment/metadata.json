@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Redshift cluster does not benefit from VPC security if it is deployed in EC2 classic mode",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/redshift_cluster#cluster_subnet_group_name",
-      "https://docs.aws.amazon.com/redshift/latest/mgmt/managing-clusters-vpc.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/managing-clusters-vpc.html"
+      }
     ],
     "apis": [],
     "refs": {

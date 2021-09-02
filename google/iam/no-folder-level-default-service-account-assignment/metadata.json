@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Violation of principal of least privilege",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_folder_iam",
-      ""
+    "references": [
+      {
+        "title": "title",
+        "url": ""
+      }
     ],
     "apis": [],
     "refs": {

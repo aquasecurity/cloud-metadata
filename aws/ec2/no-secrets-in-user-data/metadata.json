@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "User data is visible through the AWS Management console",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance#user_data",
-      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html"
+      }
     ],
     "apis": [],
     "refs": {

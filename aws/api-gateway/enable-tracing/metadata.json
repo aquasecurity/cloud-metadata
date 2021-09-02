@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "WIthout full tracing enabled it is difficult to trace the flow of logs",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/api_gateway_stage#xray_tracing_enabled"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

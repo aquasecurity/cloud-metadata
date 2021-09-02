@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Auditing provides valuable information about access and usage",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/sql_server#extended_auditing_policy",
-      "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
+      }
     ],
     "apis": [],
     "refs": {

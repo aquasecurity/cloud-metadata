@@ -7,10 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The compute instance has the ability to be reached from outside",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/opc/latest/docs/resources/opc_compute_ip_address_reservation",
-      "https://registry.terraform.io/providers/hashicorp/opc/latest/docs/resources/opc_compute_instance"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

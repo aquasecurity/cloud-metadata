@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Nodes need a NAT gateway to access local services",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#ip_allocation_policy"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

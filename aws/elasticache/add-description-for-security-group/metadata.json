@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Descriptions provide context for the firewall rule reasons",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticache_security_group#description"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

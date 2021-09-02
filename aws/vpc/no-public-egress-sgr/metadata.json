@@ -7,9 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Your port is egressing data to the internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

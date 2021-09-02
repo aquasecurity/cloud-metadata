@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Limited auditing capability and awareness",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_subnetwork#enable_flow_logs"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

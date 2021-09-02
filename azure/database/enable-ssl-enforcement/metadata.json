@@ -7,11 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Insecure connections could lead to data loss and other vulnerabilities",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/postgresql_server#ssl_enforcement_enabled",
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mysql_server#ssl_enforcement_enabled",
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mariadb_server#ssl_enforcement_enabled"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

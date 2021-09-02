@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "GKE control plane exposed to public internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

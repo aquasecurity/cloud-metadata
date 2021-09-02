@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Short life activity logs can lead to missing records when investigating a breach",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/monitor_log_profile#retention_policy",
-      "https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/platform-logs-overview"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/platform-logs-overview"
+      }
     ],
     "apis": [],
     "refs": {

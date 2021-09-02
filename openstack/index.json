@@ -1,4 +1,4 @@
 {
-  "AVD-OSK-0001": "../cloud-metadata/openstack/compute/no-plaintext-password/",
-  "AVD-OSK-0002": "../cloud-metadata/openstack/fw/no-public-access/"
+  "AVD-OSK-0001": "openstack/compute/no-plaintext-password/metadata.json",
+  "AVD-OSK-0002": "openstack/fw/no-public-access/metadata.json"
 }

@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Sensitive credentials in the user data can be leaked",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/cloudstack/latest/docs/resources/instance#"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

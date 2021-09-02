@@ -7,10 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Using password authentication is less secure that ssh keys may result in compromised servers",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_virtual_machine#disable_password_authentication",
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_machine#disable_password_authentication"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

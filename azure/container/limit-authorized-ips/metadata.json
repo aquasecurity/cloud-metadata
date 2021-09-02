@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Any IP can interact with the API server",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/kubernetes_cluster#api_server_authorized_ip_ranges",
-      "https://docs.microsoft.com/en-us/azure/aks/api-server-authorized-ip-ranges"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/aks/api-server-authorized-ip-ranges"
+      }
     ],
     "apis": [],
     "refs": {

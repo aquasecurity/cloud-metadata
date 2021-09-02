@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Using unmanaged keys does not allow for proper management",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#kms_key_self_link"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Asset management can be limited/more difficult",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#resource_labels"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "API gateway methods can be unauthorized accessed",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/api_gateway_method#authorization"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

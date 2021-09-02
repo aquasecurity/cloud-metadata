@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The port is exposed for ingress from the internet",
-    "urls": [
-      "https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/firewall",
-      "https://docs.digitalocean.com/products/networking/firewalls/how-to/configure-rules/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.digitalocean.com/products/networking/firewalls/how-to/configure-rules/"
+      }
     ],
     "apis": [],
     "refs": {

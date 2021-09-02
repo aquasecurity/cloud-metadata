@@ -1,4 +1,4 @@
 {
-  "AVD-K8S-0001": "../cloud-metadata/kubernetes/network/no-public-egress/",
-  "AVD-K8S-0002": "../cloud-metadata/kubernetes/network/no-public-ingress/"
+  "AVD-K8S-0001": "kubernetes/network/no-public-egress/metadata.json",
+  "AVD-K8S-0002": "kubernetes/network/no-public-ingress/metadata.json"
 }

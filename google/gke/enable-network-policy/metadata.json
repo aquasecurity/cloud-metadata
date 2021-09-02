@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Unrestricted inter-cluster communication",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster#enabled"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

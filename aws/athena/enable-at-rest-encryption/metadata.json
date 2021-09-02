@@ -7,10 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Data can be read if the Athena Database is compromised",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/athena_workgroup#encryption_configuration",
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/athena_database#encryption_configuration",
-      "https://docs.aws.amazon.com/athena/latest/ug/encryption.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/athena/latest/ug/encryption.html"
+      }
     ],
     "apis": [],
     "refs": {

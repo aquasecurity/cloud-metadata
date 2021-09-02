@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Deleted or modified data would not be recoverable",
-    "urls": [
-      "https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/spaces_bucket#versioning",
-      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
+      }
     ],
     "apis": [],
     "refs": {

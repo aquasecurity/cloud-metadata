@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Privilege escalation, impersonation of any/all services",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_iam",
-      "https://cloud.google.com/iam/docs/impersonating-service-accounts"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/iam/docs/impersonating-service-accounts"
+      }
     ],
     "apis": [],
     "refs": {

@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Insufficient diagnostic data.",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
-      "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-DISCONNECTIONS"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-DISCONNECTIONS"
+      }
     ],
     "apis": [],
     "refs": {

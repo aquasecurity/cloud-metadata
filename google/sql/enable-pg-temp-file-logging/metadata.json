@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Use of temporary files will not be logged",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
-      "https://postgresqlco.nf/doc/en/param/log_temp_files/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://postgresqlco.nf/doc/en/param/log_temp_files/"
+      }
     ],
     "apis": [],
     "refs": {

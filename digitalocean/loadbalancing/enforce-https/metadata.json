@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Your inbound traffic is not protected",
-    "urls": [
-      "https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/loadbalancer",
-      "https://docs.digitalocean.com/products/networking/load-balancers/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.digitalocean.com/products/networking/load-balancers/"
+      }
     ],
     "apis": [],
     "refs": {

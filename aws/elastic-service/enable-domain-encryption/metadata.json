@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Data will be readable if compromised",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticsearch_domain#encrypt_at_rest",
-      "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/encryption-at-rest.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/encryption-at-rest.html"
+      }
     ],
     "apis": [],
     "refs": {

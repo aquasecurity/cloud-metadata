@@ -7,10 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Descriptions provide context for the firewall rule reasons",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group",
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule",
-      "https://www.cloudconformity.com/knowledge-base/aws/EC2/security-group-rules-description.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://www.cloudconformity.com/knowledge-base/aws/EC2/security-group-rules-description.html"
+      }
     ],
     "apis": [],
     "refs": {

@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Unverified DNS responses could lead to man-in-the-middle attacks",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/dns_managed_zone#state"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

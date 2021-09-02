@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Keys could be purged from the vault without protection",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault#purge_protection_enabled",
-      "https://docs.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview#purge-protection"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview#purge-protection"
+      }
     ],
     "apis": [],
     "refs": {

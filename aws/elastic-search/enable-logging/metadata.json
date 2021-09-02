@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Logging provides vital information about access and usage",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticsearch_domain#log_publishing_options"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

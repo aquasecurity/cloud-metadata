@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "HTTP traffic can be intercepted and the contents read",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticsearch_domain#enforce_https",
-      "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-data-protection.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-data-protection.html"
+      }
     ],
     "apis": [],
     "refs": {

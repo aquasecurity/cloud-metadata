@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Unencrypted sensitive data is vulnerable to compromise.",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/neptune_cluster#storage_encrypted"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

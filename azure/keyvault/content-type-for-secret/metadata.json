@@ -7,9 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "The secret's type is unclear without a content type",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault_secret#content_type",
-      "https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets"
+      }
     ],
     "apis": [],
     "refs": {

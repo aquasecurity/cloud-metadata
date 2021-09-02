@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Your traffic is not protected",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener",
-      "https://www.cloudflare.com/en-gb/learning/ssl/why-is-http-not-secure/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://www.cloudflare.com/en-gb/learning/ssl/why-is-http-not-secure/"
+      }
     ],
     "apis": [],
     "refs": {

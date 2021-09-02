@@ -7,10 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Trusted Microsoft Services won't be able to access storage account unless rules set to allow",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account#bypass",
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account_network_rules#bypass",
-      "https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security#trusted-microsoft-services"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security#trusted-microsoft-services"
+      }
     ],
     "apis": [],
     "refs": {

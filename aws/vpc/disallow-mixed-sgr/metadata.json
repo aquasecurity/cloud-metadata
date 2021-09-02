@@ -7,10 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Security group rules will be overwritten and will result in unintended blocking of network traffic",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group#resource-aws_security_group",
-      "https://github.com/hashicorp/terraform/issues/11011#issuecomment-283076580"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

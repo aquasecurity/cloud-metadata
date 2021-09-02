@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Without a network ACL the key vault is freely accessible",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault#network_acls",
-      "https://docs.microsoft.com/en-us/azure/key-vault/general/network-security"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/key-vault/general/network-security"
+      }
     ],
     "apis": [],
     "refs": {

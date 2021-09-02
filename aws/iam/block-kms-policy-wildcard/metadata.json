@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Identities may be able to decrypt data which they should not have access to",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document",
-      "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-fsbp-controls.html#fsbp-kms-1"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-fsbp-controls.html#fsbp-kms-1"
+      }
     ],
     "apis": [],
     "refs": {

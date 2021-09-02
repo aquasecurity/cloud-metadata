@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Direct exposure of an instance to the public internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#access_config"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

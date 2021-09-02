@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Exposing the credentials in the Terraform provider increases the risk of secret leakage",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs#argument-reference",
-      "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
+      }
     ],
     "apis": [],
     "refs": {

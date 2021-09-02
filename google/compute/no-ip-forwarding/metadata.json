@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Instance can send/receive packets without the explicit instance address",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#can_ip_forward"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,10 +7,15 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Sensitive data could be exposed in the AWS Management Console",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition",
-      "https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html",
-      "https://www.vaultproject.io/"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html"
+      },
+      {
+        "title": "title",
+        "url": "https://www.vaultproject.io/"
+      }
     ],
     "apis": [],
     "refs": {

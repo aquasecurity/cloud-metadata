@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Without logging it is difficult to trace issues",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/mq_broker#general"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

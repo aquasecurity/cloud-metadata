@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Exposure is greater if the same keys are used over a long period",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/kms_crypto_key#rotation_period"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

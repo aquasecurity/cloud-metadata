@@ -7,10 +7,15 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "ACLs are difficult to manage and often lead to incorrect/unintended configurations.",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket#uniform_bucket_level_access",
-      "https://cloud.google.com/storage/docs/uniform-bucket-level-access",
-      "https://jbrojbrojbro.medium.com/you-make-the-rules-with-authentication-controls-for-cloud-storage-53c32543747b"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/storage/docs/uniform-bucket-level-access"
+      },
+      {
+        "title": "title",
+        "url": "https://jbrojbrojbro.medium.com/you-make-the-rules-with-authentication-controls-for-cloud-storage-53c32543747b"
+      }
     ],
     "apis": [],
     "refs": {

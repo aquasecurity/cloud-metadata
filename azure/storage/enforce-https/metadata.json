@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Insecure transfer of data into secure accounts could be read if intercepted",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account#enable_https_traffic_only",
-      "https://docs.microsoft.com/en-us/azure/storage/common/storage-require-secure-transfer"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/storage/common/storage-require-secure-transfer"
+      }
     ],
     "apis": [],
     "refs": {

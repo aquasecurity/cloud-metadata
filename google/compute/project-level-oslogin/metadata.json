@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Access via SSH key cannot be revoked automatically when an IAM user is removed.",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_project_metadata#"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

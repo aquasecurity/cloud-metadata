@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Exposure of infrastructure to the public internet",
-    "urls": [
-      "https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/fw_rule_v1"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

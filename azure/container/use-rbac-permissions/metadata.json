@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "No role based access control is in place for the AKS cluster",
-    "urls": [
-      "https://www.terraform.io/docs/providers/azurerm/r/kubernetes_cluster.html#role_based_access_control",
-      "https://docs.microsoft.com/en-us/azure/aks/concepts-identity"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/aks/concepts-identity"
+      }
     ],
     "apis": [],
     "refs": {

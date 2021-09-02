@@ -7,9 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Sensitive credentials in custom_data can be leaked",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_machine#custom_data"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

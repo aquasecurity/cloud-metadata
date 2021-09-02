@@ -7,10 +7,15 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Log profile must capture all activity to be able to ensure that all relevant information possible is available for an investigation",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/monitor_log_profile#categories",
-      "https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log",
-      "https://docs.microsoft.com/en-us/cli/azure/monitor/log-profiles?view=azure-cli-latest#az_monitor_log_profiles_create-required-parameters"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log"
+      },
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/cli/azure/monitor/log-profiles?view=azure-cli-latest#az_monitor_log_profiles_create-required-parameters"
+      }
     ],
     "apis": [],
     "refs": {

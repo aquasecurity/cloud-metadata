@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The ports are exposed for ingressing data to the internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/network_acl_rule#cidr_block",
-      "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+      }
     ],
     "apis": [],
     "refs": {

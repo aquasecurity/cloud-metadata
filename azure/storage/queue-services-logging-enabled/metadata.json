@@ -7,9 +7,11 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Logging provides valuable information about access and usage",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account#logging",
-      "https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging?tabs=dotnet"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging?tabs=dotnet"
+      }
     ],
     "apis": [],
     "refs": {

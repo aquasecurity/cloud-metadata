@@ -7,9 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Risk of potential data leakage of sensitive artifacts",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository_policy#policy"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [

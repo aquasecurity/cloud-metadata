@@ -7,9 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Mutual TLS is not being used",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service#client_cert_enabled"
-    ],
+    "references": null,
     "apis": [],
     "refs": {
       "cfsec": [],

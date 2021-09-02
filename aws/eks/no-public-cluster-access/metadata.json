@@ -7,9 +7,11 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "EKS can be access from the internet",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eks_cluster#endpoint_public_access",
-      "https://docs.aws.amazon.com/eks/latest/userguide/cluster-endpoint.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/eks/latest/userguide/cluster-endpoint.html"
+      }
     ],
     "apis": [],
     "refs": {

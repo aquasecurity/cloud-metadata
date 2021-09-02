@@ -7,10 +7,15 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Loss of error logging",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance",
-      "https://postgresqlco.nf/doc/en/param/log_min_messages/",
-      "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-MIN-MESSAGES"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://postgresqlco.nf/doc/en/param/log_min_messages/"
+      },
+      {
+        "title": "title",
+        "url": "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-MIN-MESSAGES"
+      }
     ],
     "apis": [],
     "refs": {

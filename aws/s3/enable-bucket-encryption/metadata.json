@@ -7,9 +7,11 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "The bucket objects could be read if compromised",
-    "urls": [
-      "https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket#enable-default-server-side-encryption",
-      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-encryption.html"
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-encryption.html"
+      }
     ],
     "apis": [],
     "refs": {
