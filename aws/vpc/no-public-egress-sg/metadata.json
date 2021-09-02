@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0103",
   "apiVersion": 2,
   "version": 1,
   "title": "An inline egress security group rule allows traffic to /0.",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-vpc-no-public-egress-sg"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-vpc-no-public-egress-sg"

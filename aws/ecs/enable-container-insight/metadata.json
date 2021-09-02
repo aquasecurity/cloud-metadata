@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0034",
   "apiVersion": 2,
   "version": 1,
   "title": "ECS clusters should have container insights enabled",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-ecs-enable-container-insight"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-ecs-enable-container-insight"

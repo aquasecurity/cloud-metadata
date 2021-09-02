@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0091",
   "apiVersion": 2,
   "version": 1,
   "title": "S3 Access Block should Ignore Public Acl",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-s3-ignore-public-acls"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-s3-ignore-public-acls"

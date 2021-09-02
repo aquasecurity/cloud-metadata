@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0024",
   "apiVersion": 2,
   "version": 1,
   "title": "Point in time recovery should be enabled to protect DynamoDB table",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-dynamodb-enable-recovery"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-dynamodb-enable-recovery"

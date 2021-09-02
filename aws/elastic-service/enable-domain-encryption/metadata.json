@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0048",
   "apiVersion": 2,
   "version": 1,
   "title": "Elasticsearch domain isn't encrypted at rest.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elastic-service-enable-domain-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elastic-service-enable-domain-encryption"

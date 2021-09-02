@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0032",
   "apiVersion": 2,
   "version": 1,
   "title": "Clusters should use client certificates for authentication",

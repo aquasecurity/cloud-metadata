@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0051",
   "apiVersion": 2,
   "version": 1,
   "title": "Elasticache Replication Group uses unencrypted traffic.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elasticache-enable-in-transit-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elasticache-enable-in-transit-encryption"

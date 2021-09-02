@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0012",
   "apiVersion": 2,
   "version": 1,
   "title": "Disable project-wide SSH keys for all instances",

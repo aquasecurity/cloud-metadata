@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AZU-0010",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure that no sensitive credentials are exposed in VM custom_data",

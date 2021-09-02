@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-K8S-0001",
   "apiVersion": 2,
   "version": 1,
   "title": "Public egress should not be allowed via network policies",

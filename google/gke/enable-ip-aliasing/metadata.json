@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0024",
   "apiVersion": 2,
   "version": 1,
   "title": "Clusters should have IP aliasing enabled",

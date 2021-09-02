@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0026",
   "apiVersion": 2,
   "version": 1,
   "title": "Network Policy should be enabled on GKE clusters",

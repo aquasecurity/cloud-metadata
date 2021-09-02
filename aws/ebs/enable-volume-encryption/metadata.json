@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0026",
   "apiVersion": 2,
   "version": 1,
   "title": "EBS volumes must be encrypted",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-ebs-enable-volume-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-ebs-enable-volume-encryption"

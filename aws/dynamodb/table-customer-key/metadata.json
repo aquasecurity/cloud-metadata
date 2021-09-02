@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0025",
   "apiVersion": 2,
   "version": 1,
   "title": "DynamoDB tables should use at rest encryption with a Customer Managed Key",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-dynamodb-table-customer-key"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-dynamodb-table-customer-key"

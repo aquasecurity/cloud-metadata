@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0054",
   "apiVersion": 2,
   "version": 1,
   "title": "Use of plain HTTP.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elbv2-http-not-used"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elbv2-http-not-used"

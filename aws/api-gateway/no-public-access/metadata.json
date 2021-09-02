@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0004",
   "apiVersion": 2,
   "version": 1,
   "title": "No public access to API Gateway methods",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-api-gateway-no-public-access"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-api-gateway-no-public-access"

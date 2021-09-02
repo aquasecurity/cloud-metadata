@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0109",
   "apiVersion": 2,
   "version": 1,
   "title": "Root and user volumes on Workspaces should be encrypted",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-workspace-enable-disk-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-workspace-enable-disk-encryption"

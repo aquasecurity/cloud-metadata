@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0004",
   "apiVersion": 2,
   "version": 1,
   "title": "The encryption key used to encrypt a compute disk has been specified in plaintext.",

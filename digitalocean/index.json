@@ -1,0 +1,9 @@
+{
+  "AVD-DIG-0001": "../cloud-metadata/digitalocean/compute/no-public-egress/",
+  "AVD-DIG-0002": "../cloud-metadata/digitalocean/compute/no-public-ingress/",
+  "AVD-DIG-0003": "../cloud-metadata/digitalocean/droplet/use-ssh-keys/",
+  "AVD-DIG-0004": "../cloud-metadata/digitalocean/loadbalancing/enforce-https/",
+  "AVD-DIG-0005": "../cloud-metadata/digitalocean/spaces/acl-no-public-read/",
+  "AVD-DIG-0006": "../cloud-metadata/digitalocean/spaces/disable-force-destroy/",
+  "AVD-DIG-0007": "../cloud-metadata/digitalocean/spaces/versioning-enabled/"
+}

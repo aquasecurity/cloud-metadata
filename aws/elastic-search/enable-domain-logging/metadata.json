@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0042",
   "apiVersion": 2,
   "version": 1,
   "title": "Domain logging should be enabled for Elastic Search domains",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elastic-search-enable-domain-logging"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elastic-search-enable-domain-logging"

@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0010",
   "apiVersion": 2,
   "version": 1,
   "title": "Cloudfront distribution should have Access Logging configured",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-cloudfront-enable-logging"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-cloudfront-enable-logging"

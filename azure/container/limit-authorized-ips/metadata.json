@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AZU-0013",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure AKS has an API Server Authorized IP Ranges enabled",

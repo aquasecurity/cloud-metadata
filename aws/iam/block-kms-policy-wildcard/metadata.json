@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0055",
   "apiVersion": 2,
   "version": 1,
   "title": "IAM customer managed policies should not allow decryption actions on all KMS keys",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-iam-block-kms-policy-wildcard"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-iam-block-kms-policy-wildcard"

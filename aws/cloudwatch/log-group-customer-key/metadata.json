@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0017",
   "apiVersion": 2,
   "version": 1,
   "title": "CloudWatch log groups should be encrypted using CMK",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-cloudwatch-log-group-customer-key"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-cloudwatch-log-group-customer-key"

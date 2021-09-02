@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0102",
   "apiVersion": 2,
   "version": 1,
   "title": "An ingress Network ACL rule allows ALL ports.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-vpc-no-excessive-port-access"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-vpc-no-excessive-port-access"

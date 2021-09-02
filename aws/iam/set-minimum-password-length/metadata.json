@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0063",
   "apiVersion": 2,
   "version": 1,
   "title": "IAM Password policy should have minimum password length of 14 or more characters.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-iam-set-minimum-password-length"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-iam-set-minimum-password-length"

@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0057",
   "apiVersion": 2,
   "version": 1,
   "title": "IAM policy should avoid use of wildcards and instead apply the principle of least privilege",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-iam-no-policy-wildcards"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-iam-no-policy-wildcards"

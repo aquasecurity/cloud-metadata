@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0049",
   "apiVersion": 2,
   "version": 1,
   "title": "Missing description for security group/security group rule.",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elasticache-add-description-for-security-group"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elasticache-add-description-for-security-group"

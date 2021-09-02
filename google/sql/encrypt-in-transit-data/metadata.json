@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0053",
   "apiVersion": 2,
   "version": 1,
   "title": "SSL connections to a SQL database instance should be enforced.",

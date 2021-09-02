@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0080",
   "apiVersion": 2,
   "version": 1,
   "title": "RDS encryption has not been enabled at a DB Instance level.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-rds-encrypt-instance-storage-data"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-rds-encrypt-instance-storage-data"

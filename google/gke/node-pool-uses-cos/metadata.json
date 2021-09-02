@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0036",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure Container-Optimized OS (cos) is used for Kubernetes Engine Clusters Node image",

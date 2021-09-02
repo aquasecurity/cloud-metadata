@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-DIG-0003",
   "apiVersion": 2,
   "version": 1,
   "title": "SSH Keys are the preferred way to connect to your droplet, no keys are supplied",

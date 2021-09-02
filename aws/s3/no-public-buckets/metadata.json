@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0093",
   "apiVersion": 2,
   "version": 1,
   "title": "S3 Access block should restrict public bucket to limit access",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-s3-no-public-buckets"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-s3-no-public-buckets"

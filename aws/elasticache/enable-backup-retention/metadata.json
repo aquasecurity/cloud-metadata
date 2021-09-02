@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0050",
   "apiVersion": 2,
   "version": 1,
   "title": "Redis cluster should have backup retention turned on",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elasticache-enable-backup-retention"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elasticache-enable-backup-retention"

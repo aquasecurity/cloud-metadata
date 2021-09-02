@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0021",
   "apiVersion": 2,
   "version": 1,
   "title": "DocumentDB storage must be encrypted",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-documentdb-enable-storage-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-documentdb-enable-storage-encryption"

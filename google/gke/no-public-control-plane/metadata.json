@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0034",
   "apiVersion": 2,
   "version": 1,
   "title": "GKE Control Plane should not be publicly accessible",

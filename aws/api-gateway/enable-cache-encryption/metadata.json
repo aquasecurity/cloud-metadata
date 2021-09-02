@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0002",
   "apiVersion": 2,
   "version": 1,
   "title": "API Gateway must have cache enabled",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-api-gateway-enable-cache-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-api-gateway-enable-cache-encryption"

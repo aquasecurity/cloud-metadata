@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0045",
   "apiVersion": 2,
   "version": 1,
   "title": "Unencrypted Elasticache Replication Group.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elastic-search-encrypt-replication-group"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elastic-search-encrypt-replication-group"

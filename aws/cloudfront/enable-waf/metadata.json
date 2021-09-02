@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0011",
   "apiVersion": 2,
   "version": 1,
   "title": "CloudFront distribution does not have a WAF in front.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-cloudfront-enable-waf"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-cloudfront-enable-waf"

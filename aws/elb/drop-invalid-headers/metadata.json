@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0052",
   "apiVersion": 2,
   "version": 1,
   "title": "Load balancers should drop invalid headers",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elb-drop-invalid-headers"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elb-drop-invalid-headers"

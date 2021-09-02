@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AZU-0015",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure RBAC is enabled on AKS clusters",

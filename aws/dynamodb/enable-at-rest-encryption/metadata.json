@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0023",
   "apiVersion": 2,
   "version": 1,
   "title": "DAX Cluster should always encrypt data at rest",
@@ -14,7 +14,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-dynamodb-enable-at-rest-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-dynamodb-enable-at-rest-encryption"

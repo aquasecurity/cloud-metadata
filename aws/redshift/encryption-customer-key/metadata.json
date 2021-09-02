@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0084",
   "apiVersion": 2,
   "version": 1,
   "title": "Redshift clusters should use at rest encryption",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-redshift-encryption-customer-key"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-redshift-encryption-customer-key"

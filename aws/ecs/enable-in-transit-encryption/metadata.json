@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0035",
   "apiVersion": 2,
   "version": 1,
   "title": "ECS Task Definitions with EFS volumes should use in-transit encryption",
@@ -14,7 +14,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-ecs-enable-in-transit-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-ecs-enable-in-transit-encryption"

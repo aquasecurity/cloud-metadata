@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0068",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure all data stored in the Launch configuration EBS is securely encrypted",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-launch-no-sensitive-info"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-launch-no-sensitive-info"

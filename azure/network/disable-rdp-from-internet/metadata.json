@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AZU-0039",
   "apiVersion": 2,
   "version": 1,
   "title": "RDP access should not be accessible from the Internet, should be blocked on port 3389",

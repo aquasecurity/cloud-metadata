@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0037",
   "apiVersion": 2,
   "version": 1,
   "title": "EFS Encryption has not been enabled",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-efs-enable-at-rest-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-efs-enable-at-rest-encryption"

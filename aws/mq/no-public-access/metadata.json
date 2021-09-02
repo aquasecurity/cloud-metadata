@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0072",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure MQ Broker is not publicly exposed",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-mq-no-public-access"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-mq-no-public-access"

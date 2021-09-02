@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0031",
   "apiVersion": 2,
   "version": 1,
   "title": "ECR images tags shouldn't be mutable.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-ecr-enforce-immutable-repository"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-ecr-enforce-immutable-repository"

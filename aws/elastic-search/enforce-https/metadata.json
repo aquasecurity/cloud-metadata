@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0046",
   "apiVersion": 2,
   "version": 1,
   "title": "Elasticsearch doesn't enforce HTTPS traffic.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elastic-search-enforce-https"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elastic-search-enforce-https"

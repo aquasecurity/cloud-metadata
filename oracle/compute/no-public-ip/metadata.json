@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-OCI-0001",
   "apiVersion": 2,
   "version": 1,
   "title": "Compute instance requests an IP reservation from a public pool",

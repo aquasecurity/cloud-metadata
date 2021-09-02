@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0085",
   "apiVersion": 2,
   "version": 1,
   "title": "Redshift cluster should be deployed into a specific VPC",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-redshift-non-default-vpc-deployment"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-redshift-non-default-vpc-deployment"

@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0087",
   "apiVersion": 2,
   "version": 1,
   "title": "S3 Access block should block public policy",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-s3-block-public-policy"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-s3-block-public-policy"

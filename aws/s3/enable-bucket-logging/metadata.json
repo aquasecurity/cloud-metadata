@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0089",
   "apiVersion": 2,
   "version": 1,
   "title": "S3 Bucket does not have logging enabled.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-s3-enable-bucket-logging"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-s3-enable-bucket-logging"

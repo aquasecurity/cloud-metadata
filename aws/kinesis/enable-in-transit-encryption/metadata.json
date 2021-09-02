@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0064",
   "apiVersion": 2,
   "version": 1,
   "title": "Kinesis stream is unencrypted.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-kinesis-enable-in-transit-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-kinesis-enable-in-transit-encryption"

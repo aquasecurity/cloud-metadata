@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0098",
   "apiVersion": 2,
   "version": 1,
   "title": "Secrets Manager should use customer managed keys",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-ssm-secret-use-customer-key"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-ssm-secret-use-customer-key"

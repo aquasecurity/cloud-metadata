@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0074",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure MSK Cluster logging is enabled",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-msk-enable-logging"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-msk-enable-logging"

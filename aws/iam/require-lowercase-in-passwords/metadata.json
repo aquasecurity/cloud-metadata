@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0058",
   "apiVersion": 2,
   "version": 1,
   "title": "IAM Password policy should have requirement for at least one lowercase character.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-iam-require-lowercase-in-passwords"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-iam-require-lowercase-in-passwords"

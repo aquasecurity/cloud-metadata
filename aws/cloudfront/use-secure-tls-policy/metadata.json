@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0013",
   "apiVersion": 2,
   "version": 1,
   "title": "CloudFront distribution uses outdated SSL/TLS protocols.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-cloudfront-use-secure-tls-policy"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-cloudfront-use-secure-tls-policy"

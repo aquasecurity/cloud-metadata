@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0040",
   "apiVersion": 2,
   "version": 1,
   "title": "Checks for service account defined for GKE nodes",

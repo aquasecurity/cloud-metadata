@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0028",
   "apiVersion": 2,
   "version": 1,
   "title": "aws_instance should activate session tokens for Instance Metadata Service.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-ec2-enforce-http-token-imds"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-ec2-enforce-http-token-imds"

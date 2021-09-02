@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AZU-0022",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure server parameter 'log_connections' is set to 'ON' for PostgreSQL Database Server",

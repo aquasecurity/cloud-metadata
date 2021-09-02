@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0022",
   "apiVersion": 2,
   "version": 1,
   "title": "DocumentDB encryption should use Customer Managed Keys",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-documentdb-encryption-customer-key"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-documentdb-encryption-customer-key"

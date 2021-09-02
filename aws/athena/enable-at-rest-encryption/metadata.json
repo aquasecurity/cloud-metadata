@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0006",
   "apiVersion": 2,
   "version": 1,
   "title": "Athena databases and workgroup configurations are created unencrypted at rest by default, they should be encrypted",
@@ -14,7 +14,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-athena-enable-at-rest-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-athena-enable-at-rest-encryption"

@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0066",
   "apiVersion": 2,
   "version": 1,
   "title": "Lambda functions should have X-Ray tracing enabled",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-lambda-enable-tracing"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-lambda-enable-tracing"

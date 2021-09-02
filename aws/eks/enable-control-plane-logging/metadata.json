@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0038",
   "apiVersion": 2,
   "version": 1,
   "title": "EKS Clusters should have cluster control plane logging turned on",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-eks-enable-control-plane-logging"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-eks-enable-control-plane-logging"

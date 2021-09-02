@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0076",
   "apiVersion": 2,
   "version": 1,
   "title": "Neptune storage must be encrypted at rest",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-neptune-enable-storage-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-neptune-enable-storage-encryption"

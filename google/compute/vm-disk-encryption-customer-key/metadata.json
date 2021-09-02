@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0019",
   "apiVersion": 2,
   "version": 1,
   "title": "VM disks should be encrypted with Customer Supplied Encryption Keys",

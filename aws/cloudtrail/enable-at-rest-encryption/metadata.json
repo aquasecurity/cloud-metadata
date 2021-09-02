@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0015",
   "apiVersion": 2,
   "version": 1,
   "title": "Cloudtrail should be encrypted at rest to secure access to sensitive trail data",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-cloudtrail-enable-at-rest-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-cloudtrail-enable-at-rest-encryption"

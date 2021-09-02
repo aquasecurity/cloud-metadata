@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0036",
   "apiVersion": 2,
   "version": 1,
   "title": "Task definition defines sensitive environment variable(s).",
@@ -14,7 +14,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-ecs-no-plaintext-secrets"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-ecs-no-plaintext-secrets"

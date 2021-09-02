@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0019",
   "apiVersion": 2,
   "version": 1,
   "title": "Config configuration aggregator should be using all regions for source",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-config-aggregate-all-regions"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-config-aggregate-all-regions"

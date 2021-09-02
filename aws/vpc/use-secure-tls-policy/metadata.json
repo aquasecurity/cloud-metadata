@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0108",
   "apiVersion": 2,
   "version": 1,
   "title": "An outdated SSL policy is in use by a load balancer.",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-vpc-use-secure-tls-policy"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-vpc-use-secure-tls-policy"

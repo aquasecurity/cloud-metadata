@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AZU-0020",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensure server parameter 'log_checkpoints' is set to 'ON' for PostgreSQL Database Server",

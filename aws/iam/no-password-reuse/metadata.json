@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0056",
   "apiVersion": 2,
   "version": 1,
   "title": "IAM Password policy should prevent password reuse.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-iam-no-password-reuse"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-iam-no-password-reuse"

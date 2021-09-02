@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0006",
   "apiVersion": 2,
   "version": 1,
   "title": "VPC flow logs should be enabled for all subnets",

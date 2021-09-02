@@ -1,0 +1,6 @@
+{
+  "AVD-GEN-0001": "../cloud-metadata/general/secrets/sensitive-in-attribute/",
+  "AVD-GEN-0002": "../cloud-metadata/general/secrets/sensitive-in-attribute-value/",
+  "AVD-GEN-0003": "../cloud-metadata/general/secrets/sensitive-in-local/",
+  "AVD-GEN-0004": "../cloud-metadata/general/secrets/sensitive-in-variable/"
+}

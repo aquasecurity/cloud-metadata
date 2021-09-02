@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0077",
   "apiVersion": 2,
   "version": 1,
   "title": "RDS Cluster and RDS instance should have backup retention longer than default 1 day",
@@ -14,7 +14,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-rds-backup-retention-specified"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-rds-backup-retention-specified"

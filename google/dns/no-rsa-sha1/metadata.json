@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-GCP-0021",
   "apiVersion": 2,
   "version": 1,
   "title": "Zone signing should not use RSA SHA1",

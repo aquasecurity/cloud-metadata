@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0078",
   "apiVersion": 2,
   "version": 1,
   "title": "Encryption for RDS Performance Insights should be enabled.",
@@ -14,7 +14,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-rds-enable-performance-insights"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-rds-enable-performance-insights"

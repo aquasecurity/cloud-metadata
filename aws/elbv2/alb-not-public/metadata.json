@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0053",
   "apiVersion": 2,
   "version": 1,
   "title": "Load balancer is exposed to the internet.",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-elbv2-alb-not-public"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-elbv2-alb-not-public"

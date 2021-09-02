@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0039",
   "apiVersion": 2,
   "version": 1,
   "title": "EKS should have the encryption of secrets enabled",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-eks-encrypt-secrets"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-eks-encrypt-secrets"

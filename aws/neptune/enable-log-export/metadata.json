@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0075",
   "apiVersion": 2,
   "version": 1,
   "title": "Nepture logs export should be enabled",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-neptune-enable-log-export"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-neptune-enable-log-export"

@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0100",
   "apiVersion": 2,
   "version": 1,
   "title": "Ensures that usage of security groups with inline rules and security group rule resources are not mixed.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-vpc-disallow-mixed-sgr"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-vpc-disallow-mixed-sgr"

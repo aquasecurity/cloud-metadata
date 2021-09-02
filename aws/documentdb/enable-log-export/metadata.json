@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0020",
   "apiVersion": 2,
   "version": 1,
   "title": "DocumentDB logs export should be enabled",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-documentdb-enable-log-export"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-documentdb-enable-log-export"

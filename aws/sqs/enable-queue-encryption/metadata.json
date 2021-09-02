@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0096",
   "apiVersion": 2,
   "version": 1,
   "title": "Unencrypted SQS queue.",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-sqs-enable-queue-encryption"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-sqs-enable-queue-encryption"

@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0016",
   "apiVersion": 2,
   "version": 1,
   "title": "Cloudtrail log validation should be enabled to prevent tampering of log data",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-cloudtrail-enable-log-validation"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-cloudtrail-enable-log-validation"

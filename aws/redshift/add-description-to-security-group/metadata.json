@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0083",
   "apiVersion": 2,
   "version": 1,
   "title": "Missing description for security group/security group rule.",
@@ -14,7 +14,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-redshift-add-description-to-security-group"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-redshift-add-description-to-security-group"

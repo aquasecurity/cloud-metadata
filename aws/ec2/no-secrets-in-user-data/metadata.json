@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0029",
   "apiVersion": 2,
   "version": 1,
   "title": "User data for EC2 instances must not contain sensitive AWS keys",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-ec2-no-secrets-in-user-data"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-ec2-no-secrets-in-user-data"

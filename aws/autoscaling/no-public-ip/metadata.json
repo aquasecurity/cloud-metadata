@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0009",
   "apiVersion": 2,
   "version": 1,
   "title": "A resource has a public IP address.",
@@ -14,7 +14,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-autoscaling-no-public-ip"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-autoscaling-no-public-ip"

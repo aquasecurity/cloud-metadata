@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0014",
   "apiVersion": 2,
   "version": 1,
   "title": "Cloudtrail should be enabled in all regions regardless of where your AWS resources are generally homed",
@@ -13,7 +13,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-cloudtrail-enable-all-regions"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-cloudtrail-enable-all-regions"

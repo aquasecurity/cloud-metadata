@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0082",
   "apiVersion": 2,
   "version": 1,
   "title": "A database resource is marked as publicly accessible.",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-rds-no-public-db-access"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-rds-no-public-db-access"

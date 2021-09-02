@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AZU-0043",
   "apiVersion": 2,
   "version": 1,
   "title": "SSH access should not be accessible from the Internet, should be blocked on port 22",

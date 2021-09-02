@@ -1,5 +1,5 @@
 {
-  "id": "AQUA_ID_GOES_HERE",
+  "id": "AVD-AWS-0071",
   "apiVersion": 2,
   "version": 1,
   "title": "MQ Broker should have general logging enabled",
@@ -12,7 +12,9 @@
     ],
     "apis": [],
     "refs": {
-      "cfsec": [],
+      "cfsec": [
+        "aws-mq-enable-general-logging"
+      ],
       "cspm": [],
       "tfsec": [
         "aws-mq-enable-general-logging"
