@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0006",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "VPC flow logs should be enabled for all subnets",
+  "description": "VPC flow logs record information about all traffic, which is a vital tool in reviewing anomalous traffic.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Limited auditing capability and awareness",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-compute-enable-vpc-flow-logs"
+      ]
+    }
+  }
+}

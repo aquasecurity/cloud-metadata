@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0009",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Instances should not override the project setting for OS Login",
+  "description": "OS Login automatically revokes the relevant SSH keys when an IAM user has their access revoked.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Access via SSH key cannot be revoked automatically when an IAM user is removed.",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-compute-no-oslogin-override"
+      ]
+    }
+  }
+}

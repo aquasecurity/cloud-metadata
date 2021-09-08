@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0006",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Web App uses latest TLS version",
+  "description": "Use a more recent TLS/SSL policy for the App Service",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "The minimum TLS version for apps should be TLS1_2",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-appservice-use-secure-tls-policy"
+      ]
+    }
+  }
+}

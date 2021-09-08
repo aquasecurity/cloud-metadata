@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0049",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Storage accounts should be configured to only accept transfers that are over secure connections",
+  "description": "You can configure your storage account to accept requests from secure connections only by setting the Secure transfer required property for the storage account. \n\nWhen you require secure transfer, any requests originating from an insecure connection are rejected. \n\nMicrosoft recommends that you always require secure transfer for all of your storage accounts.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Insecure transfer of data into secure accounts could be read if intercepted",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/storage/common/storage-require-secure-transfer"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-storage-enforce-https"
+      ]
+    }
+  }
+}

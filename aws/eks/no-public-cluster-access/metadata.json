@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0040",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "EKS Clusters should have the public access disabled",
+  "description": "EKS clusters are available publicly by default, this should be explicitly disabled in the vpc_config of the EKS cluster resource.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "EKS can be access from the internet",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/eks/latest/userguide/cluster-endpoint.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-eks-no-public-cluster-access"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-eks-no-public-cluster-access"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0034",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "GKE Control Plane should not be publicly accessible",
+  "description": "The GKE control plane is exposed to the public internet by default.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "GKE control plane exposed to public internet",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-gke-no-public-control-plane"
+      ]
+    }
+  }
+}

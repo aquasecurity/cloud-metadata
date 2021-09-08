@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0102",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "An ingress Network ACL rule allows ALL ports.",
+  "description": "Ensure access to specific required ports is allowed, and nothing else.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "All ports exposed for egressing data",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-vpc-no-excessive-port-access"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-vpc-no-excessive-port-access"
+      ]
+    }
+  }
+}

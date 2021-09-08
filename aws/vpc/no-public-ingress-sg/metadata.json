@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0106",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "An inline ingress security group rule allows traffic from /0.",
+  "description": "Opening up ports to the public internet is generally to be avoided. You should restrict access to IP addresses or ranges that explicitly require it where possible.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The port is exposed for ingress from the internet",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-vpc-no-public-ingress-sg"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-vpc-no-public-ingress-sg"
+      ]
+    }
+  }
+}

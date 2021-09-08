@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0019",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Config configuration aggregator should be using all regions for source",
+  "description": "The configuration aggregator should be configured with all_regions for the source. \n\nThis will help limit the risk of any unmonitored configuration in regions that are thought to be unused.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Sources that aren't covered by the aggregator are not include in the configuration",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-config-aggregate-all-regions"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-config-aggregate-all-regions"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0043",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Elasticsearch domain uses plaintext traffic for node to node communication.",
+  "description": "Traffic flowing between Elasticsearch nodes should be encrypted to ensure sensitive data is kept private.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "In transit data between nodes could be read if intercepted",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/ntn.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-elastic-search-enable-in-transit-encryption"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-elastic-search-enable-in-transit-encryption"
+      ]
+    }
+  }
+}

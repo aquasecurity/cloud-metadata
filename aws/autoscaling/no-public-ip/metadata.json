@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0009",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "A resource has a public IP address.",
+  "description": "You should limit the provision of public IP addresses for resources. Resources should not be exposed on the public internet, but should have access limited to consumers required for the function of your application.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "The instance or configuration is publicly accessible",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-autoscaling-no-public-ip"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-autoscaling-no-public-ip"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0031",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Key vault should have purge protection enabled",
+  "description": "Purge protection is an optional Key Vault behavior and is not enabled by default.\n\nPurge protection can only be enabled once soft-delete is enabled. It can be turned on via CLI or PowerShell.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Keys could be purged from the vault without protection",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview#purge-protection"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-keyvault-no-purge"
+      ]
+    }
+  }
+}

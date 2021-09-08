@@ -1,0 +1,30 @@
+{
+  "id": "AVD-GCP-0032",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Clusters should use client certificates for authentication",
+  "description": "Client certificates are the most secure and recommended method of authentication.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Less secure authentication method in use",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#restrict_authn_methods"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-gke-no-legacy-auth"
+      ]
+    }
+  }
+}

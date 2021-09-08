@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0023",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Kubernetes should have 'Automatic upgrade' enabled",
+  "description": "Automatic updates keep nodes updated with the latest cluster master version.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Nodes will need the cluster master version manually updating",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-gke-enable-auto-upgrade"
+      ]
+    }
+  }
+}

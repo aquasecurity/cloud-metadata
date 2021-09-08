@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0079",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "There is no encryption specified or encryption is disabled on the RDS Cluster.",
+  "description": "Encryption should be enabled for an RDS Aurora cluster. \n\nWhen enabling encryption by setting the kms_key_id, the storage_encrypted must also be set to true.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data can be read from the RDS cluster if it is compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-rds-encrypt-cluster-storage-data"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-rds-encrypt-cluster-storage-data"
+      ]
+    }
+  }
+}

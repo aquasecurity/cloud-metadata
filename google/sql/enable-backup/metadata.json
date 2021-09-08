@@ -1,0 +1,30 @@
+{
+  "id": "AVD-GCP-0051",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Enable automated backups to recover from data-loss",
+  "description": "Automated backups are not enabled by default. Backups are an easy way to restore data in a corruption or data-loss scenario.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "No recovery of lost or corrupted data",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/sql/docs/mysql/backup-recovery/backups"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-sql-enable-backup"
+      ]
+    }
+  }
+}

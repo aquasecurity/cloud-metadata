@@ -1,0 +1,30 @@
+{
+  "id": "AVD-DIG-0002",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "The firewall has an inbound rule with open access",
+  "description": "Opening up ports to connect out to the public internet is generally to be avoided. You should restrict access to IP addresses or ranges that are explicitly required where possible.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Your port is exposed to the internet",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.digitalocean.com/products/networking/firewalls/how-to/configure-rules/"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "digitalocean-compute-no-public-ingress"
+      ]
+    }
+  }
+}

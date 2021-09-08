@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0051",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Elasticache Replication Group uses unencrypted traffic.",
+  "description": "Traffic flowing between Elasticache replication nodes should be encrypted to ensure sensitive data is kept private.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "In transit data in the Replication Group could be read if intercepted",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/in-transit-encryption.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-elasticache-enable-in-transit-encryption"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-elasticache-enable-in-transit-encryption"
+      ]
+    }
+  }
+}

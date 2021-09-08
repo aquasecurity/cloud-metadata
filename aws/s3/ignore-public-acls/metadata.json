@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0091",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "S3 Access Block should Ignore Public Acl",
+  "description": "S3 buckets should ignore public ACLs on buckets and any objects they contain. By ignoring rather than blocking, PUT calls with public ACLs will still be applied but the ACL will be ignored.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "PUT calls with public ACLs specified can make objects public",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-s3-ignore-public-acls"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-s3-ignore-public-acls"
+      ]
+    }
+  }
+}

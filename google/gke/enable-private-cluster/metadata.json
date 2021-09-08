@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0027",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Clusters should be set to private",
+  "description": "Enabling private nodes on a cluster ensures the nodes are only available internally as they will only be assigned internal addresses.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Nodes may be exposed to the public internet",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-gke-enable-private-cluster"
+      ]
+    }
+  }
+}

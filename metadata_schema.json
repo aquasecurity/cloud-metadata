@@ -1,0 +1,143 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "apiVersion": {
+            "type": "integer"
+        },
+        "version": {
+            "type": "integer"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "description_file_path": {
+            "type": "string"
+        },
+        "custom": {
+            "type": "object",
+            "properties": {
+                "severity": {
+                    "type": "string"
+                },
+                "possibleImpact": {
+                    "type": "string"
+                },
+                "remediations": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "title": {
+                                    "type": "string"
+                                },
+                                "remediation_path": {
+                                    "type": "string"
+                                },
+                                "remediation_type": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "title",
+                                "remediation_path",
+                                "remediation_type"
+                            ]
+                        }
+                    ]
+                },
+                "references": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "title": {
+                                    "type": "string"
+                                },
+                                "url": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "title",
+                                "url"
+                            ]
+                        }
+                    ]
+                },
+                "apis": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "refs": {
+                    "type": "object",
+                    "properties": {
+                        "cfsec": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "cspm": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer"
+                                        },
+                                        "name": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "id",
+                                        "name"
+                                    ]
+                                }
+                            ]
+                        },
+                        "tfsec": {
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "string"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "required": [
+                "severity",
+                "possibleImpact",
+                "references",
+                "apis",
+                "refs"
+            ]
+        }
+    },
+    "required": [
+        "id",
+        "apiVersion",
+        "version",
+        "title",
+        "description",
+        "custom"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0095",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Unencrypted SNS topic.",
+  "description": "Queues should be encrypted with customer managed KMS keys and not default AWS managed keys, in order to allow granular control over access to specific queues.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "The SNS topic messages could be read if compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/sns/latest/dg/sns-server-side-encryption.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-sns-enable-topic-encryption"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-sns-enable-topic-encryption"
+      ]
+    }
+  }
+}

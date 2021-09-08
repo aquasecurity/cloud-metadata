@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0028",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Key vault Secret should have a content type set",
+  "description": "Content Type is an optional Key Vault Secret behavior and is not enabled by default.\n\nClients may specify the content type of a secret to assist in interpreting the secret data when it's retrieved. The maximum length of this field is 255 characters. There are no pre-defined values. The suggested usage is as a hint for interpreting the secret data.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "The secret's type is unclear without a content type",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-keyvault-content-type-for-secret"
+      ]
+    }
+  }
+}

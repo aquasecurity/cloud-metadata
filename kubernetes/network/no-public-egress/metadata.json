@@ -1,0 +1,25 @@
+{
+  "id": "AVD-K8S-0001",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Public egress should not be allowed via network policies",
+  "description": "You should not expose infrastructure to the public internet except where explicitly required",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Exfiltration of data to the public internet",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "kubernetes-network-no-public-egress"
+      ]
+    }
+  }
+}

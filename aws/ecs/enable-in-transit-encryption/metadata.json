@@ -1,0 +1,36 @@
+{
+  "id": "AVD-AWS-0035",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "ECS Task Definitions with EFS volumes should use in-transit encryption",
+  "description": "ECS task definitions that have volumes using EFS configuration should explicitly enable in transit encryption to prevent the risk of data loss due to interception.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Intercepted traffic to and from EFS may lead to data loss",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonECS/latest/userguide/efs-volumes.html"
+      },
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/efs/latest/ug/encryption-in-transit.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-ecs-enable-in-transit-encryption"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-ecs-enable-in-transit-encryption"
+      ]
+    }
+  }
+}

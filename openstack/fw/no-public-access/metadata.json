@@ -1,0 +1,25 @@
+{
+  "id": "AVD-OSK-0002",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "A firewall rule allows traffic from/to the public internet",
+  "description": "Opening up ports to the public internet is generally to be avoided. You should restrict access to IP addresses or ranges that explicitly require it where possible.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Exposure of infrastructure to the public internet",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "openstack-fw-no-public-access"
+      ]
+    }
+  }
+}

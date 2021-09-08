@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0011",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Password authentication in use instead of SSH keys.",
+  "description": "Access to instances should be authenticated using SSH keys. Removing the option of password authentication enforces more secure methods while removing the risks inherent with passwords.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Passwords are potentially easier to compromise than SSH Keys",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-detailed"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-compute-ssh-authentication"
+      ]
+    }
+  }
+}

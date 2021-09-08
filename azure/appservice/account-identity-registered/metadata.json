@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0001",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Web App has registration with AD enabled",
+  "description": "Registering the identity used by an App with AD allows it to interact with other services without using username and password",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Interaction between services can't easily be achieved without username/password",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-appservice-account-identity-registered"
+      ]
+    }
+  }
+}

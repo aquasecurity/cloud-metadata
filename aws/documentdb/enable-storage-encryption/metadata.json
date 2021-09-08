@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0021",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "DocumentDB storage must be encrypted",
+  "description": "Encryption of the underlying storage used by DocumentDB ensures that if their is compromise of the disks, the data is still protected.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Unencrypted sensitive data is vulnerable to compromise.",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-documentdb-enable-storage-encryption"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-documentdb-enable-storage-encryption"
+      ]
+    }
+  }
+}

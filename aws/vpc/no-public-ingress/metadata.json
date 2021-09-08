@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0105",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "An ingress Network ACL rule allows specific ports from /0.",
+  "description": "Opening up ACLs to the public internet is potentially dangerous. You should restrict access to IP addresses or ranges that explicitly require it where possible.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The ports are exposed for ingressing data to the internet",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-vpc-no-public-ingress"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-vpc-no-public-ingress"
+      ]
+    }
+  }
+}

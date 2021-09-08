@@ -1,0 +1,9 @@
+{
+  "AVD-DIG-0001": "digitalocean/compute/no-public-egress/metadata.json",
+  "AVD-DIG-0002": "digitalocean/compute/no-public-ingress/metadata.json",
+  "AVD-DIG-0003": "digitalocean/droplet/use-ssh-keys/metadata.json",
+  "AVD-DIG-0004": "digitalocean/loadbalancing/enforce-https/metadata.json",
+  "AVD-DIG-0005": "digitalocean/spaces/acl-no-public-read/metadata.json",
+  "AVD-DIG-0006": "digitalocean/spaces/disable-force-destroy/metadata.json",
+  "AVD-DIG-0007": "digitalocean/spaces/versioning-enabled/metadata.json"
+}

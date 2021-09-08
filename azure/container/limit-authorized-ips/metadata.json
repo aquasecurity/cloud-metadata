@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0013",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure AKS has an API Server Authorized IP Ranges enabled",
+  "description": "The API server is the central way to interact with and manage a cluster. To improve cluster security and minimize attacks, the API server should only be accessible from a limited set of IP address ranges.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Any IP can interact with the API server",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/aks/api-server-authorized-ip-ranges"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-container-limit-authorized-ips"
+      ]
+    }
+  }
+}

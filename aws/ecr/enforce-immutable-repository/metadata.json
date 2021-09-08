@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0031",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "ECR images tags shouldn't be mutable.",
+  "description": "ECR images should be set to IMMUTABLE to prevent code injection through image mutation.\n\nThis can be done by setting \u003ccode\u003eimage_tab_mutability\u003c/code\u003e to \u003ccode\u003eIMMUTABLE\u003c/code\u003e",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Image tags could be overwritten with compromised images",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://sysdig.com/blog/toctou-tag-mutability/"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-ecr-enforce-immutable-repository"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-ecr-enforce-immutable-repository"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0033",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure the activity retention log is set to at least a year",
+  "description": "The average time to detect a breach is up to 210 days, to ensure that all the information required for an effective investigation is available, the retention period should allow for delayed starts to investigating.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Short life activity logs can lead to missing records when investigating a breach",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/platform-logs-overview"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-monitor-activity-log-retention-set"
+      ]
+    }
+  }
+}

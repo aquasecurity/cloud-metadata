@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0002",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Disks should be encrypted with Customer Supplied Encryption Keys",
+  "description": "Using unmanaged keys makes rotation and general management difficult.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using unmanaged keys does not allow for proper management",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-compute-disk-encryption-customer-key"
+      ]
+    }
+  }
+}

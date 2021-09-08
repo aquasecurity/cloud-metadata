@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0042",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Retention policy for flow logs should be enabled and set to greater than 90 days",
+  "description": "Flow logs are the source of truth for all network activity in your cloud environment. \nTo enable analysis in security event that was detected late, you need to have the logs available. \n\t\t\t\nSetting an retention policy will help ensure as much information is available for review.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Not enabling retention or having short expiry on flow logs could lead to compromise being undetected limiting time for analysis",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-network-retention-policy-set"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "AVD-AZU-0004",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure the Function App can only be accessed via HTTPS. The default is false.",
+  "description": "By default, clients can connect to function endpoints by using both HTTP or HTTPS. You should redirect HTTP to HTTPs because HTTPS uses the SSL/TLS protocol to provide a secure connection, which is both encrypted and authenticated.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Anyone can access the Function App using HTTP.",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-bindings#enforce-https"
+      },
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-functions/security-concepts"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-appservice-enforce-https"
+      ]
+    }
+  }
+}

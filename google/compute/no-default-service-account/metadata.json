@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0007",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Instances should not use the default service account",
+  "description": "The default service account has full project access. Instances should instead be assigned the minimal access they need.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Instance has full access to the project",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-compute-no-default-service-account"
+      ]
+    }
+  }
+}

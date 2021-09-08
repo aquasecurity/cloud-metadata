@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0049",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Missing description for security group/security group rule.",
+  "description": "Security groups and security group rules should include a description for auditing purposes.\n\nSimplifies auditing, debugging, and managing security groups.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Descriptions provide context for the firewall rule reasons",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-elasticache-add-description-for-security-group"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-elasticache-add-description-for-security-group"
+      ]
+    }
+  }
+}

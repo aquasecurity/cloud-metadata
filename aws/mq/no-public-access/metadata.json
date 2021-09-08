@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0072",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure MQ Broker is not publicly exposed",
+  "description": "Public access of the MQ broker should be disabled and only allow routes to applications that require access.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Publicly accessible MQ Broker may be vulnerable to compromise",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-mq-no-public-access"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-mq-no-public-access"
+      ]
+    }
+  }
+}

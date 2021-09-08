@@ -1,0 +1,30 @@
+{
+  "id": "AVD-GCP-0060",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure that logging of disconnections is enabled.",
+  "description": "Logging disconnections provides useful diagnostic data such as session length, which can identify performance issues in an application and potential DoS vectors.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Insufficient diagnostic data.",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-DISCONNECTIONS"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-sql-pg-log-disconnections"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "AVD-DIG-0005",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Spaces bucket or bucket object has public read acl set",
+  "description": "Space bucket and bucket object permissions should be set to deny public access unless explicitly required.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The contents of the space can be accessed publicly",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.digitalocean.com/reference/api/spaces-api/#access-control-lists-acls"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "digitalocean-spaces-acl-no-public-read"
+      ]
+    }
+  }
+}

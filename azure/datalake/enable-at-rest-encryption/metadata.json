@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0026",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Unencrypted data lake storage.",
+  "description": "Datalake storage encryption defaults to Enabled, it shouldn't be overridden to Disabled.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data could be read if compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-security-overview"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-datalake-enable-at-rest-encryption"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0038",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "EKS Clusters should have cluster control plane logging turned on",
+  "description": "By default cluster control plane logging is not turned on. Logging is available for audit, api, authenticator, controllerManager and scheduler. All logging should be turned on for cluster control plane.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Logging provides valuable information about access and usage",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/eks/latest/userguide/control-plane-logs.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-eks-enable-control-plane-logging"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-eks-enable-control-plane-logging"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0093",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "S3 Access block should restrict public bucket to limit access",
+  "description": "S3 buckets should restrict public policies for the bucket. By enabling, the restrict_public_buckets, only the bucket owner and AWS Services can access if it has a public policy.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Public buckets can be accessed by anyone",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonS3/latest/dev-retired/access-control-block-public-access.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-s3-no-public-buckets"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-s3-no-public-buckets"
+      ]
+    }
+  }
+}

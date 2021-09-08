@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0076",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Neptune storage must be encrypted at rest",
+  "description": "Encryption of Neptune storage ensures that if their is compromise of the disks, the data is still protected.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Unencrypted sensitive data is vulnerable to compromise.",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-neptune-enable-storage-encryption"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-neptune-enable-storage-encryption"
+      ]
+    }
+  }
+}

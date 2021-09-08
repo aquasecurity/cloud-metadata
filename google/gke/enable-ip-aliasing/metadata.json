@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0024",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Clusters should have IP aliasing enabled",
+  "description": "IP aliasing allows the reuse of public IPs internally, removing the need for a NAT gateway.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Nodes need a NAT gateway to access local services",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-gke-enable-ip-aliasing"
+      ]
+    }
+  }
+}

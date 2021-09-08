@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0010",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Disk encryption keys should not be provided in plaintext",
+  "description": "Providing your encryption key in plaintext format means anyone with access to the source code also has access to the key.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Compromise of encryption keys",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-compute-no-plaintext-disk-keys"
+      ]
+    }
+  }
+}

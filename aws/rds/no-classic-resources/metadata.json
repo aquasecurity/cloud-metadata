@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0081",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "AWS Classic resource usage.",
+  "description": "AWS Classic resources run in a shared environment with infrastructure owned by other AWS customers. You should run\nresources in a VPC instead.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Classic resources are running in a shared environment with other customers",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-classic-platform.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-rds-no-classic-resources"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-rds-no-classic-resources"
+      ]
+    }
+  }
+}

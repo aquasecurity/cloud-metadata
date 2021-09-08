@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0036",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure Container-Optimized OS (cos) is used for Kubernetes Engine Clusters Node image",
+  "description": "GKE supports several OS image types but COS is the recommended OS image to use on cluster nodes for enhanced security",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "COS is the recommended OS image to use on cluster nodes",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-gke-node-pool-uses-cos"
+      ]
+    }
+  }
+}

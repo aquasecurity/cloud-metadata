@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0003",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Web App uses the latest HTTP version",
+  "description": "Use the latest version of HTTP to ensure you are benefiting from security fixes",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Outdated versions of HTTP has security vulnerabilities",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-appservice-enable-http2"
+      ]
+    }
+  }
+}

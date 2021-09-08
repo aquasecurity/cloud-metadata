@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0021",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Zone signing should not use RSA SHA1",
+  "description": "RSA SHA1 is a weaker algorithm than SHA2-based algorithms such as RSA SHA256/512",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Less secure encryption algorithm than others available",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-dns-no-rsa-sha1"
+      ]
+    }
+  }
+}

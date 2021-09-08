@@ -1,0 +1,36 @@
+{
+  "id": "AVD-AWS-0024",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Point in time recovery should be enabled to protect DynamoDB table",
+  "description": "DynamoDB tables should be protected against accidentally or malicious write/delete actions by ensuring that there is adequate protection.\n\nBy enabling point-in-time-recovery you can restore to a known point in the event of loss of data.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Accidental or malicious writes and deletes can't be rolled back",
+    "references": [
+      {
+        "title": "AWS DynamoDB point in time recovery",
+        "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html"
+      }
+    ],
+    "apis": [
+      "DynamoDB:listTables",
+      "DynamoDB:describeContinuousBackups",
+      "STS:getCallerIdentity"
+    ],
+    "refs": {
+      "cfsec": [
+        "aws-dynamodb-enable-recovery"
+      ],
+      "cspm": [
+        {
+          "id": 899,
+          "name": "dynamodb/dynamoContinuousBackups"
+        }
+      ],
+      "tfsec": [
+        "aws-dynamodb-enable-recovery"
+      ]
+    }
+  }
+}

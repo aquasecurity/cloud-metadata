@@ -1,0 +1,30 @@
+{
+  "id": "AVD-GCP-0056",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Cross-database ownership chaining should be disabled",
+  "description": "Cross-database ownership chaining, also known as cross-database chaining, is a security feature of SQL Server that allows users of databases access to other databases besides the one they are currently using.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Unintended access to sensitive data",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/cross-db-ownership-chaining-server-configuration-option?view=sql-server-ver15"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "google-sql-no-cross-db-ownership-chaining"
+      ]
+    }
+  }
+}

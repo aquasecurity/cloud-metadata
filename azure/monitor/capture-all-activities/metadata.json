@@ -1,0 +1,34 @@
+{
+  "id": "AVD-AZU-0034",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure log profile captures all activities",
+  "description": "Log profiles should capture all categories to ensure that all events are logged",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Log profile must capture all activity to be able to ensure that all relevant information possible is available for an investigation",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/activity-log"
+      },
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/cli/azure/monitor/log-profiles?view=azure-cli-latest#az_monitor_log_profiles_create-required-parameters"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-monitor-capture-all-activities"
+      ]
+    }
+  }
+}

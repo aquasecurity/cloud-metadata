@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0005",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "API Gateway domain name uses outdated SSL/TLS protocols.",
+  "description": "You should not use outdated/insecure TLS versions for encryption. You should be using TLS v1.2+.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Outdated SSL policies increase exposure to known vulnerabilities",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-custom-domain-tls-version.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-api-gateway-use-secure-tls-policy"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-api-gateway-use-secure-tls-policy"
+      ]
+    }
+  }
+}

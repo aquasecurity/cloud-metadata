@@ -1,0 +1,30 @@
+{
+  "id": "AVD-AZU-0015",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure RBAC is enabled on AKS clusters",
+  "description": "Using Kubernetes role-based access control (RBAC), you can grant users, groups, and service accounts access to only the resources they need.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "No role based access control is in place for the AKS cluster",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/aks/concepts-identity"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-container-use-rbac-permissions"
+      ]
+    }
+  }
+}

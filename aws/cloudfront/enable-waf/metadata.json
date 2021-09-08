@@ -1,0 +1,34 @@
+{
+  "id": "AVD-AWS-0011",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "CloudFront distribution does not have a WAF in front.",
+  "description": "You should configure a Web Application Firewall in front of your CloudFront distribution. This will mitigate many types of attacks on your web application.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Complex web application attacks can more easily be performed without a WAF",
+    "references": [
+      {
+        "title": "AWS CloudFront Features",
+        "url": "https://docs.aws.amazon.com/waf/latest/developerguide/cloudfront-features.html"
+      }
+    ],
+    "apis": [
+      "CloudFront:listDistributions"
+    ],
+    "refs": {
+      "cfsec": [
+        "aws-cloudfront-enable-waf"
+      ],
+      "cspm": [
+        {
+          "id": 547,
+          "name": "cloudfront/cloudfrontWafEnabled"
+        }
+      ],
+      "tfsec": [
+        "aws-cloudfront-enable-waf"
+      ]
+    }
+  }
+}

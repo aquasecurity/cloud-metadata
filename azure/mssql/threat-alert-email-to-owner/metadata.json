@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0038",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Security threat alerts go to subcription owners and co-administrators",
+  "description": "Subscription owners should be notified when there are security alerts. By ensuring the administrators of the account have been notified they can quickly assist in any required remediation",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Administrators and subscription owners may have a delayed response",
+    "references": [],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "azure-mssql-threat-alert-email-to-owner"
+      ]
+    }
+  }
+}

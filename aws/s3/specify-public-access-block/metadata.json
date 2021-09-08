@@ -1,0 +1,32 @@
+{
+  "id": "AVD-AWS-0094",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "S3 buckets should each define an aws_s3_bucket_public_access_block",
+  "description": "The \"block public access\" settings in S3 override individual policies that apply to a given bucket, meaning that all public access can be controlled in one central definition for that bucket. It is therefore good practice to define these settings for each bucket in order to clearly define the public access that can be allowed for it.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Public access policies may be applied to sensitive data buckets",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-s3-specify-public-access-block"
+      ],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
+      "tfsec": [
+        "aws-s3-specify-public-access-block"
+      ]
+    }
+  }
+}
