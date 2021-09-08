@@ -9,8 +9,8 @@
     "possibleImpact": "Log data may be leaked if the logs are compromised. No auditing of who have viewed the logs.",
     "references": [
       {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html"
+        "title": "Configuring encryption for CloudWatch log data",
+        "url":"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html"
       }
     ],
     "apis": [],

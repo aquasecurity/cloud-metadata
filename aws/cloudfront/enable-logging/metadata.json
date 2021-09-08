@@ -9,16 +9,18 @@
     "possibleImpact": "Logging provides vital information about access and usage",
     "references": [
       {
-        "title": "title",
+        "title": "AWS Access log configration",
         "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html"
       }
     ],
-    "apis": [],
+    "apis":["CloudFront:listDistributions", "CloudFront:getDistribution"],
     "refs": {
       "cfsec": [
         "aws-cloudfront-enable-logging"
       ],
-      "cspm": [],
+      "cspm": [
+        "cloudfront/cloudfronLoggingEnabled"
+      ],
       "tfsec": [
         "aws-cloudfront-enable-logging"
       ]

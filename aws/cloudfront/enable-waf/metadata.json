@@ -9,16 +9,20 @@
     "possibleImpact": "Complex web application attacks can more easily be performed without a WAF",
     "references": [
       {
-        "title": "title",
+
+        "title": "AWS CloudFront Features",
         "url": "https://docs.aws.amazon.com/waf/latest/developerguide/cloudfront-features.html"
       }
     ],
-    "apis": [],
+    "apis": ["CloudFront:listDistributions"],
+
     "refs": {
       "cfsec": [
         "aws-cloudfront-enable-waf"
       ],
-      "cspm": [],
+      "cspm": [
+        "cloudfront/cloudfrontWafEnabled"
+      ],
       "tfsec": [
         "aws-cloudfront-enable-waf"
       ]

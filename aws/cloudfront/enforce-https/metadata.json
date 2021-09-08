@@ -9,16 +9,18 @@
     "possibleImpact": "CloudFront is available through an unencrypted connection",
     "references": [
       {
-        "title": "title",
+        "title": "Configuring AWS CloudFront for HTTPS",
         "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-cloudfront-to-s3-origin.html"
       }
     ],
-    "apis": [],
+    "apis": ["CloudFront:listDistributions", "CloudFront:getDistribution"],
     "refs": {
       "cfsec": [
         "aws-cloudfront-enforce-https"
       ],
-      "cspm": [],
+      "cspm": [
+        "cloudfront/cloudfrontHttpsOnly"
+      ],
       "tfsec": [
         "aws-cloudfront-enforce-https"
       ]

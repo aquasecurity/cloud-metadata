@@ -9,16 +9,20 @@
     "possibleImpact": "Outdated SSL policies increase exposure to known vulnerabilities",
     "references": [
       {
-        "title": "title",
+        "title": "AWS CloudFront TLS Policy configuration",
         "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
       }
     ],
-    "apis": [],
+    "apis": [
+      "CloudFront:listDistributions"
+    ],
     "refs": {
       "cfsec": [
         "aws-cloudfront-use-secure-tls-policy"
       ],
-      "cspm": [],
+      "cspm": [
+        "cloudfront/insecureProtocols"
+      ],
       "tfsec": [
         "aws-cloudfront-use-secure-tls-policy"
       ]

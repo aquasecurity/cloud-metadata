@@ -9,16 +9,19 @@
     "possibleImpact": "Illicit activity could be removed from the logs",
     "references": [
       {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html"
+        "title": "Protecting AWS CloudTrail logs",
+        "url":"https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html"
       }
+
     ],
-    "apis": [],
+    "apis": ["CloudTrail:describeTrails"],
     "refs": {
       "cfsec": [
         "aws-cloudtrail-enable-log-validation"
       ],
-      "cspm": [],
+      "cspm": [
+        "cloudtrail/cloudtrailFileValidation"
+      ],
       "tfsec": [
         "aws-cloudtrail-enable-log-validation"
       ]

@@ -9,16 +9,16 @@
     "possibleImpact": "Data can be freely read if compromised",
     "references": [
       {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/encrypting-cloudtrail-log-files-with-aws-kms.html"
+        "title": "Configuring AWS CloudTrail encryption",
+        "url":"https://docs.aws.amazon.com/awscloudtrail/latest/userguide/encrypting-cloudtrail-log-files-with-aws-kms.html"
       }
     ],
-    "apis": [],
+    "apis": ["CloudTrail:describeTrails"],
     "refs": {
       "cfsec": [
         "aws-cloudtrail-enable-at-rest-encryption"
       ],
-      "cspm": [],
+      "cspm": ["cloudtrail/cloudtrailEncryption"],
       "tfsec": [
         "aws-cloudtrail-enable-at-rest-encryption"
       ]
