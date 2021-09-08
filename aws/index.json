@@ -1,0 +1,9 @@
+{
+  "AVD-AWS-0023": "aws/dynamodb/enable-at-rest-encryption/metadata.json",
+  "AVD-AWS-0024": "aws/dynamodb/enable-recovery/metadata.json",
+  "AVD-AWS-0025": "aws/dynamodb/table-customer-key/metadata.json",
+  "AVD-AWS-0026": "aws/ebs/enable-volume-encryption/metadata.json",
+  "AVD-AWS-0027": "aws/ebs/encryption-customer-key/metadata.json",
+  "AVD-AWS-0028": "aws/ec2/enforce-http-token-imds/metadata.json",
+  "AVD-AWS-0029": "aws/ec2/no-secrets-in-user-data/metadata.json",
+}

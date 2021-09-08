@@ -1,0 +1,29 @@
+{
+  "id": "AVD-AWS-0026",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "EBS volumes must be encrypted",
+  "description": "By enabling encryption on EBS volumes you protect the volume, the disk I/O and any derived snapshots from compromise if intercepted.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Unencrypted sensitive data is vulnerable to compromise.",
+    "references": [
+      {
+        "title": "EC2 EBS Volume Encryption",
+        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html"
+      }
+    ],
+    "apis": ["EC2:getEbsEncryptionByDefault", "EC2:getEbsDefaultKmsKeyId", "KMS:describeKey", "KMS:listKeys", "KMS:listAliases"],
+    "refs": {
+      "cfsec": [
+        "aws-ebs-enable-volume-encryption"
+      ],
+      "cspm": [
+        "ec2/ebsDefaultEncryptionEnabled"
+      ],
+      "tfsec": [
+        "aws-ebs-enable-volume-encryption"
+      ]
+    }
+  }
+}
