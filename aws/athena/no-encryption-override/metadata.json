@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-athena-no-encryption-override"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-athena-no-encryption-override"
       ]

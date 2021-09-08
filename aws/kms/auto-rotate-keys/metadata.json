@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-kms-auto-rotate-keys"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-kms-auto-rotate-keys"
       ]

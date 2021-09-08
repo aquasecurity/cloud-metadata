@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-iam-no-password-reuse"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-iam-no-password-reuse"
       ]

@@ -17,13 +17,18 @@
         "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html"
       }
     ],
-    "apis": ["DAX:describeClusters"],
+    "apis": [
+      "DAX:describeClusters"
+    ],
     "refs": {
       "cfsec": [
         "aws-dynamodb-enable-at-rest-encryption"
       ],
       "cspm": [
-        "dynamodb/daxClusterEncryption"
+        {
+          "id": 801,
+          "name": "dynamodb/daxClusterEncryption"
+        }
       ],
       "tfsec": [
         "aws-dynamodb-enable-at-rest-encryption"

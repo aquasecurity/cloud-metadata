@@ -10,7 +10,7 @@
     "references": [
       {
         "title": "Configuring encryption for CloudWatch log data",
-        "url":"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html"
+        "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html"
       }
     ],
     "apis": [],
@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-cloudwatch-log-group-customer-key"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-cloudwatch-log-group-customer-key"
       ]

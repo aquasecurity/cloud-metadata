@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-eks-enable-control-plane-logging"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-eks-enable-control-plane-logging"
       ]

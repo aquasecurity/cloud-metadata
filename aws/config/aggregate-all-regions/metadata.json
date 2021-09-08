@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-config-aggregate-all-regions"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-config-aggregate-all-regions"
       ]

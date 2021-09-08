@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-lambda-restrict-source-arn"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-lambda-restrict-source-arn"
       ]

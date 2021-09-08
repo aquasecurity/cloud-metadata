@@ -13,7 +13,12 @@
       "cfsec": [
         "aws-neptune-enable-log-export"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-neptune-enable-log-export"
       ]

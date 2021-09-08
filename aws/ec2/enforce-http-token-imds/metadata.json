@@ -13,13 +13,18 @@
         "url": "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service"
       }
     ],
-    "apis": ["EC2:describeInstances"],
+    "apis": [
+      "EC2:describeInstances"
+    ],
     "refs": {
       "cfsec": [
         "aws-ec2-enforce-http-token-imds"
       ],
       "cspm": [
-        "ec2/ec2MetadataOptions"
+        {
+          "id": 692,
+          "name": "ec2/ec2MetadataOptions"
+        }
       ],
       "tfsec": [
         "aws-ec2-enforce-http-token-imds"

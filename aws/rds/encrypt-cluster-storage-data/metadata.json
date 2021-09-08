@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-rds-encrypt-cluster-storage-data"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-rds-encrypt-cluster-storage-data"
       ]

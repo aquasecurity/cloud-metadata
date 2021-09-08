@@ -10,16 +10,22 @@
     "references": [
       {
         "title": "Configuring AWS CloudTrail for multiple region trails",
-        "url":"https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html"
+        "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html"
       }
     ],
-    "apis": ["CloudTrail:describeTrails", "CloudTrail:getTrailStatus"],
+    "apis": [
+      "CloudTrail:describeTrails",
+      "CloudTrail:getTrailStatus"
+    ],
     "refs": {
       "cfsec": [
         "aws-cloudtrail-enable-all-regions"
       ],
       "cspm": [
-        "cloudtrail/cloudtrailEnabled"
+        {
+          "id": 2,
+          "name": "cloudtrail/cloudtrailEnabled"
+        }
       ],
       "tfsec": [
         "aws-cloudtrail-enable-all-regions"

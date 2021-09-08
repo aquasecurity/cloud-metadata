@@ -13,13 +13,19 @@
         "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html"
       }
     ],
-    "apis":["CloudFront:listDistributions", "CloudFront:getDistribution"],
+    "apis": [
+      "CloudFront:listDistributions",
+      "CloudFront:getDistribution"
+    ],
     "refs": {
       "cfsec": [
         "aws-cloudfront-enable-logging"
       ],
       "cspm": [
-        "cloudfront/cloudfronLoggingEnabled"
+        {
+          "id": 298,
+          "name": "cloudfront/cloudfronLoggingEnabled"
+        }
       ],
       "tfsec": [
         "aws-cloudfront-enable-logging"

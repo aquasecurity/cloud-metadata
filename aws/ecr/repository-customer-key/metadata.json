@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-ecr-repository-customer-key"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-ecr-repository-customer-key"
       ]
