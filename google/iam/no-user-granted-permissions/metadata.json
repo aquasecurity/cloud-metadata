@@ -1,0 +1,29 @@
+{
+  "id": "AVD-GCP-0048",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "IAM granted directly to user.",
+  "description": "Permissions should not be directly granted to users, you identify roles that contain the appropriate permissions, and then grant those roles to the user. \n\nGranting permissions to users quickly become unwieldy and complex to make large scale changes to remove access to a particular resource.\n\nPermissions should be granted on roles, groups, services accounts instead.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Users shouldn't have permissions granted to them directly",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/iam/docs/overview#permissions"
+      },
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/resource-manager/reference/rest/v1/projects/setIamPolicy"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-iam-no-user-granted-permissions"
+      ]
+    }
+  }
+}

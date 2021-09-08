@@ -1,0 +1,6 @@
+{
+  "AVD-GEN-0001": "general/secrets/sensitive-in-attribute/metadata.json",
+  "AVD-GEN-0002": "general/secrets/sensitive-in-attribute-value/metadata.json",
+  "AVD-GEN-0003": "general/secrets/sensitive-in-local/metadata.json",
+  "AVD-GEN-0004": "general/secrets/sensitive-in-variable/metadata.json"
+}

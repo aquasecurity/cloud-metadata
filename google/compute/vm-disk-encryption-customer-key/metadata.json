@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0019",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "VM disks should be encrypted with Customer Supplied Encryption Keys",
+  "description": "Using unmanaged keys makes rotation and general management difficult.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using unmanaged keys does not allow for proper management",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-vm-disk-encryption-customer-key"
+      ]
+    }
+  }
+}

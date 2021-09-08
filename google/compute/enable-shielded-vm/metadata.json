@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0005",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Instances should have Shielded VM enabled",
+  "description": "A Shielded VM is a VM with enhanced defences/detection for rootkits/bootkits.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Unable to detect rootkits",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-enable-shielded-vm"
+      ]
+    }
+  }
+}

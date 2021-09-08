@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0053",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "SSL connections to a SQL database instance should be enforced.",
+  "description": "In-transit data should be encrypted so that if traffic is intercepted data will not be exposed in plaintext to attackers.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Intercepted data can be read in transit",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/sql/docs/mysql/configure-ssl-instance"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-sql-encrypt-in-transit-data"
+      ]
+    }
+  }
+}

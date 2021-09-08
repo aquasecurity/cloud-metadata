@@ -1,0 +1,20 @@
+{
+  "id": "AVD-AZU-0043",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "SSH access should not be accessible from the Internet, should be blocked on port 22",
+  "description": "SSH access can be configured on either the network security group or in the network security group rule. \n\nSSH access should not be permitted from the internet (*, 0.0.0.0, /0, internet, any)",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Its dangerous to allow SSH access from the internet",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-network-ssh-blocked-from-internet"
+      ]
+    }
+  }
+}

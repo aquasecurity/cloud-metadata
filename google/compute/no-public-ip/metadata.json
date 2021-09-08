@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0015",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Instances should not have public IP addresses",
+  "description": "Instances should not be publicly exposed to the internet",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Direct exposure of an instance to the public internet",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-no-public-ip"
+      ]
+    }
+  }
+}

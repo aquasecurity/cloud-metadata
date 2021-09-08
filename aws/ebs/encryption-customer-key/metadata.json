@@ -1,0 +1,22 @@
+{
+  "id": "AVD-AWS-0027",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "EBS volume encryption should use Customer Managed Keys",
+  "description": "Encryption using AWS keys provides protection for your EBS volume. To increase control of the encryption and manage factors like rotation use customer managed keys.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-ebs-encryption-customer-key"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-ebs-encryption-customer-key"
+      ]
+    }
+  }
+}

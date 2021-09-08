@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0098",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Secrets Manager should use customer managed keys",
+  "description": "Secrets Manager encrypts secrets by default using a default key created by AWS. To ensure control and granularity of secret encryption, CMK's should be used explicitly.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Using AWS managed keys reduces the flexibility and control over the encryption key",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/kms/latest/developerguide/services-secrets-manager.html#asm-encrypt"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-ssm-secret-use-customer-key"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-ssm-secret-use-customer-key"
+      ]
+    }
+  }
+}

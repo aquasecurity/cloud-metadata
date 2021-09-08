@@ -1,0 +1,22 @@
+{
+  "id": "AVD-AWS-0002",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "API Gateway must have cache enabled",
+  "description": "Method cache encryption ensures that any sensitive data in the cache is not vulnerable to compromise in the event of interception",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Data stored in the cache that is unencrypted may be vulnerable to compromise",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-api-gateway-enable-cache-encryption"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-api-gateway-enable-cache-encryption"
+      ]
+    }
+  }
+}

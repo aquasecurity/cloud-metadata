@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0065",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "A KMS key is not configured to auto-rotate.",
+  "description": "You should configure your KMS keys to auto rotate to maintain security and defend against compromise.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Long life KMS keys increase the attack surface when compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-kms-auto-rotate-keys"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-kms-auto-rotate-keys"
+      ]
+    }
+  }
+}

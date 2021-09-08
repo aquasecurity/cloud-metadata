@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0038",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Clusters should be configured with Labels",
+  "description": "Labels make it easier to manage assets and differentiate between clusters and environments, allowing the mapping of computational resources to the wider organisational structure.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Asset management can be limited/more difficult",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-use-cluster-labels"
+      ]
+    }
+  }
+}

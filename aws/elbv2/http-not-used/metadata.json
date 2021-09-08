@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0054",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Use of plain HTTP.",
+  "description": "Plain HTTP is unencrypted and human-readable. This means that if a malicious actor was to eavesdrop on your connection, they would be able to see all of your data flowing back and forth.\n\nYou should use HTTPS, which is HTTP over an encrypted (TLS) connection, meaning eavesdroppers cannot read your traffic.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Your traffic is not protected",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://www.cloudflare.com/en-gb/learning/ssl/why-is-http-not-secure/"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-elbv2-http-not-used"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-elbv2-http-not-used"
+      ]
+    }
+  }
+}
