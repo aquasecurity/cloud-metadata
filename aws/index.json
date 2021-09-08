@@ -1,0 +1,10 @@
+{
+  "AVD-AWS-0010": "aws/cloudfront/enable-logging/metadata.json",
+  "AVD-AWS-0011": "aws/cloudfront/enable-waf/metadata.json",
+  "AVD-AWS-0012": "aws/cloudfront/enforce-https/metadata.json",
+  "AVD-AWS-0013": "aws/cloudfront/use-secure-tls-policy/metadata.json",
+  "AVD-AWS-0014": "aws/cloudtrail/enable-all-regions/metadata.json",
+  "AVD-AWS-0015": "aws/cloudtrail/enable-at-rest-encryption/metadata.json",
+  "AVD-AWS-0016": "aws/cloudtrail/enable-log-validation/metadata.json",
+  "AVD-AWS-0017": "aws/cloudwatch/log-group-customer-key/metadata.json"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "AVD-AWS-0012",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "CloudFront distribution allows unencrypted (HTTP) communications.",
+  "description": "Plain HTTP is unencrypted and human-readable. This means that if a malicious actor was to eavesdrop on your connection, they would be able to see all of your data flowing back and forth.\n\nYou should use HTTPS, which is HTTP over an encrypted (TLS) connection, meaning eavesdroppers cannot read your traffic.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "CloudFront is available through an unencrypted connection",
+    "references": [
+      {
+        "title": "Configuring AWS CloudFront for HTTPS",
+        "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-cloudfront-to-s3-origin.html"
+      }
+    ],
+    "apis": ["CloudFront:listDistributions", "CloudFront:getDistribution"],
+    "refs": {
+      "cfsec": [
+        "aws-cloudfront-enforce-https"
+      ],
+      "cspm": [
+        "cloudfront/cloudfrontHttpsOnly"
+      ],
+      "tfsec": [
+        "aws-cloudfront-enforce-https"
+      ]
+    }
+  }
+}
