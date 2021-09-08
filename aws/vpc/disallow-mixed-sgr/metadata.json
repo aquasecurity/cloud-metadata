@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Security group rules will be overwritten and will result in unintended blocking of network traffic",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

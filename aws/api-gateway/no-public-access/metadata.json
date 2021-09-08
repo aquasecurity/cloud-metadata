@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "API gateway methods can be unauthorized accessed",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Unrestricted network access to the master",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Sensitive credentials in custom_data can be leaked",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

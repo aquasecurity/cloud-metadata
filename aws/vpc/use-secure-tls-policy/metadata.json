@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The SSL policy is outdated and has known vulnerabilities",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

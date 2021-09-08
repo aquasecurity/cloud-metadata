@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Compromise of a single key pair compromises all instances",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

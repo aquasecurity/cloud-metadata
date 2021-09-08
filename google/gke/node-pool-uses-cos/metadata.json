@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "COS is the recommended OS image to use on cluster nodes",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

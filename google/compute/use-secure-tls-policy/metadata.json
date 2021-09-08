@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Data in transit is not sufficiently secured",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

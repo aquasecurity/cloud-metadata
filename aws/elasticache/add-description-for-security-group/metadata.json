@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Descriptions provide context for the firewall rule reasons",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

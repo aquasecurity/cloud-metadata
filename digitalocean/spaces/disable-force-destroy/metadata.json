@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Accidental deletion of bucket objects",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

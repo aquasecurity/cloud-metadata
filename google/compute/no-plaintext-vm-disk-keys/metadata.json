@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Compromise of encryption keys",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

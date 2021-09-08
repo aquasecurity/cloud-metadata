@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Sensitive credentials in user data can be leaked",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Risk of potential data leakage of sensitive artifacts",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

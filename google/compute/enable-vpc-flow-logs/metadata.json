@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Limited auditing capability and awareness",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

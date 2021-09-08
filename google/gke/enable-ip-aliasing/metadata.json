@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Nodes need a NAT gateway to access local services",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

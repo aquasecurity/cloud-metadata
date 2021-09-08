@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Its dangerous to allow SSH access from the internet",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

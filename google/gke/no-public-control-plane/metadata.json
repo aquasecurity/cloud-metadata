@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "GKE control plane exposed to public internet",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

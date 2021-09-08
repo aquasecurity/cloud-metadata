@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Mutual TLS is not being used",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

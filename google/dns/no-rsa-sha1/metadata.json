@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Less secure encryption algorithm than others available",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

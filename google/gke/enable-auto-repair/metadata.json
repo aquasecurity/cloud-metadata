@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Failing nodes will require manual repair.",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Visibility will be reduced",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

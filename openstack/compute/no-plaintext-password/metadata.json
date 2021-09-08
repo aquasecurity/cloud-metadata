@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Including a plaintext password could lead to compromised instance",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

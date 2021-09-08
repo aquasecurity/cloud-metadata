@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Unrestricted inter-cluster communication",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],
