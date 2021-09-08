@@ -7,13 +7,20 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Unencrypted sensitive data is vulnerable to compromise.",
-    "references": null,
-    "apis": [],
+    "references": [
+      {
+        "title": "EC2 EBS Volume Encryption",
+        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html"
+      }
+    ],
+    "apis": ["EC2:getEbsEncryptionByDefault", "EC2:getEbsDefaultKmsKeyId", "KMS:describeKey", "KMS:listKeys", "KMS:listAliases"],
     "refs": {
       "cfsec": [
         "aws-ebs-enable-volume-encryption"
       ],
-      "cspm": [],
+      "cspm": [
+        "ec2/ebsDefaultEncryptionEnabled"
+      ],
       "tfsec": [
         "aws-ebs-enable-volume-encryption"
       ]

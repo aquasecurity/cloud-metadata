@@ -9,16 +9,19 @@
     "possibleImpact": "Accidental or malicious writes and deletes can't be rolled back",
     "references": [
       {
-        "title": "title",
+        "title": "AWS DynamoDB point in time recovery",
         "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html"
       }
     ],
-    "apis": [],
+    "apis": ["DynamoDB:listTables", "DynamoDB:describeContinuousBackups", "STS:getCallerIdentity"],
+
     "refs": {
       "cfsec": [
         "aws-dynamodb-enable-recovery"
       ],
-      "cspm": [],
+      "cspm": [
+        "dynamodb/dynamoContinuousBackups"
+      ],
       "tfsec": [
         "aws-dynamodb-enable-recovery"
       ]

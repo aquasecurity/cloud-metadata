@@ -9,7 +9,7 @@
     "possibleImpact": "User data is visible through the AWS Management console",
     "references": [
       {
-        "title": "title",
+        "title": "AWS Instance and User Data",
         "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html"
       }
     ],

@@ -9,20 +9,22 @@
     "possibleImpact": "Data can be freely read if compromised",
     "references": [
       {
-        "title": "title",
+        "title": "Enable DAX encryption at rest",
         "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAXEncryptionAtRest.html"
       },
       {
-        "title": "title",
+        "title": "AWS DAX Cluster guide",
         "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html"
       }
     ],
-    "apis": [],
+    "apis": ["DAX:describeClusters"],
     "refs": {
       "cfsec": [
         "aws-dynamodb-enable-at-rest-encryption"
       ],
-      "cspm": [],
+      "cspm": [
+        "dynamodb/daxClusterEncryption"
+      ],
       "tfsec": [
         "aws-dynamodb-enable-at-rest-encryption"
       ]

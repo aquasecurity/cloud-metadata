@@ -7,13 +7,20 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
-    "references": null,
-    "apis": [],
+    "references": [
+      {
+        "title": "EC2 EBS Volume Encryption",
+        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html"
+      }
+    ],
+    "apis": ["EC2:describeVolumes", "KMS:describeKey", "KMS:listKeys"],
     "refs": {
       "cfsec": [
         "aws-ebs-encryption-customer-key"
       ],
-      "cspm": [],
+      "cspm": [
+        "ec2/ebsEncryptionEnabled"
+      ],
       "tfsec": [
         "aws-ebs-encryption-customer-key"
       ]

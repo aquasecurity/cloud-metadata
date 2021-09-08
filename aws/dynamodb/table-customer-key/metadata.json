@@ -9,16 +9,18 @@
     "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
     "references": [
       {
-        "title": "title",
+        "title": "AWS DynamoDB encryption at rest",
         "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/EncryptionAtRest.html"
       }
     ],
-    "apis": [],
+    "apis": ["DynamoDB:updateTable"],
     "refs": {
       "cfsec": [
         "aws-dynamodb-table-customer-key"
       ],
-      "cspm": [],
+      "cspm": [
+        "dynamodb/dynamoKmsEncryption"
+      ],
       "tfsec": [
         "aws-dynamodb-table-customer-key"
       ]
