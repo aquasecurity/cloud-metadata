@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The port is exposed for egressing data to the internet",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

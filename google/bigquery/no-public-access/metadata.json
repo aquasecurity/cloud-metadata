@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Exposure of sensitive data to the public iniernet",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Data stored in the cache that is unencrypted may be vulnerable to compromise",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Anonymous HTTP requests will be accepted",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

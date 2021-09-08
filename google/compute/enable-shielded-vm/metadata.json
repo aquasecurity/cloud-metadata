@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Unable to detect rootkits",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

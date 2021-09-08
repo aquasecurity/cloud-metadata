@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Insecure connections could lead to data loss and other vulnerabilities",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

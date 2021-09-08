@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Exposure of internal infrastructure/services to public internet",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Your port is egressing data to the internet",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

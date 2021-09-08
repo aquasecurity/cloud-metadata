@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Asset management can be limited/more difficult",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

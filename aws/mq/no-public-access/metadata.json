@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Publicly accessible MQ Broker may be vulnerable to compromise",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Outdated versions of HTTP has security vulnerabilities",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

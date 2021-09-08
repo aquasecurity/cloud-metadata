@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Publicly accessible database could lead to compromised data",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

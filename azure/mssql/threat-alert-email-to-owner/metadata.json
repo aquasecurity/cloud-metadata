@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Administrators and subscription owners may have a delayed response",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

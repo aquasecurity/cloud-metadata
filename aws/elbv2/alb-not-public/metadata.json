@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "The load balancer is exposed on the internet",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

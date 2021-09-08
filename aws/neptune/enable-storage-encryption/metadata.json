@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Unencrypted sensitive data is vulnerable to compromise.",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

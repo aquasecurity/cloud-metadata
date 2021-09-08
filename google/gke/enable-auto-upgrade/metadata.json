@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Nodes will need the cluster master version manually updating",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

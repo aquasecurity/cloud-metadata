@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "WIthout full tracing enabled it is difficult to trace the flow of logs",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

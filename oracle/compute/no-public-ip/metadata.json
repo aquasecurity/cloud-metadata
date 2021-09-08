@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The compute instance has the ability to be reached from outside",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Open permissions for subscriptions could result in an easily compromisable account",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

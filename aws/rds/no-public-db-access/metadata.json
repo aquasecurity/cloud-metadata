@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The database instance is publicly accessible",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

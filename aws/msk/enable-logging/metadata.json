@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Without logging it is difficult to trace issues",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

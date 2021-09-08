@@ -7,7 +7,7 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [

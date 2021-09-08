@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Nobody will be prompty alerted in the case of a threat being detected",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

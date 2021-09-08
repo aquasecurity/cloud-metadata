@@ -7,7 +7,7 @@
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Exposure is greater if the same keys are used over a long period",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

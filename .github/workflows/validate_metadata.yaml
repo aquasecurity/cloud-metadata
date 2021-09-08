@@ -1,0 +1,18 @@
+name: verify
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    name: validating metadata json files
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v1
+    - uses: BSFishy/pip-action@v1
+      with:
+        packages: |
+          json-spec
+    - run: find . -name "metadata.json" -exec json validate --schema-file metadata_schema.json --document-file {} \;

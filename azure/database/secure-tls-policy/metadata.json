@@ -7,7 +7,7 @@
   "custom": {
     "severity": "MEDIUM",
     "possibleImpact": "Outdated TLS policies increase exposure to known issues",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [],

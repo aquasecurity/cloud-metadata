@@ -7,7 +7,7 @@
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The port is exposed for ingress from the internet",
-    "references": null,
+    "references": [],
     "apis": [],
     "refs": {
       "cfsec": [
