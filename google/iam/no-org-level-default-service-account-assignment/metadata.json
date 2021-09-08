@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0043",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Roles should not be assigned to default service accounts",
+  "description": "Default service accounts should not be used - consider creating specialised service accounts for individual purposes.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Violation of principal of least privilege",
+    "references": [
+      {
+        "title": "title",
+        "url": ""
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-iam-no-org-level-default-service-account-assignment"
+      ]
+    }
+  }
+}

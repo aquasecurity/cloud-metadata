@@ -1,0 +1,22 @@
+{
+  "id": "AVD-AWS-0068",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure all data stored in the Launch configuration EBS is securely encrypted",
+  "description": "When creating Launch Configurations, user data can be used for the initial configuration of the instance. User data must not contain any sensitive data.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Sensitive credentials in user data can be leaked",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-launch-no-sensitive-info"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-launch-no-sensitive-info"
+      ]
+    }
+  }
+}

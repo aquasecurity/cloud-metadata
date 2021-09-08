@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0004",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "The encryption key used to encrypt a compute disk has been specified in plaintext.",
+  "description": "Sensitive values such as raw encryption keys should not be included in your Terraform code, and should be stored securely by a secrets manager.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The encryption key should be considered compromised as it is not stored securely.",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/compute/docs/disks/customer-supplied-encryption"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-disk-encryption-required"
+      ]
+    }
+  }
+}

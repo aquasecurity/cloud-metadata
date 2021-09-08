@@ -1,0 +1,20 @@
+{
+  "id": "AVD-AZU-0005",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Web App accepts incoming client certificate",
+  "description": "The TLS mutual authentication technique in enterprise environments ensures the authenticity of clients to the server. If incoming client certificates are enabled only an authenticated client with valid certificates can access the app.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Mutual TLS is not being used",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-appservice-require-client-cert"
+      ]
+    }
+  }
+}

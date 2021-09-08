@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0062",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "IAM Password policy should have expiry less than or equal to 90 days.",
+  "description": "IAM account password policies should have a maximum age specified. \n\t\t\nThe account password policy should be set to expire passwords after 90 days or less.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Long life password increase the likelihood of a password eventually being compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-iam-set-max-password-age"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-iam-set-max-password-age"
+      ]
+    }
+  }
+}

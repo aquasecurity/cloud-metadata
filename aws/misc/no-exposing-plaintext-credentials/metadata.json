@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0069",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "AWS provider has access credentials specified.",
+  "description": "The AWS provider block should not contain hardcoded credentials. These can be passed in securely as runtime using environment variables.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Exposing the credentials in the Terraform provider increases the risk of secret leakage",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-misc-no-exposing-plaintext-credentials"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-misc-no-exposing-plaintext-credentials"
+      ]
+    }
+  }
+}

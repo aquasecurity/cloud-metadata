@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0047",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Trusted Microsoft Services should have bypass access to Storage accounts",
+  "description": "Some Microsoft services that interact with storage accounts operate from networks that can't be granted access through network rules. \n\nTo help this type of service work as intended, allow the set of trusted Microsoft services to bypass the network rules",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Trusted Microsoft Services won't be able to access storage account unless rules set to allow",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security#trusted-microsoft-services"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-storage-allow-microsoft-service-bypass"
+      ]
+    }
+  }
+}

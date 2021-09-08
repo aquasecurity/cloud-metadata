@@ -1,0 +1,20 @@
+{
+  "id": "AVD-CSK-0001",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "No sensitive data stored in user_data",
+  "description": "When creating instances, user data can be used during the initial configuration. User data must not contain sensitive information",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Sensitive credentials in the user data can be leaked",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "cloudstack-compute-no-sensitive-info"
+      ]
+    }
+  }
+}

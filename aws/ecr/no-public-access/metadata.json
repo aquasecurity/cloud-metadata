@@ -1,0 +1,22 @@
+{
+  "id": "AVD-AWS-0032",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "ECR repository policy must block public access",
+  "description": "Allowing public access to the ECR repository risks leaking sensitive of abusable information",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Risk of potential data leakage of sensitive artifacts",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-ecr-no-public-access"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-ecr-no-public-access"
+      ]
+    }
+  }
+}

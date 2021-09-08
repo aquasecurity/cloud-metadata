@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0025",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Master authorized networks should be configured on GKE clusters",
+  "description": "Enabling authorized networks means you can restrict master access to a fixed set of CIDR ranges",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Unrestricted network access to the master",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-enable-master-networks"
+      ]
+    }
+  }
+}

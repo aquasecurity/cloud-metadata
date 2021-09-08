@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0028",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Stackdriver Logging should be enabled",
+  "description": "StackDriver logging provides a useful interface to all of stdout/stderr for each container and should be enabled for moitoring, debugging, etc.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Visibility will be reduced",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-gke-enable-stackdriver-logging"
+      ]
+    }
+  }
+}

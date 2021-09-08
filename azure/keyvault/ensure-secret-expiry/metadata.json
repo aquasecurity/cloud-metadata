@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0030",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Key Vault Secret should have an expiration date set",
+  "description": "Expiration Date is an optional Key Vault Secret behavior and is not set by default.\n\nSet when the resource will be become inactive.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Long life secrets increase the opportunity for compromise",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-keyvault-ensure-secret-expiry"
+      ]
+    }
+  }
+}

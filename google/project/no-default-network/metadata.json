@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0050",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Default network should not be created at project level",
+  "description": "The default network which is provided for a project contains multiple insecure firewall rules which allow ingress to the project's infrastructure. Creation of this network should therefore be disabled.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Exposure of internal infrastructure/services to public internet",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-project-no-default-network"
+      ]
+    }
+  }
+}

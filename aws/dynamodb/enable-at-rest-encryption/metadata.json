@@ -1,0 +1,31 @@
+{
+  "id": "AVD-AWS-0023",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "DAX Cluster should always encrypt data at rest",
+  "description": "Amazon DynamoDB Accelerator (DAX) encryption at rest provides an additional layer of data protection by helping secure your data from unauthorized access to the underlying storage.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data can be freely read if compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAXEncryptionAtRest.html"
+      },
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-dynamodb-enable-at-rest-encryption"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-dynamodb-enable-at-rest-encryption"
+      ]
+    }
+  }
+}

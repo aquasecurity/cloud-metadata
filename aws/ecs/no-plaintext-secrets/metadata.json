@@ -1,0 +1,31 @@
+{
+  "id": "AVD-AWS-0036",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Task definition defines sensitive environment variable(s).",
+  "description": "You should not make secrets available to a user in plaintext in any scenario. Secrets can instead be pulled from a secure secret storage system by the service requiring them.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Sensitive data could be exposed in the AWS Management Console",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/integration-ps-secretsmanager.html"
+      },
+      {
+        "title": "title",
+        "url": "https://www.vaultproject.io/"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-ecs-no-plaintext-secrets"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-ecs-no-plaintext-secrets"
+      ]
+    }
+  }
+}

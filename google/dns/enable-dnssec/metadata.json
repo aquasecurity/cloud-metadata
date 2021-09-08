@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0020",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Cloud DNS should use DNSSEC",
+  "description": "DNSSEC authenticates DNS responses, preventing MITM attacks and impersonation.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Unverified DNS responses could lead to man-in-the-middle attacks",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-dns-enable-dnssec"
+      ]
+    }
+  }
+}

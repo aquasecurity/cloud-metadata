@@ -1,0 +1,25 @@
+{
+  "id": "AVD-GCP-0013",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "An outbound firewall rule allows traffic to /0.",
+  "description": "Network security rules should not use very broad subnets.\n\nWhere possible, segments should be broken into smaller subnets and avoid using the \u003ccode\u003e/0\u003c/code\u003e subnet.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The port is exposed for egress to the internet",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://cloud.google.com/vpc/docs/using-firewalls"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-no-public-egress"
+      ]
+    }
+  }
+}

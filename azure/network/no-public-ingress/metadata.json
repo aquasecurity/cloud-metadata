@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0041",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "An inbound network security rule allows traffic from /0.",
+  "description": "Network security rules should not use very broad subnets.\n\nWhere possible, segments should be broken into smaller subnets.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "The port is exposed for ingress from the internet",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/security/fundamentals/network-best-practices"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-network-no-public-ingress"
+      ]
+    }
+  }
+}

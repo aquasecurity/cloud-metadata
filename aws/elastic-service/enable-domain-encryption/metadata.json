@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0048",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Elasticsearch domain isn't encrypted at rest.",
+  "description": "You should ensure your Elasticsearch data is encrypted at rest to help prevent sensitive information from being read by unauthorised users.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data will be readable if compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/encryption-at-rest.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-elastic-service-enable-domain-encryption"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-elastic-service-enable-domain-encryption"
+      ]
+    }
+  }
+}

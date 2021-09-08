@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0046",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "The required contact details should be set for security center",
+  "description": "It is recommended that at least one valid contact is configured for the security center. \nMicrosoft will notify the security contact directly in the event of a security incident and will look to use a telephone number in cases where a prompt response is required.",
+  "custom": {
+    "severity": "LOW",
+    "possibleImpact": "Without a telephone number set, Azure support can't contact",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://azure.microsoft.com/en-us/services/security-center/"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-security-center-set-required-contact-details"
+      ]
+    }
+  }
+}

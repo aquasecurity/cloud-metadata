@@ -1,0 +1,20 @@
+{
+  "id": "AVD-AZU-0002",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "App Service authentication is activated",
+  "description": "Enabling authentication ensures that all communications in the application are authenticated. The auth_settings block needs to be filled out with the appropriate auth backend settings",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Anonymous HTTP requests will be accepted",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-appservice-authentication-enabled"
+      ]
+    }
+  }
+}
