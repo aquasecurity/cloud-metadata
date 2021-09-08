@@ -1,0 +1,25 @@
+{
+  "id": "AVD-DIG-0004",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "The load balancer forwarding rule is using an insecure protocol as an entrypoint",
+  "description": "Plain HTTP is unencrypted and human-readable. This means that if a malicious actor was to eavesdrop on your connection, they would be able to see all of your data flowing back and forth.\n\nYou should use HTTPS, which is HTTP over an encrypted (TLS) connection, meaning eavesdroppers cannot read your traffic.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Your inbound traffic is not protected",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.digitalocean.com/products/networking/load-balancers/"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "digitalocean-loadbalancing-enforce-https"
+      ]
+    }
+  }
+}

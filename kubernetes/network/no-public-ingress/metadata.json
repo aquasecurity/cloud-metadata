@@ -1,0 +1,20 @@
+{
+  "id": "AVD-K8S-0002",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Public ingress should not be allowed via network policies",
+  "description": "You should not expose infrastructure to the public internet except where explicitly required",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Exposure of infrastructure to the public internet",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "kubernetes-network-no-public-ingress"
+      ]
+    }
+  }
+}

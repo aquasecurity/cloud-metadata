@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0029",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Ensure that the expiration date is set on all keys",
+  "description": "Expiration Date is an optional Key Vault Key behavior and is not set by default.\n\nSet when the resource will be become inactive.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Long life keys increase the attack surface when compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/powershell/module/az.keyvault/update-azkeyvaultkey?view=azps-5.8.0#example-1--modify-a-key-to-enable-it--and-set-the-expiration-date-and-tags"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-keyvault-ensure-key-expiry"
+      ]
+    }
+  }
+}

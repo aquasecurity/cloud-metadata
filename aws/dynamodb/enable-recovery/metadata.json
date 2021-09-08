@@ -14,6 +14,7 @@
       }
     ],
     "apis": ["DynamoDB:listTables", "DynamoDB:describeContinuousBackups", "STS:getCallerIdentity"],
+
     "refs": {
       "cfsec": [
         "aws-dynamodb-enable-recovery"

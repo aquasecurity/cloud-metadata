@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0001",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "BigQuery datasets should only be accessible within the organisation",
+  "description": "Using 'allAuthenticatedUsers' provides any GCP user - even those outside of your organisation - access to your BigQuery dataset.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Exposure of sensitive data to the public iniernet",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-bigquery-no-public-access"
+      ]
+    }
+  }
+}

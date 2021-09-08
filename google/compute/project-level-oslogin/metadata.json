@@ -1,0 +1,20 @@
+{
+  "id": "AVD-GCP-0017",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "OS Login should be enabled at project level",
+  "description": "OS Login automatically revokes the relevant SSH keys when an IAM user has their access revoked.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Access via SSH key cannot be revoked automatically when an IAM user is removed.",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "google-compute-project-level-oslogin"
+      ]
+    }
+  }
+}

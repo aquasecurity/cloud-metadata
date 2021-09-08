@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0045",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Unencrypted Elasticache Replication Group.",
+  "description": "You should ensure your Elasticache data is encrypted at rest to help prevent sensitive information from being read by unauthorised users.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Data in the replication group could be readable if compromised",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/at-rest-encryption.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-elastic-search-encrypt-replication-group"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-elastic-search-encrypt-replication-group"
+      ]
+    }
+  }
+}

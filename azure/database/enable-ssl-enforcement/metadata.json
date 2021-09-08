@@ -1,0 +1,20 @@
+{
+  "id": "AVD-AZU-0017",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "SSL should be enforced on database connections where applicable",
+  "description": "SSL connections should be enforced were available to ensure secure transfer and reduce the risk of compromising data in flight.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Insecure connections could lead to data loss and other vulnerabilities",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-database-enable-ssl-enforcement"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "AVD-AZU-0048",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "The default action on Storage account network rules should be set to deny",
+  "description": "The default_action for network rules should come into effect when no other rules are matched.\n\nThe default action should be set to Deny.",
+  "custom": {
+    "severity": "CRITICAL",
+    "possibleImpact": "Network rules that allow could cause data to be exposed publicly",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.microsoft.com/en-us/azure/firewall/rule-processing"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-storage-default-action-deny"
+      ]
+    }
+  }
+}

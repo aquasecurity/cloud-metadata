@@ -1,0 +1,20 @@
+{
+  "id": "AVD-AZU-0008",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Password authentication should be disabled on Azure virtual machines",
+  "description": "Access to virtual machines should be authenticated using SSH keys. Removing the option of password authentication enforces more secure methods while removing the risks inherent with passwords.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Using password authentication is less secure that ssh keys may result in compromised servers",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "azure-compute-disable-password-authentication"
+      ]
+    }
+  }
+}

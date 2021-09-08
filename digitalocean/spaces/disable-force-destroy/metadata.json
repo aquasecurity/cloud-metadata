@@ -1,0 +1,20 @@
+{
+  "id": "AVD-DIG-0006",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "Force destroy is enabled on Spaces bucket which is dangerous",
+  "description": "Enabling force destroy on a Spaces bucket means that the bucket can be deleted without the additional check that it is empty. This risks important data being accidentally deleted by a bucket removal process.",
+  "custom": {
+    "severity": "MEDIUM",
+    "possibleImpact": "Accidental deletion of bucket objects",
+    "references": null,
+    "apis": [],
+    "refs": {
+      "cfsec": [],
+      "cspm": [],
+      "tfsec": [
+        "digitalocean-spaces-disable-force-destroy"
+      ]
+    }
+  }
+}

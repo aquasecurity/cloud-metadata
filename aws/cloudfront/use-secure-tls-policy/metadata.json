@@ -1,0 +1,27 @@
+{
+  "id": "AVD-AWS-0013",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "CloudFront distribution uses outdated SSL/TLS protocols.",
+  "description": "You should not use outdated/insecure TLS versions for encryption. You should be using TLS v1.2+.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Outdated SSL policies increase exposure to known vulnerabilities",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
+      }
+    ],
+    "apis": [],
+    "refs": {
+      "cfsec": [
+        "aws-cloudfront-use-secure-tls-policy"
+      ],
+      "cspm": [],
+      "tfsec": [
+        "aws-cloudfront-use-secure-tls-policy"
+      ]
+    }
+  }
+}
