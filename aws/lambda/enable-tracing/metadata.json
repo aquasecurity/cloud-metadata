@@ -13,7 +13,12 @@
       "cfsec": [
         "aws-lambda-enable-tracing"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-lambda-enable-tracing"
       ]

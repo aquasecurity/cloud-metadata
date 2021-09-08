@@ -13,7 +13,12 @@
       "cfsec": [
         "aws-api-gateway-enable-cache-encryption"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-api-gateway-enable-cache-encryption"
       ]

@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-vpc-no-default-vpc"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-vpc-no-default-vpc"
       ]

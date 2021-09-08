@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-s3-specify-public-access-block"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-s3-specify-public-access-block"
       ]

@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-ssm-secret-use-customer-key"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-ssm-secret-use-customer-key"
       ]

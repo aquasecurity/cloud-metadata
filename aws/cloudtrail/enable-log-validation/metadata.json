@@ -10,17 +10,21 @@
     "references": [
       {
         "title": "Protecting AWS CloudTrail logs",
-        "url":"https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html"
+        "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html"
       }
-
     ],
-    "apis": ["CloudTrail:describeTrails"],
+    "apis": [
+      "CloudTrail:describeTrails"
+    ],
     "refs": {
       "cfsec": [
         "aws-cloudtrail-enable-log-validation"
       ],
       "cspm": [
-        "cloudtrail/cloudtrailFileValidation"
+        {
+          "id": 242,
+          "name": "cloudtrail/cloudtrailFileValidation"
+        }
       ],
       "tfsec": [
         "aws-cloudtrail-enable-log-validation"

@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-efs-enable-at-rest-encryption"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-efs-enable-at-rest-encryption"
       ]

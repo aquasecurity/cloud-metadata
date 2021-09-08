@@ -13,13 +13,18 @@
         "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/EncryptionAtRest.html"
       }
     ],
-    "apis": ["DynamoDB:updateTable"],
+    "apis": [
+      "DynamoDB:updateTable"
+    ],
     "refs": {
       "cfsec": [
         "aws-dynamodb-table-customer-key"
       ],
       "cspm": [
-        "dynamodb/dynamoKmsEncryption"
+        {
+          "id": 343,
+          "name": "dynamodb/dynamoKmsEncryption"
+        }
       ],
       "tfsec": [
         "aws-dynamodb-table-customer-key"

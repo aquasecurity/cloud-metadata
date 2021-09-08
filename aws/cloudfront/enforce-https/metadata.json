@@ -13,13 +13,19 @@
         "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-cloudfront-to-s3-origin.html"
       }
     ],
-    "apis": ["CloudFront:listDistributions", "CloudFront:getDistribution"],
+    "apis": [
+      "CloudFront:listDistributions",
+      "CloudFront:getDistribution"
+    ],
     "refs": {
       "cfsec": [
         "aws-cloudfront-enforce-https"
       ],
       "cspm": [
-        "cloudfront/cloudfrontHttpsOnly"
+        {
+          "id": 293,
+          "name": "cloudfront/cloudfrontHttpsOnly"
+        }
       ],
       "tfsec": [
         "aws-cloudfront-enforce-https"

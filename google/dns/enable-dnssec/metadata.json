@@ -11,7 +11,12 @@
     "apis": [],
     "refs": {
       "cfsec": [],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "google-dns-enable-dnssec"
       ]

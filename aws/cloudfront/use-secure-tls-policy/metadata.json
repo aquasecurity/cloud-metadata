@@ -21,7 +21,10 @@
         "aws-cloudfront-use-secure-tls-policy"
       ],
       "cspm": [
-        "cloudfront/insecureProtocols"
+        {
+          "id": 289,
+          "name": "cloudfront/insecureProtocols"
+        }
       ],
       "tfsec": [
         "aws-cloudfront-use-secure-tls-policy"

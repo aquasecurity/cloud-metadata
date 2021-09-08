@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-redshift-non-default-vpc-deployment"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-redshift-non-default-vpc-deployment"
       ]

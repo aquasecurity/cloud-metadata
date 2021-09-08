@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-ecr-enable-image-scans"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-ecr-enable-image-scans"
       ]

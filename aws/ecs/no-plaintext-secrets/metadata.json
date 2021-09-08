@@ -22,7 +22,12 @@
       "cfsec": [
         "aws-ecs-no-plaintext-secrets"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-ecs-no-plaintext-secrets"
       ]

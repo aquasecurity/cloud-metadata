@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-api-gateway-use-secure-tls-policy"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-api-gateway-use-secure-tls-policy"
       ]

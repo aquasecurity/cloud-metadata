@@ -13,7 +13,12 @@
       "cfsec": [
         "aws-vpc-no-public-ingress-sg"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-vpc-no-public-ingress-sg"
       ]

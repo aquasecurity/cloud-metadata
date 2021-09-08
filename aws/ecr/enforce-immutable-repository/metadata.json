@@ -18,7 +18,12 @@
       "cfsec": [
         "aws-ecr-enforce-immutable-repository"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-ecr-enforce-immutable-repository"
       ]

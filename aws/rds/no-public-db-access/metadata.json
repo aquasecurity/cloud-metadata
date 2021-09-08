@@ -13,7 +13,12 @@
       "cfsec": [
         "aws-rds-no-public-db-access"
       ],
-      "cspm": [],
+      "cspm": [
+        {
+          "id": -1,
+          "name": "TODO-CSPM-PLUGIN-NAME"
+        }
+      ],
       "tfsec": [
         "aws-rds-no-public-db-access"
       ]
