@@ -17,7 +17,7 @@
 				"aws-api-gateway-enable-access-logging"
 			],
 			"cspm": [{
-				"id": -1,
+				"id": 935,
 				"name": "apigateway/apigatewayCloudwatchLogs"
 			}],
 			"tfsec": [
