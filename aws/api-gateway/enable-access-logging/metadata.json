@@ -1,32 +1,28 @@
 {
-  "id": "AVD-AWS-0001",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "API Gateway stages for V1 and V2 should have access logging enabled",
-  "description": "API Gateway stages should have access log settings block configured to track all access to a particular stage. This should be applied to both v1 and v2 gateway stages.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Logging provides vital information about access and usage",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html"
-      }
-    ],
-    "apis": [],
-    "refs": {
-      "cfsec": [
-        "aws-api-gateway-enable-access-logging"
-      ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
-      "tfsec": [
-        "aws-api-gateway-enable-access-logging"
-      ]
-    }
-  }
+	"id": "AVD-AWS-0001",
+	"apiVersion": 2,
+	"version": 1,
+	"title": "API Gateway stages for V1 and V2 should have access logging enabled",
+	"description": "API Gateway stages should have access log settings block configured to track all access to a particular stage. This should be applied to both v1 and v2 gateway stages.",
+	"custom": {
+		"severity": "MEDIUM",
+		"possibleImpact": "Logging provides vital information about access and usage",
+		"references": [{
+			"title": "Setting up CloudWatch logging for a REST API in API Gateway",
+			"url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html"
+		}],
+		"apis": ["APIGateway:getRestApis", "APIGateway:getStages"],
+		"refs": {
+			"cfsec": [
+				"aws-api-gateway-enable-access-logging"
+			],
+			"cspm": [{
+				"id": -1,
+				"name": "apigateway/apigatewayCloudwatchLogs"
+			}],
+			"tfsec": [
+				"aws-api-gateway-enable-access-logging"
+			]
+		}
+	}
 }

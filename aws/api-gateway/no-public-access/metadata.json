@@ -7,8 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "API gateway methods can be unauthorized accessed",
-    "references": [],
-    "apis": [],
+    "references": [{
+			"title": "Introducing Amazon API Gateway Private Endpoints",
+			"url": "https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-private-endpoints"
+		}],
+    "apis": ["APIGateway:getRestApis"],
     "refs": {
       "cfsec": [
         "aws-api-gateway-no-public-access"
@@ -16,7 +19,7 @@
       "cspm": [
         {
           "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "name": "apigateway/apigatewayPrivateEndpoint"
         }
       ],
       "tfsec": [

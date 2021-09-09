@@ -7,8 +7,11 @@
   "custom": {
     "severity": "LOW",
     "possibleImpact": "WIthout full tracing enabled it is difficult to trace the flow of logs",
-    "references": [],
-    "apis": [],
+    "references": [{
+			"title": "Amazon API Gateway active tracing support for AWS X-Ray",
+			"url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-services-apigateway.html"
+		}],
+    "apis": ["APIGateway:getRestApis", "APIGateway:getStages"],
     "refs": {
       "cfsec": [
         "aws-api-gateway-enable-tracing"
@@ -16,7 +19,7 @@
       "cspm": [
         {
           "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "name": "apigateway/apigatewayTracingEnabled"
         }
       ],
       "tfsec": [
