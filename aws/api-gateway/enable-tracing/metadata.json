@@ -11,14 +11,13 @@
 			"title": "Amazon API Gateway active tracing support for AWS X-Ray",
 			"url": "https://docs.aws.amazon.com/xray/latest/devguide/xray-services-apigateway.html"
 		}],
-    "apis": ["APIGateway:getRestApis", "APIGateway:getStages"],
     "refs": {
       "cfsec": [
         "aws-api-gateway-enable-tracing"
       ],
       "cspm": [
         {
-          "id": -894,
+          "id": 894,
           "name": "apigateway/apigatewayTracingEnabled"
         }
       ],
