@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Mutual TLS is not being used",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

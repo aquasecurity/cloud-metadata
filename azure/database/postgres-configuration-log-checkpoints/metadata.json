@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/postgresql/concepts-server-logs#configure-logging"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

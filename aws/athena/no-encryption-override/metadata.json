@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/athena/latest/ug/manage-queries-control-costs-with-workgroups.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-athena-no-encryption-override"
       ],

@@ -8,8 +8,7 @@
     "severity": "HIGH",
     "possibleImpact": "Exposure is greater if the same keys are used over a long period",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

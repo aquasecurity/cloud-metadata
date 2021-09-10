@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-vpc-no-public-ingress-sgr"
       ],

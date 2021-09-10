@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Nodes may be exposed to the public internet",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

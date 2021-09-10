@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-config-aggregate-all-regions"
       ],

@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "API gateway methods can be unauthorized accessed",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-api-gateway-no-public-access"
       ],

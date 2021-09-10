@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/athena/latest/ug/encryption.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-athena-enable-at-rest-encryption"
       ],

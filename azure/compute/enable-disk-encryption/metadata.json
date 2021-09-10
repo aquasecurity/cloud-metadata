@@ -3,7 +3,7 @@
   "apiVersion": 2,
   "version": 1,
   "title": "Enable disk encryption on managed disk",
-  "description": "Manage disks should be encrypted at rest. When specifying the \u003ccode\u003eencryption_settings\u003c/code\u003e block, the enabled attribute should be set to \u003ccode\u003etrue\u003c/code\u003e.",
+  "description": "Manage disks should be encrypted at rest. When specifying the encryption_settings block, the enabled attribute should be set to true.",
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Data could be read if compromised",
@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/disk-encryption"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

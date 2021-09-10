@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/managing-clusters-vpc.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-redshift-non-default-vpc-deployment"
       ],

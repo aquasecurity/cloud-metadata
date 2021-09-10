@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/in-transit-encryption.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-elasticache-enable-in-transit-encryption"
       ],

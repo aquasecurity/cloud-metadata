@@ -17,8 +17,7 @@
         "url": "https://www.vaultproject.io/"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-ecs-no-plaintext-secrets"
       ],

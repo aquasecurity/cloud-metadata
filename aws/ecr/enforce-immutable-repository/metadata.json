@@ -3,7 +3,7 @@
   "apiVersion": 2,
   "version": 1,
   "title": "ECR images tags shouldn't be mutable.",
-  "description": "ECR images should be set to IMMUTABLE to prevent code injection through image mutation.\n\nThis can be done by setting \u003ccode\u003eimage_tab_mutability\u003c/code\u003e to \u003ccode\u003eIMMUTABLE\u003c/code\u003e",
+  "description": "ECR images should be set to IMMUTABLE to prevent code injection through image mutation.\n\nThis can be done by setting image_tab_mutability to IMMUTABLE",
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Image tags could be overwritten with compromised images",
@@ -13,8 +13,7 @@
         "url": "https://sysdig.com/blog/toctou-tag-mutability/"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-ecr-enforce-immutable-repository"
       ],

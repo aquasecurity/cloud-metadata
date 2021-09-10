@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Anonymous HTTP requests will be accepted",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

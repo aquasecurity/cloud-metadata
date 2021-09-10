@@ -13,14 +13,7 @@
         "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html"
       }
     ],
-    "apis": [
-      "EC2:getEbsEncryptionByDefault",
-      "EC2:getEbsDefaultKmsKeyId",
-      "KMS:describeKey",
-      "KMS:listKeys",
-      "KMS:listAliases"
-    ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-ebs-enable-volume-encryption"
       ],

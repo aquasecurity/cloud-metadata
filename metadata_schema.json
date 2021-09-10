@@ -73,15 +73,7 @@
                         }
                     ]
                 },
-                "apis": {
-                    "type": "array",
-                    "items": [
-                        {
-                            "type": "string"
-                        }
-                    ]
-                },
-                "refs": {
+                "externalToolIds": {
                     "type": "object",
                     "properties": {
                         "cfsec": {
@@ -127,8 +119,7 @@
                 "severity",
                 "possibleImpact",
                 "references",
-                "apis",
-                "refs"
+                "externalToolIds"
             ]
         }
     },

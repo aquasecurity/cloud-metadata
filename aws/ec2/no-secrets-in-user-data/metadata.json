@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-ec2-no-secrets-in-user-data"
       ],

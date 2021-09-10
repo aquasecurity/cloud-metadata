@@ -14,6 +14,44 @@ A [GitHub action](.github/workflows/validate_metadata.yaml) will run on each PR 
 
 ### Metadata json
 
+Metadata files define the common information about rules; description, impact, severity and links to the external tools ids (tfsec, cspm, cfsec)
+
+An example metadata.json
+
+```json
+{
+  "id": "AVD-AWS-0028",
+  "apiVersion": 2,
+  "version": 1,
+  "title": "aws_instance should activate session tokens for Instance Metadata Service.",
+  "description": "IMDS v2 (Instance Metadata Service) introduced session authentication tokens which improve security when talking to IMDS.\nBy default eaws_instance resource sets IMDS session auth tokens to be optional. \nTo fully protect IMDS you need to enable session tokens by using metadata_options block and its http_tokens variable set to required.",
+  "custom": {
+    "severity": "HIGH",
+    "possibleImpact": "Instance metadata service can be interacted with freely",
+    "references": [
+      {
+        "title": "title",
+        "url": "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service"
+      }
+    ],
+    "externalToolIds": {
+      "cfsec": [
+        "aws-ec2-enforce-http-token-imds"
+      ],
+      "cspm": [
+        {
+          "id": 692,
+          "name": "ec2/ec2MetadataOptions"
+        }
+      ],
+      "tfsec": [
+        "aws-ec2-enforce-http-token-imds"
+      ]
+    }
+  }
+}
+```
+
 The `metadata.json` file for each rule should match the following schema
 
 Type: `object`
@@ -82,13 +120,6 @@ Type: `object`
 					 - <b id="#/properties/custom/properties/references/items/properties/url">url</b> `required`
 						 - Type: `string`
 						 - <i id="#/properties/custom/properties/references/items/properties/url">path: #/properties/custom/properties/references/items/properties/url</i>
-			 - 
-		 - <b id="#/properties/custom/properties/apis">apis</b> `required`
-			 - Type: `array`
-			 - <i id="#/properties/custom/properties/apis">path: #/properties/custom/properties/apis</i>
-				 - **_Items_**
-				 - Type: `string`
-				 - <i id="#/properties/custom/properties/apis/items">path: #/properties/custom/properties/apis/items</i>
 			 - 
 		 - <b id="#/properties/custom/properties/refs">refs</b> `required`
 			 - Type: `object`

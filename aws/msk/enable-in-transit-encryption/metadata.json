@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/msk/latest/developerguide/msk-encryption.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-msk-enable-in-transit-encryption"
       ],

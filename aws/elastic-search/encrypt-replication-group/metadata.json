@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/at-rest-encryption.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-elastic-search-encrypt-replication-group"
       ],

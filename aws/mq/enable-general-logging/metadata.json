@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Without logging it is difficult to trace issues",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-mq-enable-general-logging"
       ],

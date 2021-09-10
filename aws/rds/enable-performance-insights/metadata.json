@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.htm"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-rds-enable-performance-insights"
       ],

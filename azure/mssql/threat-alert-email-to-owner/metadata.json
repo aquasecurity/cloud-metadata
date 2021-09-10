@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Administrators and subscription owners may have a delayed response",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

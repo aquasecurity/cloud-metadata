@@ -17,8 +17,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-vnet"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

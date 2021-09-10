@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Outdated TLS policies increase exposure to known issues",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Limited visibility of audit trail for changes to the DocumentDB",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-documentdb-enable-log-export"
       ],

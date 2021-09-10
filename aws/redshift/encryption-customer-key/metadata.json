@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-db-encryption.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-redshift-encryption-customer-key"
       ],

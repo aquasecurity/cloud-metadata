@@ -17,8 +17,7 @@
         "url": "https://cloud.google.com/resource-manager/reference/rest/v1/projects/setIamPolicy"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

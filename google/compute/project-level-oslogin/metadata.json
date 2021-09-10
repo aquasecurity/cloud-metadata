@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Access via SSH key cannot be revoked automatically when an IAM user is removed.",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

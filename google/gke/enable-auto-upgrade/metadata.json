@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Nodes will need the cluster master version manually updating",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

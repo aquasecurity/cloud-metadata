@@ -13,8 +13,7 @@
         "url": "https://postgresqlco.nf/doc/en/param/log_temp_files/"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

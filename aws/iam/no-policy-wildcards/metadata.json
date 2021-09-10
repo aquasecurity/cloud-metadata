@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-iam-no-policy-wildcards"
       ],

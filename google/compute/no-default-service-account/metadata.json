@@ -8,8 +8,7 @@
     "severity": "CRITICAL",
     "possibleImpact": "Instance has full access to the project",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

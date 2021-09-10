@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-vpc-no-public-ingress"
       ],

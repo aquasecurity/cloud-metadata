@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/backups-automatic.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-elasticache-enable-backup-retention"
       ],

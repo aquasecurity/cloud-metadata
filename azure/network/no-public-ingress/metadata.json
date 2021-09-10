@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/security/fundamentals/network-best-practices"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

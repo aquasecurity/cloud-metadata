@@ -8,8 +8,7 @@
     "severity": "HIGH",
     "possibleImpact": "Instance can send/receive packets without the explicit instance address",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

@@ -18,7 +18,7 @@
       "KMS:describeKey",
       "KMS:listKeys"
     ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-ebs-encryption-customer-key"
       ],

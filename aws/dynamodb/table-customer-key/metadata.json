@@ -16,7 +16,7 @@
     "apis": [
       "DynamoDB:updateTable"
     ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-dynamodb-table-customer-key"
       ],
