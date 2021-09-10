@@ -12,12 +12,7 @@
       "cfsec": [
         "aws-launch-no-sensitive-info"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-launch-no-sensitive-info"
       ]

@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-ecs-enable-container-insight"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-ecs-enable-container-insight"
       ]

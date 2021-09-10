@@ -12,8 +12,8 @@
       "cfsec": [],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 418,
+          "name": "appservice/clientCertEnabled"
         }
       ],
       "tfsec": [

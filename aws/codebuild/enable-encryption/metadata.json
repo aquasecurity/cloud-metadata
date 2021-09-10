@@ -21,12 +21,7 @@
       "cfsec": [
         "aws-codebuild-enable-encryption"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-codebuild-enable-encryption"
       ]

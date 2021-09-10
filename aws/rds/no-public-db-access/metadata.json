@@ -14,8 +14,8 @@
       ],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 239,
+          "name": "rds/rdsPubliclyAccessible"
         }
       ],
       "tfsec": [

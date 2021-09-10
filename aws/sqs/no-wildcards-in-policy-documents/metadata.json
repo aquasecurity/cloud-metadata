@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-sqs-no-wildcards-in-policy-documents"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-sqs-no-wildcards-in-policy-documents"
       ]

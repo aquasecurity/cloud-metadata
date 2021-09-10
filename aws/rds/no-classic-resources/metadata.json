@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-rds-no-classic-resources"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-rds-no-classic-resources"
       ]

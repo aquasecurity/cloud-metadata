@@ -12,12 +12,7 @@
       "cfsec": [
         "aws-neptune-enable-storage-encryption"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-neptune-enable-storage-encryption"
       ]

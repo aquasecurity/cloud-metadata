@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-misc-no-exposing-plaintext-credentials"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-misc-no-exposing-plaintext-credentials"
       ]

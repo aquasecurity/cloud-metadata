@@ -17,8 +17,16 @@
       "cfsec": [],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 596,
+          "name": "sqldatabases/dbAuditingEnabled"
+        },
+        {
+          "id": 625,
+          "name": "sqlserver/auditActionGroupsEnabled"
+        },
+        {
+          "id": 626,
+          "name": "sqlserver/serverAuditingEnabled"
         }
       ],
       "tfsec": [

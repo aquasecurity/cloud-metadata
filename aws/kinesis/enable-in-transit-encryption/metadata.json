@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-kinesis-enable-in-transit-encryption"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-kinesis-enable-in-transit-encryption"
       ]

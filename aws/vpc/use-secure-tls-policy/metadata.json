@@ -12,12 +12,7 @@
       "cfsec": [
         "aws-vpc-use-secure-tls-policy"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-vpc-use-secure-tls-policy"
       ]

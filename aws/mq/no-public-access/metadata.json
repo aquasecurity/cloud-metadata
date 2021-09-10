@@ -12,12 +12,7 @@
       "cfsec": [
         "aws-mq-no-public-access"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-mq-no-public-access"
       ]
