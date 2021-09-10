@@ -3,7 +3,7 @@
   "apiVersion": 2,
   "version": 1,
   "title": "aws_instance should activate session tokens for Instance Metadata Service.",
-  "description": "IMDS v2 (Instance Metadata Service) introduced session authentication tokens which improve security when talking to IMDS.\nBy default \u003ccode\u003eaws_instance\u003c/code\u003e resource sets IMDS session auth tokens to be optional. \nTo fully protect IMDS you need to enable session tokens by using \u003ccode\u003emetadata_options\u003c/code\u003e block and its \u003ccode\u003ehttp_tokens\u003c/code\u003e variable set to \u003ccode\u003erequired\u003c/code\u003e.",
+  "description": "IMDS v2 (Instance Metadata Service) introduced session authentication tokens which improve security when talking to IMDS.\nBy default aws_instance resource sets IMDS session auth tokens to be optional. \nTo fully protect IMDS you need to enable session tokens by using metadata_options block and its http_tokens variable set to required.",
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Instance metadata service can be interacted with freely",
@@ -13,10 +13,7 @@
         "url": "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service"
       }
     ],
-    "apis": [
-      "EC2:describeInstances"
-    ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-ec2-enforce-http-token-imds"
       ],

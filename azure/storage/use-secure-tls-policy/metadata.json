@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/storage/common/transport-layer-security-configure-minimum-version"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

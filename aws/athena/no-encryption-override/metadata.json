@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/athena/latest/ug/workgroups-settings.html"
       }
     ],
-    "apis":  ["Athena:listWorkGroups", "Athena:getWorkGroup", "STS:getCallerIdentity"],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-athena-no-encryption-override"
       ],

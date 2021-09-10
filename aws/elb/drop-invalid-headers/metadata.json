@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancers.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-elb-drop-invalid-headers"
       ],

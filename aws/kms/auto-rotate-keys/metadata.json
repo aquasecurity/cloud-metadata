@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-kms-auto-rotate-keys"
       ],

@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview#purge-protection"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

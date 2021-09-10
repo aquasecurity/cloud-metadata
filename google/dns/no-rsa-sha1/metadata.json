@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Less secure encryption algorithm than others available",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

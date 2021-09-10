@@ -11,7 +11,7 @@
 			"title": "Setting up CloudWatch logging for a REST API in API Gateway",
 			"url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html"
 		}],
-		"refs": {
+		"externalToolIds": {
 			"cfsec": [
 				"aws-api-gateway-enable-access-logging"
 			],

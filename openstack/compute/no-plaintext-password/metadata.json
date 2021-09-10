@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Including a plaintext password could lead to compromised instance",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

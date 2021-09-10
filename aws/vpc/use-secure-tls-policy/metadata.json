@@ -8,8 +8,7 @@
     "severity": "CRITICAL",
     "possibleImpact": "The SSL policy is outdated and has known vulnerabilities",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-vpc-use-secure-tls-policy"
       ],

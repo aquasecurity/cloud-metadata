@@ -13,8 +13,7 @@
         "url": "https://cloud.google.com/compute/docs/disks/customer-supplied-encryption"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

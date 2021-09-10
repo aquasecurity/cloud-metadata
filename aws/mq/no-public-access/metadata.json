@@ -8,8 +8,7 @@
     "severity": "HIGH",
     "possibleImpact": "Publicly accessible MQ Broker may be vulnerable to compromise",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-mq-no-public-access"
       ],

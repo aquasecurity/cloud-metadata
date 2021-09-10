@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging?tabs=dotnet"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

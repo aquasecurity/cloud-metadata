@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Outdated versions of HTTP has security vulnerabilities",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

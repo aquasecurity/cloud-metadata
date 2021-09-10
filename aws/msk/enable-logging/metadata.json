@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Without logging it is difficult to trace issues",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-msk-enable-logging"
       ],

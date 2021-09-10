@@ -20,7 +20,7 @@
     "apis": [
       "DAX:describeClusters"
     ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-dynamodb-enable-at-rest-encryption"
       ],

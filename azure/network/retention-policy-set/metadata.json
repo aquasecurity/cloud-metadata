@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-custom-domain-tls-version.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-api-gateway-use-secure-tls-policy"
       ],

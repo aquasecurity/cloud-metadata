@@ -3,7 +3,7 @@
   "apiVersion": 2,
   "version": 1,
   "title": "Encrypted compute disk with unmanaged keys.",
-  "description": "By default, Compute Engine encrypts all data at rest. Compute Engine handles and manages this encryption for you without any additional actions on your part.\n\nIf the \u003ccode\u003edisk_encryption_key\u003c/code\u003e block is included in the resource declaration then it *must* include a \u003ccode\u003eraw_key\u003c/code\u003e or \u003ccode\u003ekms_key_self_link\u003c/code\u003e.",
+  "description": "By default, Compute Engine encrypts all data at rest. Compute Engine handles and manages this encryption for you without any additional actions on your part.\n\nIf the disk_encryption_key block is included in the resource declaration then it *must* include a raw_key or kms_key_self_link.",
   "custom": {
     "severity": "HIGH",
     "possibleImpact": "Encryption of disk using unmanaged keys.",
@@ -13,8 +13,7 @@
         "url": "https://cloud.google.com/compute/docs/disks/customer-supplied-encryption"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

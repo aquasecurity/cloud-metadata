@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/eks/latest/userguide/control-plane-logs.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-eks-enable-control-plane-logging"
       ],

@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/eks/latest/userguide/create-public-private-vpc.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-eks-no-public-cluster-access-to-cidr"
       ],

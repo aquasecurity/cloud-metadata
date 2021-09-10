@@ -11,8 +11,7 @@
 			"title": "Amazon EC2 instance root device volume",
 			"url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html"
 		}],
-		"apis": [],
-		"refs": {
+    "externalToolIds": {
 			"cfsec": [
 				"aws-autoscaling-enable-at-rest-encryption"
 			],

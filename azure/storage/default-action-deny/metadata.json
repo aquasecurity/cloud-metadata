@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/firewall/rule-processing"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

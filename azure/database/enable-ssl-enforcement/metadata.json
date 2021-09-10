@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Insecure connections could lead to data loss and other vulnerabilities",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

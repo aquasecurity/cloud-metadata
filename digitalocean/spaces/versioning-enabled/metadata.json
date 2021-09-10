@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

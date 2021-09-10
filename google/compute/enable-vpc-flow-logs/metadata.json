@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Limited auditing capability and awareness",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/sns/latest/dg/sns-server-side-encryption.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-sns-enable-topic-encryption"
       ],

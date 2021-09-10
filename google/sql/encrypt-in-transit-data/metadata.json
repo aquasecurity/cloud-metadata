@@ -13,8 +13,7 @@
         "url": "https://cloud.google.com/sql/docs/mysql/configure-ssl-instance"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

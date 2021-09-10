@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-classic-platform.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-rds-no-classic-resources"
       ],

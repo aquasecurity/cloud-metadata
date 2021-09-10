@@ -16,7 +16,7 @@
     "apis": [
       "CloudTrail:describeTrails"
     ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-cloudtrail-enable-at-rest-encryption"
       ],

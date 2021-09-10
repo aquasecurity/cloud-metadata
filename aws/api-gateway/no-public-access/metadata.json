@@ -11,7 +11,7 @@
 			"title": "Introducing Amazon API Gateway Private Endpoints",
 			"url": "https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-private-endpoints"
 		}],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-api-gateway-no-public-access"
       ],

@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Interaction between services can't easily be achieved without username/password",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {
