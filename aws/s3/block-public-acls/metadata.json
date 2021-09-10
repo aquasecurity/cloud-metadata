@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-s3-block-public-acls"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-s3-block-public-acls"
       ]

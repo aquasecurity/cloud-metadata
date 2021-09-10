@@ -12,12 +12,7 @@
       "cfsec": [
         "aws-elbv2-alb-not-public"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-elbv2-alb-not-public"
       ]

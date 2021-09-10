@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-elasticache-enable-backup-retention"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-elasticache-enable-backup-retention"
       ]

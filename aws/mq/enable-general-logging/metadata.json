@@ -12,12 +12,7 @@
       "cfsec": [
         "aws-mq-enable-general-logging"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-mq-enable-general-logging"
       ]

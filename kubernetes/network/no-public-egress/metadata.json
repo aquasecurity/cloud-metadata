@@ -10,12 +10,7 @@
     "references": [],
     "externalToolIds": {
       "cfsec": [],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "kubernetes-network-no-public-egress"
       ]

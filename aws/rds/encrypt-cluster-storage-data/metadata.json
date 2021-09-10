@@ -19,8 +19,8 @@
       ],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 237,
+          "name": "rds/rdsEncryptionEnabled"
         }
       ],
       "tfsec": [

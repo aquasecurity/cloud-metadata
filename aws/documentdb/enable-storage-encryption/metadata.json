@@ -12,12 +12,7 @@
       "cfsec": [
         "aws-documentdb-enable-storage-encryption"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-documentdb-enable-storage-encryption"
       ]

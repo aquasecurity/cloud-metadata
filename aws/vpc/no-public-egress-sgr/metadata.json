@@ -12,12 +12,7 @@
       "cfsec": [
         "aws-vpc-no-public-egress-sgr"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-vpc-no-public-egress-sgr"
       ]

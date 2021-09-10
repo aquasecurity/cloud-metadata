@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-eks-encrypt-secrets"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-eks-encrypt-secrets"
       ]

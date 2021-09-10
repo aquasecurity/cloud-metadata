@@ -21,12 +21,7 @@
       "cfsec": [
         "aws-ecs-enable-in-transit-encryption"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-ecs-enable-in-transit-encryption"
       ]

@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-redshift-encryption-customer-key"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-redshift-encryption-customer-key"
       ]

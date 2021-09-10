@@ -18,7 +18,7 @@
       "cspm": [
         {
           "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "name": "sql/dbPubliclyAccessible"
         }
       ],
       "tfsec": [

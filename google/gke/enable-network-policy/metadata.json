@@ -12,8 +12,8 @@
       "cfsec": [],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 706,
+          "name": "kubernetes/networkPolicyEnabled"
         }
       ],
       "tfsec": [

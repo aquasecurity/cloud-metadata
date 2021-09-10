@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-iam-block-kms-policy-wildcard"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-iam-block-kms-policy-wildcard"
       ]

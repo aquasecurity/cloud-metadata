@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-elastic-search-use-secure-tls-policy"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-elastic-search-use-secure-tls-policy"
       ]

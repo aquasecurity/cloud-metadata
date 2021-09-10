@@ -17,8 +17,8 @@
       "cfsec": [],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 584,
+          "name": "securitycenter/securityContactsEnabled"
         }
       ],
       "tfsec": [

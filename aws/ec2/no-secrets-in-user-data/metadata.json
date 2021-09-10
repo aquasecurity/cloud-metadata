@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-ec2-no-secrets-in-user-data"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-ec2-no-secrets-in-user-data"
       ]

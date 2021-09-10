@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-elb-drop-invalid-headers"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-elb-drop-invalid-headers"
       ]

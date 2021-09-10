@@ -17,8 +17,20 @@
       "cfsec": [],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 414,
+          "name": "networksecuritygroups/openSQLServer"
+        },
+        {
+          "id": 411,
+          "name": "networksecuritygroups/openPostgreSQL"
+        },
+        {
+          "id": 623,
+          "name": "networksecuritygroups/openOracleAutoDataWarehouse"
+        },
+        {
+          "id": 409,
+          "name": "networksecuritygroups/openMySQL"
         }
       ],
       "tfsec": [

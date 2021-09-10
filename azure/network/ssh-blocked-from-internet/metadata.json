@@ -12,8 +12,8 @@
       "cfsec": [],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": -402,
+          "name": "networksecuritygroups/openSSH"
         }
       ],
       "tfsec": [

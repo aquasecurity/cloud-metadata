@@ -17,12 +17,7 @@
       "cfsec": [
         "aws-redshift-add-description-to-security-group"
       ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "aws-redshift-add-description-to-security-group"
       ]

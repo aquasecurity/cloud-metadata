@@ -19,12 +19,7 @@
     ],
     "externalToolIds": {
       "cfsec": [],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
+      "cspm": [],
       "tfsec": [
         "google-sql-pg-log-errors"
       ]
