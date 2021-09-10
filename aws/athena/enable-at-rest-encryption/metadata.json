@@ -9,7 +9,7 @@
     "possibleImpact": "Data can be read if the Athena Database is compromised",
     "references": [
       {
-        "title": "title",
+        "title": "Encryption at Rest",
         "url": "https://docs.aws.amazon.com/athena/latest/ug/encryption.html"
       }
     ],
@@ -19,8 +19,8 @@
       ],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 394,
+          "name": "athena/workgroupEncrypted"
         }
       ],
       "tfsec": [

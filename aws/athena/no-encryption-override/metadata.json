@@ -9,8 +9,8 @@
     "possibleImpact": "Clients can ignore encryption requirements",
     "references": [
       {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/athena/latest/ug/manage-queries-control-costs-with-workgroups.html"
+        "title": "Workgroup Settings",
+        "url": "https://docs.aws.amazon.com/athena/latest/ug/workgroups-settings.html"
       }
     ],
     "externalToolIds": {
@@ -19,8 +19,8 @@
       ],
       "cspm": [
         {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
+          "id": 395,
+          "name": "athena/workgroupEnforceConfiguration"
         }
       ],
       "tfsec": [

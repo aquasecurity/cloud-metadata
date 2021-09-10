@@ -9,19 +9,13 @@
     "possibleImpact": "The instance or configuration is publicly accessible",
     "references": [
       {
-        "title": "title",
+        "title": "Amazon EC2 instance IP addressing",
         "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html"
       }
     ],
     "externalToolIds": {
       "cfsec": [
         "aws-autoscaling-no-public-ip"
-      ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
       ],
       "tfsec": [
         "aws-autoscaling-no-public-ip"

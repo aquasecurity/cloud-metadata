@@ -1,31 +1,23 @@
 {
-  "id": "AVD-AWS-0008",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Launch configuration with unencrypted block device.",
-  "description": "Blocks devices should be encrypted to ensure sensitive data is held securely at rest.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "The block device could be compromised and read from",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html"
-      }
-    ],
+	"id": "AVD-AWS-0008",
+	"apiVersion": 2,
+	"version": 1,
+	"title": "Launch configuration with unencrypted block device.",
+	"description": "Blocks devices should be encrypted to ensure sensitive data is held securely at rest.",
+	"custom": {
+		"severity": "HIGH",
+		"possibleImpact": "The block device could be compromised and read from",
+		"references": [{
+			"title": "Amazon EC2 instance root device volume",
+			"url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html"
+		}],
     "externalToolIds": {
-      "cfsec": [
-        "aws-autoscaling-enable-at-rest-encryption"
-      ],
-      "cspm": [
-        {
-          "id": -1,
-          "name": "TODO-CSPM-PLUGIN-NAME"
-        }
-      ],
-      "tfsec": [
-        "aws-autoscaling-enable-at-rest-encryption"
-      ]
-    }
-  }
+			"cfsec": [
+				"aws-autoscaling-enable-at-rest-encryption"
+			],
+			"tfsec": [
+				"aws-autoscaling-enable-at-rest-encryption"
+			]
+		}
+	}
 }
