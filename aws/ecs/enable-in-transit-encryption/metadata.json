@@ -17,8 +17,7 @@
         "url": "https://docs.aws.amazon.com/efs/latest/ug/encryption-in-transit.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-ecs-enable-in-transit-encryption"
       ],

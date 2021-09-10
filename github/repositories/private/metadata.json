@@ -3,7 +3,7 @@
   "apiVersion": 2,
   "version": 1,
   "title": "Github repository shouldn't be public.",
-  "description": "Github repository should be set to be private.\n\nYou can do this by either setting \u003ccode\u003eprivate\u003c/code\u003e attribute to 'true' or \u003ccode\u003evisibility\u003c/code\u003e attribute to 'internal' or 'private'.",
+  "description": "Github repository should be set to be private.\n\nYou can do this by either setting private attribute to 'true' or visibility attribute to 'internal' or 'private'.",
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "Anyone can read the contents of the GitHub repository and leak IP",
@@ -17,8 +17,7 @@
         "url": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility#about-internal-repositories"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

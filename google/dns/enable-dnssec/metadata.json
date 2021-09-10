@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Unverified DNS responses could lead to man-in-the-middle attacks",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

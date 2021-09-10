@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/data-factory/data-movement-security-considerations#hybrid-scenarios"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

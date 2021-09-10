@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-api-gateway-enable-access-logging"
       ],

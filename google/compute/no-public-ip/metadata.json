@@ -8,8 +8,7 @@
     "severity": "HIGH",
     "possibleImpact": "Direct exposure of an instance to the public internet",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

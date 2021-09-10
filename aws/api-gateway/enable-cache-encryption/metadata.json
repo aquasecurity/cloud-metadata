@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Data stored in the cache that is unencrypted may be vulnerable to compromise",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-api-gateway-enable-cache-encryption"
       ],

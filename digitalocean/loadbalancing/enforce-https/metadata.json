@@ -13,8 +13,7 @@
         "url": "https://docs.digitalocean.com/products/networking/load-balancers/"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

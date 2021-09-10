@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Descriptions provide context for the firewall rule reasons",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-elasticache-add-description-for-security-group"
       ],

@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/streams/latest/dev/server-side-encryption.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-kinesis-enable-in-transit-encryption"
       ],

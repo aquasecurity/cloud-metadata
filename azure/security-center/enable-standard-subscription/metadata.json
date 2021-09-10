@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/security-center/security-center-pricing"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

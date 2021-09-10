@@ -3,7 +3,7 @@
   "apiVersion": 2,
   "version": 1,
   "title": "S3 Bucket has an ACL defined which allows public access.",
-  "description": "S3 bucket permissions should be set to deny public access unless explicitly required.\n\nGranting write access publicly with \u003ccode\u003epublic-read-write\u003c/code\u003e is especially dangerous as you will be billed for any uploaded files.\n\nAdditionally, you should not use the \u003ccode\u003eauthenticated-read\u003c/code\u003e canned ACL, as this provides read access to any authenticated AWS user, not just AWS users within your organisation.",
+  "description": "S3 bucket permissions should be set to deny public access unless explicitly required.\n\nGranting write access publicly with public-read-write is especially dangerous as you will be billed for any uploaded files.\n\nAdditionally, you should not use the authenticated-read canned ACL, as this provides read access to any authenticated AWS user, not just AWS users within your organisation.",
   "custom": {
     "severity": "CRITICAL",
     "possibleImpact": "The contents of the bucket can be accessed publicly",
@@ -13,8 +13,7 @@
         "url": "https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-s3-no-public-access-with-acl"
       ],

@@ -13,8 +13,7 @@
         "url": "https://docs.digitalocean.com/reference/api/spaces-api/#access-control-lists-acls"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

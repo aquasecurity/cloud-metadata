@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "Using unmanaged keys does not allow for proper management",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

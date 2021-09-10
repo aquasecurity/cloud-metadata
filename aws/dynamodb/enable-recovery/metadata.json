@@ -13,12 +13,7 @@
         "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html"
       }
     ],
-    "apis": [
-      "DynamoDB:listTables",
-      "DynamoDB:describeContinuousBackups",
-      "STS:getCallerIdentity"
-    ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-dynamodb-enable-recovery"
       ],

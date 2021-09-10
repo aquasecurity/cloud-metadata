@@ -8,8 +8,7 @@
     "severity": "HIGH",
     "possibleImpact": "The minimum TLS version for apps should be TLS1_2",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

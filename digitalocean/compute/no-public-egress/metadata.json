@@ -13,8 +13,7 @@
         "url": "https://docs.digitalocean.com/products/networking/firewalls/how-to/configure-rules/"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

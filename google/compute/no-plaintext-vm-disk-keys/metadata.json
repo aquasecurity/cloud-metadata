@@ -8,8 +8,7 @@
     "severity": "HIGH",
     "possibleImpact": "Compromise of encryption keys",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

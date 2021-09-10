@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Disabling threat alerts means you are not getting the full benefit of server security protection",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

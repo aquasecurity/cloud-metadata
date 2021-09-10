@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/aks/api-server-authorized-ip-ranges"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

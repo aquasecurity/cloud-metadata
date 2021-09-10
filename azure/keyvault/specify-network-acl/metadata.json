@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/key-vault/general/network-security"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

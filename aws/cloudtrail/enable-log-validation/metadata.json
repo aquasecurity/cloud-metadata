@@ -13,10 +13,7 @@
         "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html"
       }
     ],
-    "apis": [
-      "CloudTrail:describeTrails"
-    ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-cloudtrail-enable-log-validation"
       ],

@@ -16,7 +16,7 @@
     "apis": [
       "CloudFront:listDistributions"
     ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-cloudfront-enable-waf"
       ],

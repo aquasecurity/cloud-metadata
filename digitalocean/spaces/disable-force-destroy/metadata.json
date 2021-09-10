@@ -8,8 +8,7 @@
     "severity": "MEDIUM",
     "possibleImpact": "Accidental deletion of bucket objects",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

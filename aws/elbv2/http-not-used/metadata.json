@@ -13,8 +13,7 @@
         "url": "https://www.cloudflare.com/en-gb/learning/ssl/why-is-http-not-secure/"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-elbv2-http-not-used"
       ],

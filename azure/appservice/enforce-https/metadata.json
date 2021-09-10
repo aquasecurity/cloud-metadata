@@ -17,8 +17,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/azure-functions/security-concepts"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

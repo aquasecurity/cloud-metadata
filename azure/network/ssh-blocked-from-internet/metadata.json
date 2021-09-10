@@ -8,8 +8,7 @@
     "severity": "CRITICAL",
     "possibleImpact": "Its dangerous to allow SSH access from the internet",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

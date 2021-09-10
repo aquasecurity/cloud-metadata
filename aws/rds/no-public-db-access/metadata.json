@@ -8,8 +8,7 @@
     "severity": "CRITICAL",
     "possibleImpact": "The database instance is publicly accessible",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-rds-no-public-db-access"
       ],

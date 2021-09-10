@@ -8,8 +8,7 @@
     "severity": "CRITICAL",
     "possibleImpact": "The port is exposed for egressing data to the internet",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-vpc-no-public-egress-sg"
       ],

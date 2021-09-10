@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-misc-no-exposing-plaintext-credentials"
       ],

@@ -13,11 +13,7 @@
         "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html"
       }
     ],
-    "apis": [
-      "CloudTrail:describeTrails",
-      "CloudTrail:getTrailStatus"
-    ],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-cloudtrail-enable-all-regions"
       ],

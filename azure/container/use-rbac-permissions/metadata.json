@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/aks/concepts-identity"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

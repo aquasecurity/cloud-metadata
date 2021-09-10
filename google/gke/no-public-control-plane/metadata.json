@@ -8,8 +8,7 @@
     "severity": "HIGH",
     "possibleImpact": "GKE control plane exposed to public internet",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

@@ -13,8 +13,7 @@
         "url": "https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security#trusted-microsoft-services"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [],
       "cspm": [
         {

@@ -13,8 +13,7 @@
         "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-encryption.html"
       }
     ],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-s3-enable-bucket-encryption"
       ],

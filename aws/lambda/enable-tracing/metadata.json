@@ -8,8 +8,7 @@
     "severity": "LOW",
     "possibleImpact": "WIthout full tracing enabled it is difficult to trace the flow of logs",
     "references": [],
-    "apis": [],
-    "refs": {
+    "externalToolIds": {
       "cfsec": [
         "aws-lambda-enable-tracing"
       ],
