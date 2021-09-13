@@ -12,7 +12,7 @@
       "cfsec": [],
       "cspm": [
         {
-          "id": -402,
+          "id": 402,
           "name": "networksecuritygroups/openSSH"
         }
       ],

@@ -1,29 +1,29 @@
 {
-  "id": "AVD-GCP-0032",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Clusters should use client certificates for authentication",
-  "description": "Client certificates are the most secure and recommended method of authentication.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Less secure authentication method in use",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#restrict_authn_methods"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 698,
-          "name": "kubernetes/legacyAuthorizationDisabled"
+    "id": "AVD-GCP-0032",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Clusters should use client certificates for authentication",
+    "description": "Client certificates are the most secure and recommended method of authentication.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Less secure authentication method in use",
+        "references": [
+            {
+                "title": "Hardening your cluster's security",
+                "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#restrict_authn_methods"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 698,
+                    "name": "kubernetes/legacyAuthorizationDisabled"
+                }
+            ],
+            "tfsec": [
+                "google-gke-no-legacy-auth"
+            ]
         }
-      ],
-      "tfsec": [
-        "google-gke-no-legacy-auth"
-      ]
     }
-  }
 }

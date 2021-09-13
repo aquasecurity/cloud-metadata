@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0080",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "RDS encryption has not been enabled at a DB Instance level.",
-  "description": "Encryption should be enabled for an RDS Database instances. \n\nWhen enabling encryption by setting the kms_key_id.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Data can be read from RDS instances if compromised",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-rds-encrypt-instance-storage-data"
-      ],
-      "cspm": [
-        {
-          "id": 237,
-          "name": "rds/rdsEncryptionEnabled"
+    "id": "AVD-AWS-0080",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "RDS encryption has not been enabled at a DB Instance level.",
+    "description": "Encryption should be enabled for an RDS Database instances. \n\nWhen enabling encryption by setting the kms_key_id.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Data can be read from RDS instances if compromised",
+        "references": [
+            {
+                "title": "Encrypting Amazon RDS resources",
+                "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-rds-encrypt-instance-storage-data"
+            ],
+            "cspm": [
+                {
+                    "id": 237,
+                    "name": "rds/rdsEncryptionEnabled"
+                }
+            ],
+            "tfsec": [
+                "aws-rds-encrypt-instance-storage-data"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-rds-encrypt-instance-storage-data"
-      ]
     }
-  }
 }

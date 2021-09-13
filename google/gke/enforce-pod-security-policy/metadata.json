@@ -1,29 +1,29 @@
 {
-  "id": "AVD-GCP-0030",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Pod security policy enforcement not defined.",
-  "description": "By default, Pods in Kubernetes can operate with capabilities beyond what they require. You should constrain the Pod's capabilities to only those required for that workload.\n\nKubernetes offers controls for restricting your Pods to execute with only explicitly granted capabilities. \n\nPod Security Policy allows you to set smart defaults for your Pods, and enforce controls you want to enable across your fleet. \n\nThe policies you define should be specific to the needs of your application",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Pods could be operating with more permissions than required to be effective",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#admission_controllers"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 707,
-          "name": "kubernetes/podSecurityPolicyEnabled"
+    "id": "AVD-GCP-0030",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Pod security policy enforcement not defined.",
+    "description": "By default, Pods in Kubernetes can operate with capabilities beyond what they require. You should constrain the Pod's capabilities to only those required for that workload.\n\nKubernetes offers controls for restricting your Pods to execute with only explicitly granted capabilities. \n\nPod Security Policy allows you to set smart defaults for your Pods, and enforce controls you want to enable across your fleet. \n\nThe policies you define should be specific to the needs of your application",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Pods could be operating with more permissions than required to be effective",
+        "references": [
+            {
+                "title": "Hardening your cluster's security",
+                "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#admission_controllers"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 707,
+                    "name": "kubernetes/podSecurityPolicyEnabled"
+                }
+            ],
+            "tfsec": [
+                "google-gke-enforce-pod-security-policy"
+            ]
         }
-      ],
-      "tfsec": [
-        "google-gke-enforce-pod-security-policy"
-      ]
     }
-  }
 }

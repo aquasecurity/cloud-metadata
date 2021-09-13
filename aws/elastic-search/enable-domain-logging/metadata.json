@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0042",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Domain logging should be enabled for Elastic Search domains",
-  "description": "Amazon ES exposes four Elasticsearch logs through Amazon CloudWatch Logs: error logs, search slow logs, index slow logs, and audit logs. \n\nSearch slow logs, index slow logs, and error logs are useful for troubleshooting performance and stability issues. \n\nAudit logs track user activity for compliance purposes. \n\nAll the logs are disabled by default.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Logging provides vital information about access and usage",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-createdomain-configure-slow-logs.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-elastic-search-enable-domain-logging"
-      ],
-      "cspm": [
-        {
-          "id": 661,
-          "name": "es/esLoggingEnabled"
+    "id": "AVD-AWS-0042",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Domain logging should be enabled for Elastic Search domains",
+    "description": "Amazon ES exposes four Elasticsearch logs through Amazon CloudWatch Logs: error logs, search slow logs, index slow logs, and audit logs. \n\nSearch slow logs, index slow logs, and error logs are useful for troubleshooting performance and stability issues. \n\nAudit logs track user activity for compliance purposes. \n\nAll the logs are disabled by default.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Logging provides vital information about access and usage",
+        "references": [
+            {
+                "title": "Monitoring OpenSearch logs with Amazon CloudWatch Logs",
+                "url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-createdomain-configure-slow-logs.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-elastic-search-enable-domain-logging"
+            ],
+            "cspm": [
+                {
+                    "id": 661,
+                    "name": "es/esLoggingEnabled"
+                }
+            ],
+            "tfsec": [
+                "aws-elastic-search-enable-domain-logging"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-elastic-search-enable-domain-logging"
-      ]
     }
-  }
 }

@@ -1,24 +1,24 @@
 {
-  "id": "AVD-GCP-0042",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Users should not be granted service account access at the folder level",
-  "description": "Users with service account access at folder level can impersonate any service account. Instead, they should be given access to particular service accounts as required.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Privilege escalation, impersonation of any/all services",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://cloud.google.com/iam/docs/impersonating-service-accounts"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-iam-no-folder-level-service-account-impersonation"
-      ]
+    "id": "AVD-GCP-0042",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Users should not be granted service account access at the folder level",
+    "description": "Users with service account access at folder level can impersonate any service account. Instead, they should be given access to particular service accounts as required.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Privilege escalation, impersonation of any/all services",
+        "references": [
+            {
+                "title": "Managing service account impersonation",
+                "url": "https://cloud.google.com/iam/docs/impersonating-service-accounts"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-iam-no-folder-level-service-account-impersonation"
+            ]
+        }
     }
-  }
 }

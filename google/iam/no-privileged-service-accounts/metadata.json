@@ -1,24 +1,24 @@
 {
-  "id": "AVD-GCP-0045",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Service accounts should not have roles assigned with excessive privileges",
-  "description": "Service accounts should have a minimal set of permissions assigned in order to do their job. They should never have excessive access as if compromised, an attacker can escalate privileges and take over the entire account.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Cloud account takeover if a resource using a service account is compromised",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://cloud.google.com/iam/docs/understanding-roles"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-iam-no-privileged-service-accounts"
-      ]
+    "id": "AVD-GCP-0045",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Service accounts should not have roles assigned with excessive privileges",
+    "description": "Service accounts should have a minimal set of permissions assigned in order to do their job. They should never have excessive access as if compromised, an attacker can escalate privileges and take over the entire account.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Cloud account takeover if a resource using a service account is compromised",
+        "references": [
+            {
+                "title": "Understanding roles",
+                "url": "https://cloud.google.com/iam/docs/understanding-roles"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-iam-no-privileged-service-accounts"
+            ]
+        }
     }
-  }
 }

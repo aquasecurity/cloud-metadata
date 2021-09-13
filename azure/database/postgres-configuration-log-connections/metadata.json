@@ -1,24 +1,24 @@
 {
-  "id": "AVD-AZU-0022",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Ensure server parameter 'log_connections' is set to 'ON' for PostgreSQL Database Server",
-  "description": "Postgresql can generate logs for successful connections to improve visibility for audit and configuration issue resolution.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "No visibility of successful connections",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.microsoft.com/en-us/azure/postgresql/concepts-server-logs#configure-logging"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "azure-database-postgres-configuration-log-connections"
-      ]
+    "id": "AVD-AZU-0022",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Ensure server parameter 'log_connections' is set to 'ON' for PostgreSQL Database Server",
+    "description": "Postgresql can generate logs for successful connections to improve visibility for audit and configuration issue resolution.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "No visibility of successful connections",
+        "references": [
+            {
+                "title": "Logs",
+                "url": "https://docs.microsoft.com/en-us/azure/postgresql/concepts-server-logs#configure-logging"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "azure-database-postgres-configuration-log-connections"
+            ]
+        }
     }
-  }
 }

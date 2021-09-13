@@ -1,24 +1,24 @@
 {
-  "id": "AVD-GCP-0039",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Legacy ABAC permissions are enabled.",
-  "description": "You should disable Attribute-Based Access Control (ABAC), and instead use Role-Based Access Control (RBAC) in GKE.\n\nRBAC has significant security advantages and is now stable in Kubernetes, so it’s time to disable ABAC.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "ABAC permissions are less secure than RBAC permissions",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#leave_abac_disabled_default_for_110"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-gke-use-rbac-permissions"
-      ]
+    "id": "AVD-GCP-0039",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Legacy ABAC permissions are enabled.",
+    "description": "You should disable Attribute-Based Access Control (ABAC), and instead use Role-Based Access Control (RBAC) in GKE.\n\nRBAC has significant security advantages and is now stable in Kubernetes, so it\u2019s time to disable ABAC.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "ABAC permissions are less secure than RBAC permissions",
+        "references": [
+            {
+                "title": "Hardening your cluster's security",
+                "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#leave_abac_disabled_default_for_110"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-gke-use-rbac-permissions"
+            ]
+        }
     }
-  }
 }

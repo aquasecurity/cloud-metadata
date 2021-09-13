@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0037",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "EFS Encryption has not been enabled",
-  "description": "If your organization is subject to corporate or regulatory policies that require encryption of data and metadata at rest, we recommend creating a file system that is encrypted at rest, and mounting your file system using encryption of data in transit.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Data can be read from the EFS if compromised",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/efs/latest/ug/encryption.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-efs-enable-at-rest-encryption"
-      ],
-      "cspm": [
-        {
-          "id": 375,
-          "name": "efs/efsEncryptionEnabled"
+    "id": "AVD-AWS-0037",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "EFS Encryption has not been enabled",
+    "description": "If your organization is subject to corporate or regulatory policies that require encryption of data and metadata at rest, we recommend creating a file system that is encrypted at rest, and mounting your file system using encryption of data in transit.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Data can be read from the EFS if compromised",
+        "references": [
+            {
+                "title": "Data encryption in Amazon EFS",
+                "url": "https://docs.aws.amazon.com/efs/latest/ug/encryption.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-efs-enable-at-rest-encryption"
+            ],
+            "cspm": [
+                {
+                    "id": 375,
+                    "name": "efs/efsEncryptionEnabled"
+                }
+            ],
+            "tfsec": [
+                "aws-efs-enable-at-rest-encryption"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-efs-enable-at-rest-encryption"
-      ]
     }
-  }
 }

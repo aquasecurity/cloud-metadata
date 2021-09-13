@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0017",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "CloudWatch log groups should be encrypted using CMK",
-  "description": "CloudWatch log groups are encrypted by default, however, to get the full benefit of controlling key rotation and other KMS aspects a KMS CMK should be used.",
-  "custom": {
-    "severity": "LOW",
-    "possibleImpact": "Log data may be leaked if the logs are compromised. No auditing of who have viewed the logs.",
-    "references": [
-      {
-        "title": "Configuring encryption for CloudWatch log data",
-        "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-cloudwatch-log-group-customer-key"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-cloudwatch-log-group-customer-key"
-      ]
+    "id": "AVD-AWS-0017",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "CloudWatch log groups should be encrypted using CMK",
+    "description": "CloudWatch log groups are encrypted by default, however, to get the full benefit of controlling key rotation and other KMS aspects a KMS CMK should be used.",
+    "custom": {
+        "severity": "LOW",
+        "possibleImpact": "Log data may be leaked if the logs are compromised. No auditing of who have viewed the logs.",
+        "references": [
+            {
+                "title": "Encrypt log data in CloudWatch Logs using AWS Key Management Service",
+                "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/encrypt-log-data-kms.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-cloudwatch-log-group-customer-key"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-cloudwatch-log-group-customer-key"
+            ]
+        }
     }
-  }
 }

@@ -1,29 +1,29 @@
 {
-  "id": "AVD-AZU-0023",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Database auditing rentention period should be longer than 90 days",
-  "description": "When Auditing is configured for a SQL database, if the retention period is not set, the retention will be unlimited.\n\nIf the retention period is to be explicitly set, it should be set for no less than 90 days.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Short logging retention could result in missing valuable historical information",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 624,
-          "name": "sqlserver/auditRetentionPolicy"
+    "id": "AVD-AZU-0023",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Database auditing rentention period should be longer than 90 days",
+    "description": "When Auditing is configured for a SQL database, if the retention period is not set, the retention will be unlimited.\n\nIf the retention period is to be explicitly set, it should be set for no less than 90 days.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Short logging retention could result in missing valuable historical information",
+        "references": [
+            {
+                "title": "Azure SQL Auditing for Azure SQL Database and Azure Synapse Analytics",
+                "url": "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 624,
+                    "name": "sqlserver/auditRetentionPolicy"
+                }
+            ],
+            "tfsec": [
+                "azure-database-retention-period-set"
+            ]
         }
-      ],
-      "tfsec": [
-        "azure-database-retention-period-set"
-      ]
     }
-  }
 }

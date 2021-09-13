@@ -1,28 +1,28 @@
 {
-  "id": "AVD-GCP-0061",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Ensure that Postgres errors are logged",
-  "description": "Setting the minimum log severity too high will cause errors not to be logged",
-  "custom": {
-    "severity": "LOW",
-    "possibleImpact": "Loss of error logging",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://postgresqlco.nf/doc/en/param/log_min_messages/"
-      },
-      {
-        "title": "title",
-        "url": "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-MIN-MESSAGES"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-sql-pg-log-errors"
-      ]
+    "id": "AVD-GCP-0061",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Ensure that Postgres errors are logged",
+    "description": "Setting the minimum log severity too high will cause errors not to be logged",
+    "custom": {
+        "severity": "LOW",
+        "possibleImpact": "Loss of error logging",
+        "references": [
+            {
+                "title": "PostgreSQL Documentation: log_min_messages parameter",
+                "url": "https://postgresqlco.nf/doc/en/param/log_min_messages/"
+            },
+            {
+                "title": "PostgreSQL: Documentation: 13: 19.8.\u00a0Error Reporting and Logging",
+                "url": "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-MIN-MESSAGES"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-sql-pg-log-errors"
+            ]
+        }
     }
-  }
 }

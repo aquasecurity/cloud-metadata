@@ -1,24 +1,24 @@
 {
-  "id": "AVD-GCP-0054",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Disable local_infile setting in MySQL",
-  "description": "Arbitrary files can be read from the system using LOAD_DATA unless this setting is disabled.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Arbitrary files read by attackers when combined with a SQL injection vulnerability.",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://dev.mysql.com/doc/refman/8.0/en/load-data-local-security.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-sql-mysql-no-local-infile"
-      ]
+    "id": "AVD-GCP-0054",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Disable local_infile setting in MySQL",
+    "description": "Arbitrary files can be read from the system using LOAD_DATA unless this setting is disabled.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Arbitrary files read by attackers when combined with a SQL injection vulnerability.",
+        "references": [
+            {
+                "title": "MySQL :: MySQL 8.0 Reference Manual :: 6.1.6 Security Considerations for LOAD DATA LOCAL",
+                "url": "https://dev.mysql.com/doc/refman/8.0/en/load-data-local-security.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-sql-mysql-no-local-infile"
+            ]
+        }
     }
-  }
 }

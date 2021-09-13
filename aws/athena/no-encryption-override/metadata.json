@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0007",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Athena workgroups should enforce configuration to prevent client disabling encryption",
-  "description": "Athena workgroup configuration should be enforced to prevent client side changes to disable encryption settings.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Clients can ignore encryption requirements",
-    "references": [
-      {
-        "title": "Workgroup Settings",
-        "url": "https://docs.aws.amazon.com/athena/latest/ug/workgroups-settings.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-athena-no-encryption-override"
-      ],
-      "cspm": [
-        {
-          "id": 395,
-          "name": "athena/workgroupEnforceConfiguration"
+    "id": "AVD-AWS-0007",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Athena workgroups should enforce configuration to prevent client disabling encryption",
+    "description": "Athena workgroup configuration should be enforced to prevent client side changes to disable encryption settings.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Clients can ignore encryption requirements",
+        "references": [
+            {
+                "title": "Workgroup Settings",
+                "url": "https://docs.aws.amazon.com/athena/latest/ug/workgroups-settings.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-athena-no-encryption-override"
+            ],
+            "cspm": [
+                {
+                    "id": 395,
+                    "name": "athena/workgroupEnforceConfiguration"
+                }
+            ],
+            "tfsec": [
+                "aws-athena-no-encryption-override"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-athena-no-encryption-override"
-      ]
     }
-  }
 }

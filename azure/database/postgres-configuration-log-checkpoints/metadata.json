@@ -1,29 +1,29 @@
 {
-  "id": "AVD-AZU-0020",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Ensure server parameter 'log_checkpoints' is set to 'ON' for PostgreSQL Database Server",
-  "description": "Postgresql can generate logs for checkpoints to improve visibility for audit and configuration issue resolution.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "No error and query logs generated on checkpoint",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.microsoft.com/en-us/azure/postgresql/concepts-server-logs#configure-logging"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 622,
-          "name": "postgresqlserver/logCheckpointsEnabled"
+    "id": "AVD-AZU-0020",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Ensure server parameter 'log_checkpoints' is set to 'ON' for PostgreSQL Database Server",
+    "description": "Postgresql can generate logs for checkpoints to improve visibility for audit and configuration issue resolution.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "No error and query logs generated on checkpoint",
+        "references": [
+            {
+                "title": "Logs",
+                "url": "https://docs.microsoft.com/en-us/azure/postgresql/concepts-server-logs#configure-logging"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 622,
+                    "name": "postgresqlserver/logCheckpointsEnabled"
+                }
+            ],
+            "tfsec": [
+                "azure-database-postgres-configuration-log-checkpoints"
+            ]
         }
-      ],
-      "tfsec": [
-        "azure-database-postgres-configuration-log-checkpoints"
-      ]
     }
-  }
 }

@@ -1,36 +1,36 @@
 {
-  "id": "AVD-AWS-0027",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "EBS volume encryption should use Customer Managed Keys",
-  "description": "Encryption using AWS keys provides protection for your EBS volume. To increase control of the encryption and manage factors like rotation use customer managed keys.",
-  "custom": {
-    "severity": "LOW",
-    "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
-    "references": [
-      {
-        "title": "EC2 EBS Volume Encryption",
-        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html"
-      }
-    ],
-    "apis": [
-      "EC2:describeVolumes",
-      "KMS:describeKey",
-      "KMS:listKeys"
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-ebs-encryption-customer-key"
-      ],
-      "cspm": [
-        {
-          "id": 299,
-          "name": "ec2/ebsEncryptionEnabled"
+    "id": "AVD-AWS-0027",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "EBS volume encryption should use Customer Managed Keys",
+    "description": "Encryption using AWS keys provides protection for your EBS volume. To increase control of the encryption and manage factors like rotation use customer managed keys.",
+    "custom": {
+        "severity": "LOW",
+        "possibleImpact": "Using AWS managed keys does not allow for fine grained control",
+        "references": [
+            {
+                "title": "Amazon EBS encryption",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html"
+            }
+        ],
+        "apis": [
+            "EC2:describeVolumes",
+            "KMS:describeKey",
+            "KMS:listKeys"
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-ebs-encryption-customer-key"
+            ],
+            "cspm": [
+                {
+                    "id": 299,
+                    "name": "ec2/ebsEncryptionEnabled"
+                }
+            ],
+            "tfsec": [
+                "aws-ebs-encryption-customer-key"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-ebs-encryption-customer-key"
-      ]
     }
-  }
 }

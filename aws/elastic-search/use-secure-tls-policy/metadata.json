@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0047",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Elasticsearch domain endpoint is using outdated TLS policy.",
-  "description": "You should not use outdated/insecure TLS versions for encryption. You should be using TLS v1.2+.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Outdated SSL policies increase exposure to known vulnerabilities",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-data-protection.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-elastic-search-use-secure-tls-policy"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-elastic-search-use-secure-tls-policy"
-      ]
+    "id": "AVD-AWS-0047",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Elasticsearch domain endpoint is using outdated TLS policy.",
+    "description": "You should not use outdated/insecure TLS versions for encryption. You should be using TLS v1.2+.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Outdated SSL policies increase exposure to known vulnerabilities",
+        "references": [
+            {
+                "title": "Amazon OpenSearch Service",
+                "url": "https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-data-protection.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-elastic-search-use-secure-tls-policy"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-elastic-search-use-secure-tls-policy"
+            ]
+        }
     }
-  }
 }

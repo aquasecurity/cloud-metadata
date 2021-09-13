@@ -1,33 +1,33 @@
 {
-  "id": "AVD-AZU-0009",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Enable disk encryption on managed disk",
-  "description": "Manage disks should be encrypted at rest. When specifying the encryption_settings block, the enabled attribute should be set to true.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Data could be read if compromised",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/disk-encryption"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 338,
-          "name": "virtualmachines/vmDiskOSEncryption"
-        },
-        {
-          "id": 339,
-          "name": "virtualmachines/vmDiskDataEncryption"
+    "id": "AVD-AZU-0009",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Enable disk encryption on managed disk",
+    "description": "Manage disks should be encrypted at rest. When specifying the encryption_settings block, the enabled attribute should be set to true.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Data could be read if compromised",
+        "references": [
+            {
+                "title": "Server-side encryption of Azure managed disks",
+                "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/linux/disk-encryption"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 338,
+                    "name": "virtualmachines/vmDiskOSEncryption"
+                },
+                {
+                    "id": 339,
+                    "name": "virtualmachines/vmDiskDataEncryption"
+                }
+            ],
+            "tfsec": [
+                "azure-compute-enable-disk-encryption"
+            ]
         }
-      ],
-      "tfsec": [
-        "azure-compute-enable-disk-encryption"
-      ]
     }
-  }
 }

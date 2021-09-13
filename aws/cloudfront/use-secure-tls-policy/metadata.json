@@ -1,34 +1,34 @@
 {
-  "id": "AVD-AWS-0013",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "CloudFront distribution uses outdated SSL/TLS protocols.",
-  "description": "You should not use outdated/insecure TLS versions for encryption. You should be using TLS v1.2+.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Outdated SSL policies increase exposure to known vulnerabilities",
-    "references": [
-      {
-        "title": "AWS CloudFront TLS Policy configuration",
-        "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
-      }
-    ],
-    "apis": [
-      "CloudFront:listDistributions"
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-cloudfront-use-secure-tls-policy"
-      ],
-      "cspm": [
-        {
-          "id": 289,
-          "name": "cloudfront/insecureProtocols"
+    "id": "AVD-AWS-0013",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "CloudFront distribution uses outdated SSL/TLS protocols.",
+    "description": "You should not use outdated/insecure TLS versions for encryption. You should be using TLS v1.2+.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Outdated SSL policies increase exposure to known vulnerabilities",
+        "references": [
+            {
+                "title": "Supported protocols and ciphers between viewers and CloudFront",
+                "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html"
+            }
+        ],
+        "apis": [
+            "CloudFront:listDistributions"
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-cloudfront-use-secure-tls-policy"
+            ],
+            "cspm": [
+                {
+                    "id": 289,
+                    "name": "cloudfront/insecureProtocols"
+                }
+            ],
+            "tfsec": [
+                "aws-cloudfront-use-secure-tls-policy"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-cloudfront-use-secure-tls-policy"
-      ]
     }
-  }
 }

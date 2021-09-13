@@ -1,34 +1,34 @@
 {
-  "id": "AVD-AWS-0015",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Cloudtrail should be encrypted at rest to secure access to sensitive trail data",
-  "description": "Cloudtrail logs should be encrypted at rest to secure the sensitive data. Cloudtrail logs record all activity that occurs in the the account through API calls and would be one of the first places to look when reacting to a breach.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Data can be freely read if compromised",
-    "references": [
-      {
-        "title": "Configuring AWS CloudTrail encryption",
-        "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/encrypting-cloudtrail-log-files-with-aws-kms.html"
-      }
-    ],
-    "apis": [
-      "CloudTrail:describeTrails"
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-cloudtrail-enable-at-rest-encryption"
-      ],
-      "cspm": [
-        {
-          "id": 252,
-          "name": "cloudtrail/cloudtrailEncryption"
+    "id": "AVD-AWS-0015",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Cloudtrail should be encrypted at rest to secure access to sensitive trail data",
+    "description": "Cloudtrail logs should be encrypted at rest to secure the sensitive data. Cloudtrail logs record all activity that occurs in the the account through API calls and would be one of the first places to look when reacting to a breach.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Data can be freely read if compromised",
+        "references": [
+            {
+                "title": "Encrypting CloudTrail log files with AWS KMS managed keys (SSE-KMS)",
+                "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/encrypting-cloudtrail-log-files-with-aws-kms.html"
+            }
+        ],
+        "apis": [
+            "CloudTrail:describeTrails"
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-cloudtrail-enable-at-rest-encryption"
+            ],
+            "cspm": [
+                {
+                    "id": 252,
+                    "name": "cloudtrail/cloudtrailEncryption"
+                }
+            ],
+            "tfsec": [
+                "aws-cloudtrail-enable-at-rest-encryption"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-cloudtrail-enable-at-rest-encryption"
-      ]
     }
-  }
 }

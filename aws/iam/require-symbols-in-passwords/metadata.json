@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0060",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "IAM Password policy should have requirement for at least one symbol in the password.",
-  "description": "IAM account password policies should ensure that passwords content including a symbol.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Short, simple passwords are easier to compromise",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-iam-require-symbols-in-passwords"
-      ],
-      "cspm": [
-        {
-          "id": 25,
-          "name": "iam/passwordRequiresSymbols"
+    "id": "AVD-AWS-0060",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "IAM Password policy should have requirement for at least one symbol in the password.",
+    "description": "IAM account password policies should ensure that passwords content including a symbol.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Short, simple passwords are easier to compromise",
+        "references": [
+            {
+                "title": "Setting an account password policy for IAM users",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-iam-require-symbols-in-passwords"
+            ],
+            "cspm": [
+                {
+                    "id": 25,
+                    "name": "iam/passwordRequiresSymbols"
+                }
+            ],
+            "tfsec": [
+                "aws-iam-require-symbols-in-passwords"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-iam-require-symbols-in-passwords"
-      ]
     }
-  }
 }

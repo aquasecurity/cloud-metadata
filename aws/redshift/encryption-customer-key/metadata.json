@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0084",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Redshift clusters should use at rest encryption",
-  "description": "Redshift clusters that contain sensitive data or are subject to regulation should be encrypted at rest to prevent data leakage should the infrastructure be compromised.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Data may be leaked if infrastructure is compromised",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-db-encryption.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-redshift-encryption-customer-key"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-redshift-encryption-customer-key"
-      ]
+    "id": "AVD-AWS-0084",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Redshift clusters should use at rest encryption",
+    "description": "Redshift clusters that contain sensitive data or are subject to regulation should be encrypted at rest to prevent data leakage should the infrastructure be compromised.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Data may be leaked if infrastructure is compromised",
+        "references": [
+            {
+                "title": "Amazon Redshift database encryption",
+                "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-db-encryption.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-redshift-encryption-customer-key"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-redshift-encryption-customer-key"
+            ]
+        }
     }
-  }
 }
