@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0107",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "An ingress security group rule allows traffic from /0.",
-  "description": "Opening up ports to the public internet is generally to be avoided. You should restrict access to IP addresses or ranges that explicitly require it where possible.",
-  "custom": {
-    "severity": "CRITICAL",
-    "possibleImpact": "Your port exposed to the internet",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-vpc-no-public-ingress-sgr"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-vpc-no-public-ingress-sgr"
-      ]
+    "id": "AVD-AWS-0107",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "An ingress security group rule allows traffic from /0.",
+    "description": "Opening up ports to the public internet is generally to be avoided. You should restrict access to IP addresses or ranges that explicitly require it where possible.",
+    "custom": {
+        "severity": "CRITICAL",
+        "possibleImpact": "Your port exposed to the internet",
+        "references": [
+            {
+                "title": "Security group rules for different use cases",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-vpc-no-public-ingress-sgr"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-vpc-no-public-ingress-sgr"
+            ]
+        }
     }
-  }
 }

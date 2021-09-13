@@ -1,24 +1,24 @@
 {
-  "id": "AVD-GCP-0035",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Node metadata value disables metadata concealment.",
-  "description": "If the workload_metadata_config block within node_config is included, the node_metadata attribute should be configured securely.\n\nThe attribute should be set to SECURE to use metadata concealment, or GKE_METADATA_SERVER if workload identity is enabled. This ensures that the VM metadata is not unnecessarily exposed to pods.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Metadata that isn't concealed potentially risks leakage of sensitive data",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/protecting-cluster-metadata#create-concealed"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-gke-node-metadata-security"
-      ]
+    "id": "AVD-GCP-0035",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Node metadata value disables metadata concealment.",
+    "description": "If the workload_metadata_config block within node_config is included, the node_metadata attribute should be configured securely.\n\nThe attribute should be set to SECURE to use metadata concealment, or GKE_METADATA_SERVER if workload identity is enabled. This ensures that the VM metadata is not unnecessarily exposed to pods.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Metadata that isn't concealed potentially risks leakage of sensitive data",
+        "references": [
+            {
+                "title": "Protecting cluster metadata",
+                "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/protecting-cluster-metadata#create-concealed"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-gke-node-metadata-security"
+            ]
+        }
     }
-  }
 }

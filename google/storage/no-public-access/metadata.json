@@ -1,24 +1,24 @@
 {
-  "id": "AVD-GCP-0065",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Ensure that Cloud Storage bucket is not anonymously or publicly accessible.",
-  "description": "Using 'allUsers' or 'allAuthenticatedUsers' as members in an IAM member/binding causes data to be exposed outside of the organisation.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Public exposure of sensitive data.",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://jbrojbrojbro.medium.com/you-make-the-rules-with-authentication-controls-for-cloud-storage-53c32543747b"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-storage-no-public-access"
-      ]
+    "id": "AVD-GCP-0065",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Ensure that Cloud Storage bucket is not anonymously or publicly accessible.",
+    "description": "Using 'allUsers' or 'allAuthenticatedUsers' as members in an IAM member/binding causes data to be exposed outside of the organisation.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Public exposure of sensitive data.",
+        "references": [
+            {
+                "title": "You make the rules with Authentication controls for Cloud Storage",
+                "url": "https://jbrojbrojbro.medium.com/you-make-the-rules-with-authentication-controls-for-cloud-storage-53c32543747b"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-storage-no-public-access"
+            ]
+        }
     }
-  }
 }

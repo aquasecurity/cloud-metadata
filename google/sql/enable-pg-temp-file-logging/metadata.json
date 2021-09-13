@@ -1,24 +1,24 @@
 {
-  "id": "AVD-GCP-0052",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Temporary file logging should be enabled for all temporary files.",
-  "description": "Temporary files are not logged by default. To log all temporary files, a value of `0` should set in the `log_temp_files` flag - as all files greater in size than the number of bytes set in this flag will be logged.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Use of temporary files will not be logged",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://postgresqlco.nf/doc/en/param/log_temp_files/"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-sql-enable-pg-temp-file-logging"
-      ]
+    "id": "AVD-GCP-0052",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Temporary file logging should be enabled for all temporary files.",
+    "description": "Temporary files are not logged by default. To log all temporary files, a value of `0` should set in the `log_temp_files` flag - as all files greater in size than the number of bytes set in this flag will be logged.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Use of temporary files will not be logged",
+        "references": [
+            {
+                "title": "PostgreSQL Documentation: log_temp_files parameter",
+                "url": "https://postgresqlco.nf/doc/en/param/log_temp_files/"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-sql-enable-pg-temp-file-logging"
+            ]
+        }
     }
-  }
 }

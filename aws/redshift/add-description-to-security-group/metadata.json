@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0083",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Missing description for security group/security group rule.",
-  "description": "Security groups and security group rules should include a description for auditing purposes.\n\nSimplifies auditing, debugging, and managing security groups.",
-  "custom": {
-    "severity": "LOW",
-    "possibleImpact": "Descriptions provide context for the firewall rule reasons",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://www.cloudconformity.com/knowledge-base/aws/EC2/security-group-rules-description.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-redshift-add-description-to-security-group"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-redshift-add-description-to-security-group"
-      ]
+    "id": "AVD-AWS-0083",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Missing description for security group/security group rule.",
+    "description": "Security groups and security group rules should include a description for auditing purposes.\n\nSimplifies auditing, debugging, and managing security groups.",
+    "custom": {
+        "severity": "LOW",
+        "possibleImpact": "Descriptions provide context for the firewall rule reasons",
+        "references": [
+            {
+                "title": "Descriptions for Security Group Rules",
+                "url": "https://www.cloudconformity.com/knowledge-base/aws/EC2/security-group-rules-description.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-redshift-add-description-to-security-group"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-redshift-add-description-to-security-group"
+            ]
+        }
     }
-  }
 }

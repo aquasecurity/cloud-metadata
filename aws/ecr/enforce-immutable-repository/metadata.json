@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0031",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "ECR images tags shouldn't be mutable.",
-  "description": "ECR images should be set to IMMUTABLE to prevent code injection through image mutation.\n\nThis can be done by setting image_tab_mutability to IMMUTABLE",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Image tags could be overwritten with compromised images",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://sysdig.com/blog/toctou-tag-mutability/"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-ecr-enforce-immutable-repository"
-      ],
-      "cspm": [
-        {
-          "id": 744,
-          "name": "ecr/ecrRepositoryTagImmutability"
+    "id": "AVD-AWS-0031",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "ECR images tags shouldn't be mutable.",
+    "description": "ECR images should be set to IMMUTABLE to prevent code injection through image mutation.\n\nThis can be done by setting image_tab_mutability to IMMUTABLE",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Image tags could be overwritten with compromised images",
+        "references": [
+            {
+                "title": "403 Forbidden",
+                "url": "https://sysdig.com/blog/toctou-tag-mutability/"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-ecr-enforce-immutable-repository"
+            ],
+            "cspm": [
+                {
+                    "id": 744,
+                    "name": "ecr/ecrRepositoryTagImmutability"
+                }
+            ],
+            "tfsec": [
+                "aws-ecr-enforce-immutable-repository"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-ecr-enforce-immutable-repository"
-      ]
     }
-  }
 }

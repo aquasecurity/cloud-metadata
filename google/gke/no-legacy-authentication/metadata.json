@@ -1,29 +1,29 @@
 {
-  "id": "AVD-GCP-0033",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Legacy client authentication methods utilized.",
-  "description": "It is recommended to use Service Accounts and OAuth as authentication methods for accessing the master in the container cluster. \n\nBasic authentication should be disabled by explicitly unsetting the username and password on the master_auth block.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Username and password authentication methods are less secure",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#restrict_authn_methods"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 698,
-          "name": "kubernetes/legacyAuthorizationDisabled"
+    "id": "AVD-GCP-0033",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Legacy client authentication methods utilized.",
+    "description": "It is recommended to use Service Accounts and OAuth as authentication methods for accessing the master in the container cluster. \n\nBasic authentication should be disabled by explicitly unsetting the username and password on the master_auth block.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Username and password authentication methods are less secure",
+        "references": [
+            {
+                "title": "Hardening your cluster's security",
+                "url": "https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#restrict_authn_methods"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 698,
+                    "name": "kubernetes/legacyAuthorizationDisabled"
+                }
+            ],
+            "tfsec": [
+                "google-gke-no-legacy-authentication"
+            ]
         }
-      ],
-      "tfsec": [
-        "google-gke-no-legacy-authentication"
-      ]
     }
-  }
 }

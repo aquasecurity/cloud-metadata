@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0101",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "AWS best practice to not use the default VPC for workflows",
-  "description": "Default VPC does not have a lot of the critical security features that standard VPC comes with, new resources should not be created in the default VPC and it should not be present in the Terraform.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "The default VPC does not have critical security features applied",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/vpc/latest/userguide/default-vpc.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-vpc-no-default-vpc"
-      ],
-      "cspm": [
-        {
-          "id": 311,
-          "name": "vpc/defaultVpcInUse"
+    "id": "AVD-AWS-0101",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "AWS best practice to not use the default VPC for workflows",
+    "description": "Default VPC does not have a lot of the critical security features that standard VPC comes with, new resources should not be created in the default VPC and it should not be present in the Terraform.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "The default VPC does not have critical security features applied",
+        "references": [
+            {
+                "title": "Default VPC and default subnets",
+                "url": "https://docs.aws.amazon.com/vpc/latest/userguide/default-vpc.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-vpc-no-default-vpc"
+            ],
+            "cspm": [
+                {
+                    "id": 311,
+                    "name": "vpc/defaultVpcInUse"
+                }
+            ],
+            "tfsec": [
+                "aws-vpc-no-default-vpc"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-vpc-no-default-vpc"
-      ]
     }
-  }
 }

@@ -1,29 +1,29 @@
 {
-  "id": "AVD-AZU-0050",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Storage containers in blob storage mode should not have public access",
-  "description": "Storage container public access should be off. It can be configured for blobs only, containers and blobs or off entirely. The default is off, with no public access.\n\nExplicitly overriding publicAccess to anything other than off should be avoided.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Data in the storage container could be exposed publicly",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal#set-the-public-access-level-for-a-container"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 499,
-          "name": "storageaccounts/logContainerPublicAccess"
+    "id": "AVD-AZU-0050",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Storage containers in blob storage mode should not have public access",
+    "description": "Storage container public access should be off. It can be configured for blobs only, containers and blobs or off entirely. The default is off, with no public access.\n\nExplicitly overriding publicAccess to anything other than off should be avoided.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Data in the storage container could be exposed publicly",
+        "references": [
+            {
+                "title": "Configure anonymous public read access for containers and blobs",
+                "url": "https://docs.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal#set-the-public-access-level-for-a-container"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 499,
+                    "name": "storageaccounts/logContainerPublicAccess"
+                }
+            ],
+            "tfsec": [
+                "azure-storage-no-public-access"
+            ]
         }
-      ],
-      "tfsec": [
-        "azure-storage-no-public-access"
-      ]
     }
-  }
 }

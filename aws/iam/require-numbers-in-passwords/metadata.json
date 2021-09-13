@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0059",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "IAM Password policy should have requirement for at least one number in the password.",
-  "description": "IAM account password policies should ensure that passwords content including at least one number.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Short, simple passwords are easier to compromise",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-iam-require-numbers-in-passwords"
-      ],
-      "cspm": [
-        {
-          "id": 245,
-          "name": "iam/passwordRequiresNumbers"
+    "id": "AVD-AWS-0059",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "IAM Password policy should have requirement for at least one number in the password.",
+    "description": "IAM account password policies should ensure that passwords content including at least one number.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Short, simple passwords are easier to compromise",
+        "references": [
+            {
+                "title": "Setting an account password policy for IAM users",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-iam-require-numbers-in-passwords"
+            ],
+            "cspm": [
+                {
+                    "id": 245,
+                    "name": "iam/passwordRequiresNumbers"
+                }
+            ],
+            "tfsec": [
+                "aws-iam-require-numbers-in-passwords"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-iam-require-numbers-in-passwords"
-      ]
     }
-  }
 }

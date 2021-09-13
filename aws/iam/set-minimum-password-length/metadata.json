@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0063",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "IAM Password policy should have minimum password length of 14 or more characters.",
-  "description": "IAM account password policies should ensure that passwords have a minimum length. \n\nThe account password policy should be set to enforce minimum password length of at least 14 characters.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Short, simple passwords are easier to compromise",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-iam-set-minimum-password-length"
-      ],
-      "cspm": [
-        {
-          "id": 24,
-          "name": "iam/minPasswordLength"
+    "id": "AVD-AWS-0063",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "IAM Password policy should have minimum password length of 14 or more characters.",
+    "description": "IAM account password policies should ensure that passwords have a minimum length. \n\nThe account password policy should be set to enforce minimum password length of at least 14 characters.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Short, simple passwords are easier to compromise",
+        "references": [
+            {
+                "title": "Setting an account password policy for IAM users",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-iam-set-minimum-password-length"
+            ],
+            "cspm": [
+                {
+                    "id": 24,
+                    "name": "iam/minPasswordLength"
+                }
+            ],
+            "tfsec": [
+                "aws-iam-set-minimum-password-length"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-iam-set-minimum-password-length"
-      ]
     }
-  }
 }

@@ -30,7 +30,7 @@ An example metadata.json
     "possibleImpact": "Instance metadata service can be interacted with freely",
     "references": [
       {
-        "title": "title",
+        "title": "EC2 Instance Metadata Service blog post",
         "url": "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service"
       }
     ],
@@ -121,34 +121,34 @@ Type: `object`
 						 - Type: `string`
 						 - <i id="#/properties/custom/properties/references/items/properties/url">path: #/properties/custom/properties/references/items/properties/url</i>
 			 - 
-		 - <b id="#/properties/custom/properties/refs">refs</b> `required`
+		 - <b id="#/properties/custom/properties/externalToolIds">externalToolIds</b> `required`
 			 - Type: `object`
-			 - <i id="#/properties/custom/properties/refs">path: #/properties/custom/properties/refs</i>
+			 - <i id="#/properties/custom/properties/externalToolIds">path: #/properties/custom/properties/externalToolIds</i>
 			 - **_Properties_**
-				 - <b id="#/properties/custom/properties/refs/properties/cfsec">cfsec</b>
+				 - <b id="#/properties/custom/properties/externalToolIds/properties/cfsec">cfsec</b>
 					 - Type: `array`
-					 - <i id="#/properties/custom/properties/refs/properties/cfsec">path: #/properties/custom/properties/refs/properties/cfsec</i>
+					 - <i id="#/properties/custom/properties/externalToolIds/properties/cfsec">path: #/properties/custom/properties/externalToolIds/properties/cfsec</i>
 						 - **_Items_**
 						 - Type: `string`
-						 - <i id="#/properties/custom/properties/refs/properties/cfsec/items">path: #/properties/custom/properties/refs/properties/cfsec/items</i>
+						 - <i id="#/properties/custom/properties/externalToolIds/properties/cfsec/items">path: #/properties/custom/properties/externalToolIds/properties/cfsec/items</i>
 					 - 
-				 - <b id="#/properties/custom/properties/refs/properties/cspm">cspm</b>
+				 - <b id="#/properties/custom/properties/externalToolIds/properties/cspm">cspm</b>
 					 - Type: `array`
-					 - <i id="#/properties/custom/properties/refs/properties/cspm">path: #/properties/custom/properties/refs/properties/cspm</i>
+					 - <i id="#/properties/custom/properties/externalToolIds/properties/cspm">path: #/properties/custom/properties/externalToolIds/properties/cspm</i>
 						 - **_Items_**
 						 - Type: `object`
-						 - <i id="#/properties/custom/properties/refs/properties/cspm/items">path: #/properties/custom/properties/refs/properties/cspm/items</i>
+						 - <i id="#/properties/custom/properties/externalToolIds/properties/cspm/items">path: #/properties/custom/properties/externalToolIds/properties/cspm/items</i>
 						 - **_Properties_**
-							 - <b id="#/properties/custom/properties/refs/properties/cspm/items/properties/id">id</b> `required`
+							 - <b id="#/properties/custom/properties/externalToolIds/properties/cspm/items/properties/id">id</b> `required`
 								 - Type: `integer`
-								 - <i id="#/properties/custom/properties/refs/properties/cspm/items/properties/id">path: #/properties/custom/properties/refs/properties/cspm/items/properties/id</i>
-							 - <b id="#/properties/custom/properties/refs/properties/cspm/items/properties/name">name</b> `required`
+								 - <i id="#/properties/custom/properties/externalToolIds/properties/cspm/items/properties/id">path: #/properties/custom/properties/externalToolIds/properties/cspm/items/properties/id</i>
+							 - <b id="#/properties/custom/properties/externalToolIds/properties/cspm/items/properties/name">name</b> `required`
 								 - Type: `string`
-								 - <i id="#/properties/custom/properties/refs/properties/cspm/items/properties/name">path: #/properties/custom/properties/refs/properties/cspm/items/properties/name</i>
+								 - <i id="#/properties/custom/properties/externalToolIds/properties/cspm/items/properties/name">path: #/properties/custom/properties/externalToolIds/properties/cspm/items/properties/name</i>
 					 - 
-				 - <b id="#/properties/custom/properties/refs/properties/tfsec">tfsec</b>
+				 - <b id="#/properties/custom/properties/externalToolIds/properties/tfsec">tfsec</b>
 					 - Type: `array`
-					 - <i id="#/properties/custom/properties/refs/properties/tfsec">path: #/properties/custom/properties/refs/properties/tfsec</i>
+					 - <i id="#/properties/custom/properties/externalToolIds/properties/tfsec">path: #/properties/custom/properties/externalToolIds/properties/tfsec</i>
 						 - **_Items_**
 						 - Type: `string`
-						 - <i id="#/properties/custom/properties/refs/properties/tfsec/items">path: #/properties/custom/properties/refs/properties/tfsec/items</i>
+						 - <i id="#/properties/custom/properties/externalToolIds/properties/tfsec/items">path: #/properties/custom/properties/externalToolIds/properties/tfsec/items</i>

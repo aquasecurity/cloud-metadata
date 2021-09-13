@@ -1,29 +1,29 @@
 {
-  "id": "AVD-AZU-0039",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "RDP access should not be accessible from the Internet, should be blocked on port 3389",
-  "description": "RDP access can be configured on either the network security group or in the network security group rule.\n\nRDP access should not be permitted from the internet (*, 0.0.0.0, /0, internet, any). Consider using the Azure Bastion Service.",
-  "custom": {
-    "severity": "CRITICAL",
-    "possibleImpact": "Anyone from the internet can potentially RDP onto an instance",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.microsoft.com/en-us/azure/bastion/tutorial-create-host-portal"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 405,
-          "name": "networksecuritygroups/openRDP"
+    "id": "AVD-AZU-0039",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "RDP access should not be accessible from the Internet, should be blocked on port 3389",
+    "description": "RDP access can be configured on either the network security group or in the network security group rule.\n\nRDP access should not be permitted from the internet (*, 0.0.0.0, /0, internet, any). Consider using the Azure Bastion Service.",
+    "custom": {
+        "severity": "CRITICAL",
+        "possibleImpact": "Anyone from the internet can potentially RDP onto an instance",
+        "references": [
+            {
+                "title": "Tutorial: Create an Azure Bastion host: Windows VM: portal",
+                "url": "https://docs.microsoft.com/en-us/azure/bastion/tutorial-create-host-portal"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 405,
+                    "name": "networksecuritygroups/openRDP"
+                }
+            ],
+            "tfsec": [
+                "azure-network-disable-rdp-from-internet"
+            ]
         }
-      ],
-      "tfsec": [
-        "azure-network-disable-rdp-from-internet"
-      ]
     }
-  }
 }

@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0028",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "aws_instance should activate session tokens for Instance Metadata Service.",
-  "description": "IMDS v2 (Instance Metadata Service) introduced session authentication tokens which improve security when talking to IMDS.\nBy default aws_instance resource sets IMDS session auth tokens to be optional. \nTo fully protect IMDS you need to enable session tokens by using metadata_options block and its http_tokens variable set to required.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Instance metadata service can be interacted with freely",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-ec2-enforce-http-token-imds"
-      ],
-      "cspm": [
-        {
-          "id": 692,
-          "name": "ec2/ec2MetadataOptions"
+    "id": "AVD-AWS-0028",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "aws_instance should activate session tokens for Instance Metadata Service.",
+    "description": "IMDS v2 (Instance Metadata Service) introduced session authentication tokens which improve security when talking to IMDS.\nBy default aws_instance resource sets IMDS session auth tokens to be optional. \nTo fully protect IMDS you need to enable session tokens by using metadata_options block and its http_tokens variable set to required.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Instance metadata service can be interacted with freely",
+        "references": [
+            {
+                "title": "Add defense in depth against open firewalls, reverse proxies, and SSRF vulnerabilities with enhancements to the EC2 Instance Metadata Service",
+                "url": "https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-ec2-enforce-http-token-imds"
+            ],
+            "cspm": [
+                {
+                    "id": 692,
+                    "name": "ec2/ec2MetadataOptions"
+                }
+            ],
+            "tfsec": [
+                "aws-ec2-enforce-http-token-imds"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-ec2-enforce-http-token-imds"
-      ]
     }
-  }
 }

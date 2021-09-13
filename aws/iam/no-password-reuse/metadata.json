@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0056",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "IAM Password policy should prevent password reuse.",
-  "description": "IAM account password policies should prevent the reuse of passwords. \n\nThe account password policy should be set to prevent using any of the last five used passwords.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Password reuse increase the risk of compromised passwords being abused",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-iam-no-password-reuse"
-      ],
-      "cspm": [
-        {
-          "id": 27,
-          "name": "passwordReusePrevention"
+    "id": "AVD-AWS-0056",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "IAM Password policy should prevent password reuse.",
+    "description": "IAM account password policies should prevent the reuse of passwords. \n\nThe account password policy should be set to prevent using any of the last five used passwords.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Password reuse increase the risk of compromised passwords being abused",
+        "references": [
+            {
+                "title": "Setting an account password policy for IAM users",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-iam-no-password-reuse"
+            ],
+            "cspm": [
+                {
+                    "id": 27,
+                    "name": "passwordReusePrevention"
+                }
+            ],
+            "tfsec": [
+                "aws-iam-no-password-reuse"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-iam-no-password-reuse"
-      ]
     }
-  }
 }

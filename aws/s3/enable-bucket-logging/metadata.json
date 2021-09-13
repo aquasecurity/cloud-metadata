@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0089",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "S3 Bucket does not have logging enabled.",
-  "description": "Buckets should have logging enabled so that access can be audited.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "There is no way to determine the access to this bucket",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/AmazonS3/latest/dev/ServerLogs.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-s3-enable-bucket-logging"
-      ],
-      "cspm": [
-        {
-          "id": 310,
-          "name": "s3/bucketLogging"
+    "id": "AVD-AWS-0089",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "S3 Bucket does not have logging enabled.",
+    "description": "Buckets should have logging enabled so that access can be audited.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "There is no way to determine the access to this bucket",
+        "references": [
+            {
+                "title": "Logging requests using server access logging",
+                "url": "https://docs.aws.amazon.com/AmazonS3/latest/dev/ServerLogs.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-s3-enable-bucket-logging"
+            ],
+            "cspm": [
+                {
+                    "id": 310,
+                    "name": "s3/bucketLogging"
+                }
+            ],
+            "tfsec": [
+                "aws-s3-enable-bucket-logging"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-s3-enable-bucket-logging"
-      ]
     }
-  }
 }

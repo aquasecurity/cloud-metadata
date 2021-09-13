@@ -1,37 +1,37 @@
 {
-  "id": "AVD-AZU-0016",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Auditing should be enabled on Azure SQL Databases",
-  "description": "Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Auditing provides valuable information about access and usage",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [
-        {
-          "id": 596,
-          "name": "sqldatabases/dbAuditingEnabled"
-        },
-        {
-          "id": 625,
-          "name": "sqlserver/auditActionGroupsEnabled"
-        },
-        {
-          "id": 626,
-          "name": "sqlserver/serverAuditingEnabled"
+    "id": "AVD-AZU-0016",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Auditing should be enabled on Azure SQL Databases",
+    "description": "Auditing helps you maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violations.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Auditing provides valuable information about access and usage",
+        "references": [
+            {
+                "title": "Azure SQL Auditing for Azure SQL Database and Azure Synapse Analytics",
+                "url": "https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [
+                {
+                    "id": 596,
+                    "name": "sqldatabases/dbAuditingEnabled"
+                },
+                {
+                    "id": 625,
+                    "name": "sqlserver/auditActionGroupsEnabled"
+                },
+                {
+                    "id": 626,
+                    "name": "sqlserver/serverAuditingEnabled"
+                }
+            ],
+            "tfsec": [
+                "azure-database-enable-audit"
+            ]
         }
-      ],
-      "tfsec": [
-        "azure-database-enable-audit"
-      ]
     }
-  }
 }

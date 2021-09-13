@@ -1,24 +1,24 @@
 {
-  "id": "AVD-GCP-0058",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Ensure that logging of checkpoints is enabled.",
-  "description": "Logging checkpoints provides useful diagnostic data, which can identify performance issues in an application and potential DoS vectors.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Insufficient diagnostic data.",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-CHECKPOINTS"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "google-sql-pg-log-checkpoints"
-      ]
+    "id": "AVD-GCP-0058",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Ensure that logging of checkpoints is enabled.",
+    "description": "Logging checkpoints provides useful diagnostic data, which can identify performance issues in an application and potential DoS vectors.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Insufficient diagnostic data.",
+        "references": [
+            {
+                "title": "PostgreSQL: Documentation: 13: 19.8.\u00a0Error Reporting and Logging",
+                "url": "https://www.postgresql.org/docs/13/runtime-config-logging.html#GUC-LOG-CHECKPOINTS"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "google-sql-pg-log-checkpoints"
+            ]
+        }
     }
-  }
 }

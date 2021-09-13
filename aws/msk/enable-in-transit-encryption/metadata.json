@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0073",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "A MSK cluster allows unencrypted data in transit.",
-  "description": "Encryption should be forced for Kafka clusters, including for communication between nodes. This ensure sensitive data is kept private.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Intercepted data can be read in transit",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/msk/latest/developerguide/msk-encryption.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-msk-enable-in-transit-encryption"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-msk-enable-in-transit-encryption"
-      ]
+    "id": "AVD-AWS-0073",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "A MSK cluster allows unencrypted data in transit.",
+    "description": "Encryption should be forced for Kafka clusters, including for communication between nodes. This ensure sensitive data is kept private.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Intercepted data can be read in transit",
+        "references": [
+            {
+                "title": "Amazon MSK Encryption",
+                "url": "https://docs.aws.amazon.com/msk/latest/developerguide/msk-encryption.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-msk-enable-in-transit-encryption"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-msk-enable-in-transit-encryption"
+            ]
+        }
     }
-  }
 }

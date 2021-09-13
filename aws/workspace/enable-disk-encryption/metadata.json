@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0109",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Root and user volumes on Workspaces should be encrypted",
-  "description": "Workspace volumes for both user and root should be encrypted to protect the data stored on them.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Data can be freely read if compromised",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/workspaces/latest/adminguide/encrypt-workspaces.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-workspace-enable-disk-encryption"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-workspace-enable-disk-encryption"
-      ]
+    "id": "AVD-AWS-0109",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Root and user volumes on Workspaces should be encrypted",
+    "description": "Workspace volumes for both user and root should be encrypted to protect the data stored on them.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Data can be freely read if compromised",
+        "references": [
+            {
+                "title": "Encrypted WorkSpaces",
+                "url": "https://docs.aws.amazon.com/workspaces/latest/adminguide/encrypt-workspaces.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-workspace-enable-disk-encryption"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-workspace-enable-disk-encryption"
+            ]
+        }
     }
-  }
 }

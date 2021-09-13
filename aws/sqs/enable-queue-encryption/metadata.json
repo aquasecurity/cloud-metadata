@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0096",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Unencrypted SQS queue.",
-  "description": "Queues should be encrypted with customer managed KMS keys and not default AWS managed keys, in order to allow granular control over access to specific queues.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "The SQS queue messages could be read if compromised",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-server-side-encryption.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-sqs-enable-queue-encryption"
-      ],
-      "cspm": [
-        {
-          "id": 304,
-          "name": "sqs/sqsEncrypted"
+    "id": "AVD-AWS-0096",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Unencrypted SQS queue.",
+    "description": "Queues should be encrypted with customer managed KMS keys and not default AWS managed keys, in order to allow granular control over access to specific queues.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "The SQS queue messages could be read if compromised",
+        "references": [
+            {
+                "title": "Encryption at rest",
+                "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-server-side-encryption.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-sqs-enable-queue-encryption"
+            ],
+            "cspm": [
+                {
+                    "id": 304,
+                    "name": "sqs/sqsEncrypted"
+                }
+            ],
+            "tfsec": [
+                "aws-sqs-enable-queue-encryption"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-sqs-enable-queue-encryption"
-      ]
     }
-  }
 }

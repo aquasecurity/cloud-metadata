@@ -1,28 +1,28 @@
 {
-  "id": "AVD-GIT-0001",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Github repository shouldn't be public.",
-  "description": "Github repository should be set to be private.\n\nYou can do this by either setting private attribute to 'true' or visibility attribute to 'internal' or 'private'.",
-  "custom": {
-    "severity": "CRITICAL",
-    "possibleImpact": "Anyone can read the contents of the GitHub repository and leak IP",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility"
-      },
-      {
-        "title": "title",
-        "url": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility#about-internal-repositories"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "github-repositories-private"
-      ]
+    "id": "AVD-GIT-0001",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Github repository shouldn't be public.",
+    "description": "Github repository should be set to be private.\n\nYou can do this by either setting private attribute to 'true' or visibility attribute to 'internal' or 'private'.",
+    "custom": {
+        "severity": "CRITICAL",
+        "possibleImpact": "Anyone can read the contents of the GitHub repository and leak IP",
+        "references": [
+            {
+                "title": "About repositories",
+                "url": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility"
+            },
+            {
+                "title": "About repositories",
+                "url": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repository-visibility#about-internal-repositories"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "github-repositories-private"
+            ]
+        }
     }
-  }
 }

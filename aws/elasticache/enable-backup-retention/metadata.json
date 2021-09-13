@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0050",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Redis cluster should have backup retention turned on",
-  "description": "Redis clusters should have a snapshot retention time to ensure that they are backed up and can be restored if required.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Without backups of the redis cluster recovery is made difficult",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/backups-automatic.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-elasticache-enable-backup-retention"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-elasticache-enable-backup-retention"
-      ]
+    "id": "AVD-AWS-0050",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Redis cluster should have backup retention turned on",
+    "description": "Redis clusters should have a snapshot retention time to ensure that they are backed up and can be restored if required.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Without backups of the redis cluster recovery is made difficult",
+        "references": [
+            {
+                "title": "Scheduling automatic backups",
+                "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/backups-automatic.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-elasticache-enable-backup-retention"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-elasticache-enable-backup-retention"
+            ]
+        }
     }
-  }
 }

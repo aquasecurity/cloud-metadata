@@ -1,31 +1,31 @@
 {
-  "id": "AVD-AWS-0061",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "IAM Password policy should have requirement for at least one uppercase character.",
-  "description": ",\nIAM account password policies should ensure that passwords content including at least one uppercase character.",
-  "custom": {
-    "severity": "MEDIUM",
-    "possibleImpact": "Short, simple passwords are easier to compromise",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-iam-require-uppercase-in-passwords"
-      ],
-      "cspm": [
-        {
-          "id": 246,
-          "name": "iam/passwordRequiresUppercase"
+    "id": "AVD-AWS-0061",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "IAM Password policy should have requirement for at least one uppercase character.",
+    "description": ",\nIAM account password policies should ensure that passwords content including at least one uppercase character.",
+    "custom": {
+        "severity": "MEDIUM",
+        "possibleImpact": "Short, simple passwords are easier to compromise",
+        "references": [
+            {
+                "title": "Setting an account password policy for IAM users",
+                "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-iam-require-uppercase-in-passwords"
+            ],
+            "cspm": [
+                {
+                    "id": 246,
+                    "name": "iam/passwordRequiresUppercase"
+                }
+            ],
+            "tfsec": [
+                "aws-iam-require-uppercase-in-passwords"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-iam-require-uppercase-in-passwords"
-      ]
     }
-  }
 }

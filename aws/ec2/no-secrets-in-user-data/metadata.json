@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0029",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "User data for EC2 instances must not contain sensitive AWS keys",
-  "description": "EC2 instance data is used to pass start up information into the EC2 instance. This userdata must not contain access key credentials. Instead use an IAM Instance Profile assigned to the instance to grant access to other AWS Services.",
-  "custom": {
-    "severity": "CRITICAL",
-    "possibleImpact": "User data is visible through the AWS Management console",
-    "references": [
-      {
-        "title": "AWS Instance and User Data",
-        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-ec2-no-secrets-in-user-data"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-ec2-no-secrets-in-user-data"
-      ]
+    "id": "AVD-AWS-0029",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "User data for EC2 instances must not contain sensitive AWS keys",
+    "description": "EC2 instance data is used to pass start up information into the EC2 instance. This userdata must not contain access key credentials. Instead use an IAM Instance Profile assigned to the instance to grant access to other AWS Services.",
+    "custom": {
+        "severity": "CRITICAL",
+        "possibleImpact": "User data is visible through the AWS Management console",
+        "references": [
+            {
+                "title": "Work with instance user data",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-add-user-data.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-ec2-no-secrets-in-user-data"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-ec2-no-secrets-in-user-data"
+            ]
+        }
     }
-  }
 }

@@ -1,25 +1,25 @@
 {
-  "id": "AVD-AWS-0009",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "A resource has a public IP address.",
-  "description": "You should limit the provision of public IP addresses for resources. Resources should not be exposed on the public internet, but should have access limited to consumers required for the function of your application.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "The instance or configuration is publicly accessible",
-    "references": [
-      {
-        "title": "Amazon EC2 instance IP addressing",
-        "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-autoscaling-no-public-ip"
-      ],
-      "tfsec": [
-        "aws-autoscaling-no-public-ip"
-      ]
+    "id": "AVD-AWS-0009",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "A resource has a public IP address.",
+    "description": "You should limit the provision of public IP addresses for resources. Resources should not be exposed on the public internet, but should have access limited to consumers required for the function of your application.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "The instance or configuration is publicly accessible",
+        "references": [
+            {
+                "title": "Amazon EC2 instance IP addressing",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-autoscaling-no-public-ip"
+            ],
+            "tfsec": [
+                "aws-autoscaling-no-public-ip"
+            ]
+        }
     }
-  }
 }

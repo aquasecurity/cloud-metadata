@@ -1,38 +1,38 @@
 {
-  "id": "AVD-AWS-0023",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "DAX Cluster should always encrypt data at rest",
-  "description": "Amazon DynamoDB Accelerator (DAX) encryption at rest provides an additional layer of data protection by helping secure your data from unauthorized access to the underlying storage.",
-  "custom": {
-    "severity": "HIGH",
-    "possibleImpact": "Data can be freely read if compromised",
-    "references": [
-      {
-        "title": "Enable DAX encryption at rest",
-        "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAXEncryptionAtRest.html"
-      },
-      {
-        "title": "AWS DAX Cluster guide",
-        "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html"
-      }
-    ],
-    "apis": [
-      "DAX:describeClusters"
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-dynamodb-enable-at-rest-encryption"
-      ],
-      "cspm": [
-        {
-          "id": 801,
-          "name": "dynamodb/daxClusterEncryption"
+    "id": "AVD-AWS-0023",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "DAX Cluster should always encrypt data at rest",
+    "description": "Amazon DynamoDB Accelerator (DAX) encryption at rest provides an additional layer of data protection by helping secure your data from unauthorized access to the underlying storage.",
+    "custom": {
+        "severity": "HIGH",
+        "possibleImpact": "Data can be freely read if compromised",
+        "references": [
+            {
+                "title": "DAX Encryption at Rest",
+                "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAXEncryptionAtRest.html"
+            },
+            {
+                "title": "AWS::DAX::Cluster",
+                "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html"
+            }
+        ],
+        "apis": [
+            "DAX:describeClusters"
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-dynamodb-enable-at-rest-encryption"
+            ],
+            "cspm": [
+                {
+                    "id": 801,
+                    "name": "dynamodb/daxClusterEncryption"
+                }
+            ],
+            "tfsec": [
+                "aws-dynamodb-enable-at-rest-encryption"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-dynamodb-enable-at-rest-encryption"
-      ]
     }
-  }
 }

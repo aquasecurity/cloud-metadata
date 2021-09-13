@@ -1,29 +1,31 @@
 {
-  "id": "AVD-AWS-0004",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "No public access to API Gateway methods",
-  "description": "API Gateway methods should be protected by authorization or api key. OPTION verb calls can be used without authorization",
-  "custom": {
-    "severity": "LOW",
-    "possibleImpact": "API gateway methods can be unauthorized accessed",
-    "references": [{
-			"title": "Introducing Amazon API Gateway Private Endpoints",
-			"url": "https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-private-endpoints"
-		}],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-api-gateway-no-public-access"
-      ],
-      "cspm": [
-        {
-          "id": 892,
-          "name": "apigateway/apigatewayPrivateEndpoint"
+    "id": "AVD-AWS-0004",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "No public access to API Gateway methods",
+    "description": "API Gateway methods should be protected by authorization or api key. OPTION verb calls can be used without authorization",
+    "custom": {
+        "severity": "LOW",
+        "possibleImpact": "API gateway methods can be unauthorized accessed",
+        "references": [
+            {
+                "title": "Introducing Amazon API Gateway Private Endpoints",
+                "url": "https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-private-endpoints"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-api-gateway-no-public-access"
+            ],
+            "cspm": [
+                {
+                    "id": 892,
+                    "name": "apigateway/apigatewayPrivateEndpoint"
+                }
+            ],
+            "tfsec": [
+                "aws-api-gateway-no-public-access"
+            ]
         }
-      ],
-      "tfsec": [
-        "aws-api-gateway-no-public-access"
-      ]
     }
-  }
 }

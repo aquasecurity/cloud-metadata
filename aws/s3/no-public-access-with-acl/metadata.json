@@ -1,26 +1,26 @@
 {
-  "id": "AVD-AWS-0092",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "S3 Bucket has an ACL defined which allows public access.",
-  "description": "S3 bucket permissions should be set to deny public access unless explicitly required.\n\nGranting write access publicly with public-read-write is especially dangerous as you will be billed for any uploaded files.\n\nAdditionally, you should not use the authenticated-read canned ACL, as this provides read access to any authenticated AWS user, not just AWS users within your organisation.",
-  "custom": {
-    "severity": "CRITICAL",
-    "possibleImpact": "The contents of the bucket can be accessed publicly",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [
-        "aws-s3-no-public-access-with-acl"
-      ],
-      "cspm": [],
-      "tfsec": [
-        "aws-s3-no-public-access-with-acl"
-      ]
+    "id": "AVD-AWS-0092",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "S3 Bucket has an ACL defined which allows public access.",
+    "description": "S3 bucket permissions should be set to deny public access unless explicitly required.\n\nGranting write access publicly with public-read-write is especially dangerous as you will be billed for any uploaded files.\n\nAdditionally, you should not use the authenticated-read canned ACL, as this provides read access to any authenticated AWS user, not just AWS users within your organisation.",
+    "custom": {
+        "severity": "CRITICAL",
+        "possibleImpact": "The contents of the bucket can be accessed publicly",
+        "references": [
+            {
+                "title": "Secure the files in your Amazon S3 bucket",
+                "url": "https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [
+                "aws-s3-no-public-access-with-acl"
+            ],
+            "cspm": [],
+            "tfsec": [
+                "aws-s3-no-public-access-with-acl"
+            ]
+        }
     }
-  }
 }

@@ -1,24 +1,24 @@
 {
-  "id": "AVD-AZU-0025",
-  "apiVersion": 2,
-  "version": 1,
-  "title": "Data Factory should have public access disabled, the default is enabled.",
-  "description": "Data Factory has public access set to true by default.\n\nDisabling public network access is applicable only to the self-hosted integration runtime, not to Azure Integration Runtime and SQL Server Integration Services (SSIS) Integration Runtime.",
-  "custom": {
-    "severity": "CRITICAL",
-    "possibleImpact": "Data factory is publicly accessible",
-    "references": [
-      {
-        "title": "title",
-        "url": "https://docs.microsoft.com/en-us/azure/data-factory/data-movement-security-considerations#hybrid-scenarios"
-      }
-    ],
-    "externalToolIds": {
-      "cfsec": [],
-      "cspm": [],
-      "tfsec": [
-        "azure-datafactory-no-public-access"
-      ]
+    "id": "AVD-AZU-0025",
+    "apiVersion": 2,
+    "version": 1,
+    "title": "Data Factory should have public access disabled, the default is enabled.",
+    "description": "Data Factory has public access set to true by default.\n\nDisabling public network access is applicable only to the self-hosted integration runtime, not to Azure Integration Runtime and SQL Server Integration Services (SSIS) Integration Runtime.",
+    "custom": {
+        "severity": "CRITICAL",
+        "possibleImpact": "Data factory is publicly accessible",
+        "references": [
+            {
+                "title": "Security considerations",
+                "url": "https://docs.microsoft.com/en-us/azure/data-factory/data-movement-security-considerations#hybrid-scenarios"
+            }
+        ],
+        "externalToolIds": {
+            "cfsec": [],
+            "cspm": [],
+            "tfsec": [
+                "azure-datafactory-no-public-access"
+            ]
+        }
     }
-  }
 }
