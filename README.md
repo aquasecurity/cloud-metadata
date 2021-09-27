@@ -8,6 +8,16 @@ Rules are broken down into provider/category/rule and will eventually contain ma
 
 ## Things you need to know now
 
+### Generating Metadata Code
+
+The json metadata should be converted to code files for use in downstream tools. This can be done by running
+
+```shell
+make generate
+```
+
+OR from Windows build and run `./cmd/metadata`
+
 ### Schema Validation
 
 A [GitHub action](.github/workflows/validate_metadata.yaml) will run on each PR to ensure that changes to the `metadata.json` files still meet the schema.
